@@ -1,1 +1,2 @@
-BDRip v1.0
+BDRip v1.0  
+对应BDRip合集v1
