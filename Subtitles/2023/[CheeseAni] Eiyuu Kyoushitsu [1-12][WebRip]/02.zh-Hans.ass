@@ -13,10 +13,10 @@ Audio File: 02.va.mkv
 Video File: 02.va.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.500000
-Scroll Position: 415
-Active Line: 70
-Video Position: 6563
+Video Zoom Percent: 0.625000
+Scroll Position: 431
+Active Line: 432
+Video Position: 34044
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -462,4 +462,8 @@ Dialogue: 0,0:23:01.53,0:23:03.88,ed - zh,,0,0,0,,{\fad(200,200)\blur3}光明背
 Dialogue: 0,0:23:03.88,0:23:08.27,ed - zh,,0,0,0,,{\fad(200,200)\blur3}低语沉吟的我
 Dialogue: 0,0:23:08.27,0:23:13.68,ed - zh,,0,0,0,,{\fad(200,200)\blur3}感受到的是 “I am alive”
 Dialogue: 0,0:23:13.68,0:23:15.32,ed - zh,,0,0,0,,{\fad(200,200)\blur3}发信
-Dialogue: 0,0:23:34.66,0:23:40.00,Default,,0,0,0,,（下集 库邱林）
+Dialogue: 0,0:23:34.52,0:23:40.00,screen,,0,0,0,,{\fs122\b1\iclip(0,475,1920,1080)\move(900,562,900,470,0,500)}下
+Dialogue: 0,0:23:34.94,0:23:40.00,screen,,0,0,0,,{\fs122\b1\iclip(0,475,1920,1080)\move(1050,562,1050,470,0,500)}集
+Dialogue: 0,0:23:35.27,0:23:40.00,screen,,0,0,0,,{\fs140\b1\iclip(0,800,1920,1080)\move(1050,910,1050,780,0,500)}库
+Dialogue: 0,0:23:35.52,0:23:40.00,screen,,0,0,0,,{\fs140\b1\iclip(0,800,1920,1080)\move(1300,910,1300,780,0,500)}邱
+Dialogue: 0,0:23:35.69,0:23:40.00,screen,,0,0,0,,{\fs140\b1\iclip(0,800,1920,1080)\move(1550,910,1550,780,0,500)}林
