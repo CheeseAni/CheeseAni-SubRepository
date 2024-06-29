@@ -1,19 +1,15 @@
 ### [芝士动物朋友] 转生为第七王子，随心所欲的魔法学习之路 / Dainanaoji [1-12][CR-WebRip][1080p][HEVC+AAC][简繁日内封]
 #### 版本提示
 ```
-01 v1.1
+v2.0 匹配WebRip合集
 ```
-#### Bug Log
+#### 字体
 ```
-06开始，sign字体和字号 微软雅黑 90 -> 方正兰亭特黑_GBK 82
-
-06开始：
-Style: zh,方正兰亭圆_GBK_中粗,64,&H00FFFFFF,&H00FFFFFF,&H42424242,&H42424242,0,0,0,0,100,100,0,0,1,3,0,2,0,0,64,1
-Style: zh-top,方正兰亭圆_GBK_中粗,64,&H00FFFFFF,&H00FFFFFF,&H42424242,&H42424242,0,0,0,0,100,100,0,0,1,3,0,8,0,0,64,1
-Style: ja,EPSON 太丸ゴシック体Ｂ,42,&H00FFFFFF,&H00FFFFFF,&H42424242,&H42424242,0,0,0,0,100,100,0,0,1,3,0,2,0,0,15,1
-Style: ja-top,EPSON 太丸ゴシック体Ｂ,42,&H00FFFFFF,&H00FFFFFF,&H42424242,&H42424242,0,0,0,0,100,100,0,0,1,3,0,8,0,0,15,1
-Style: OP-zh,方正稚艺_GBK,60,&H007B6AD9,&H007B6AD9,&H004F3BCC,&H5A000000,0,0,0,0,100,100,0,0,1,0.2,3.5,2,0,0,15,1
-Style: OP-ja,A-OTF TakaHand Std L,63,&H007B6AD9,&H007B6AD9,&H004F3BCC,&H5A000000,0,0,0,0,100,100,4.5,0,1,0.2,3.5,8,0,0,15,1
-
-检查ep[2,11]的OP时轴，向ep1的OP时轴对齐
+A-OTF タカハンド Std L <A-OTF TakaHand Std L>
+EPSON 太丸ゴシック体Ｂ
+方正兰亭特黑_GBK <FZLanTingHei-H-GBK>
+方正兰亭圆_GBK_中粗 <FZLanTingYuan-DB1-GBK>
+方正少儿_GBK <FZShaoEr-M11>
+方正稚艺_GBK <FZZhiYi-M12>
+汉仪尚巍手书W <HYShangWeiShouShuW>
 ```
