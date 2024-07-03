@@ -7,6 +7,10 @@ PlayResY: 1080
 YCbCr Matrix: TV.709
 ScaledBorderAndShadow: yes
 
+[Aegisub Project Garbage]
+Scroll Position: 48
+Active Line: 77
+
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: zh,方正兰亭中粗黑_GBK,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H7F404040,0,0,0,0,100,100,1,0,1,2.5,0,2,0,0,30,0
@@ -56,7 +60,7 @@ Dialogue: 0,0:01:51.77,0:01:52.76,zh,,0,0,0,,我知道
 Dialogue: 0,0:01:53.19,0:01:55.32,zh,,0,0,0,,它最喜欢吃矶部烧
 Dialogue: 0,0:01:56.07,0:01:57.35,zh,,0,0,0,,我都知道
 Dialogue: 0,0:01:57.82,0:02:01.30,zh,,0,0,0,,假如渡良老师能在天上飞  那会做什么呢
-Dialogue: 0,0:02:02.08,0:02:04.39,zh,,0,0,0,,听起来很很梦幻的事情
+Dialogue: 0,0:02:02.08,0:02:04.39,zh,,0,0,0,,听起来很梦幻的事情
 Dialogue: 0,0:02:04.39,0:02:06.16,zh,,0,0,0,,但这只是那本漫画里的台词对吧
 Dialogue: 0,0:02:06.16,0:02:08.35,zh,,0,0,0,,就让我异想天开一下不行嘛
 Dialogue: 0,0:02:08.35,0:02:11.03,zh,,0,0,0,,谁也预料不到未来会变成什么样不是吗
@@ -92,7 +96,7 @@ Dialogue: 0,0:03:45.99,0:03:47.14,zh,,0,0,0,,真的吗
 Dialogue: 0,0:03:48.08,0:03:49.26,zh,,0,0,0,,当然
 Dialogue: 0,0:04:01.24,0:04:04.36,zh,,0,0,0,,自从那东西出现的那个夏天以来
 Dialogue: 0,0:04:05.22,0:04:10.28,zh,,0,0,0,,显赫的大人们都说着"一切都变样了"
-Dialogue: 0,0:04:10.81,0:04:16.50,zh,,0,0,0,,而我却有点厌烦了自己一尘不变的日常
+Dialogue: 0,0:04:10.81,0:04:16.50,zh,,0,0,0,,我反而有点不满于一尘不变的日常
 Dialogue: 0,0:04:18.39,0:04:21.50,zh,,0,0,0,,不过这对我来说也算是一种幸福吧
 Dialogue: 0,0:04:22.16,0:04:24.91,zh,,0,0,0,,事到如今我是这么想的
 Dialogue: 3,0:06:29.45,0:06:34.46,screen,,0,0,0,,{\fad(273,0)\fry352\t(\fry353)\move(644.57,464.86,670.85,464.86,22,4986)}馆山基地
