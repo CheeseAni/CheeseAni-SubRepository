@@ -7,10 +7,6 @@ PlayResY: 1080
 YCbCr Matrix: TV.709
 ScaledBorderAndShadow: yes
 
-[Aegisub Project Garbage]
-Scroll Position: 48
-Active Line: 77
-
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: zh,方正兰亭中粗黑_GBK,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H7F404040,0,0,0,0,100,100,1,0,1,2.5,0,2,0,0,30,0
@@ -52,7 +48,7 @@ Dialogue: 0,0:01:31.26,0:01:32.61,zh,,0,0,0,,我要成为一个社畜
 Dialogue: 0,0:01:33.88,0:01:34.99,zh,,0,0,0,,好奇怪的包
 Dialogue: 0,0:01:35.63,0:01:37.08,zh,,0,0,0,,这个叫做矶部菇哦
 Dialogue: 0,0:01:37.59,0:01:38.62,zh,,0,0,0,,我知道
-Dialogue: 0,0:01:39.09,0:01:41.83,zh,,0,0,0,,它是为了让雄子能够过上幸福的生活
+Dialogue: 0,0:01:39.09,0:01:41.83,zh,,0,0,0,,它是为了让出部子能够过上幸福的生活
 Dialogue: 0,0:01:41.83,0:01:45.04,zh,,0,0,0,,特意从遥远的未来而来的蘑菇人
 Dialogue: 0,0:01:45.69,0:01:46.59,zh,,0,0,0,,我知道
 Dialogue: 0,0:01:47.58,0:01:50.79,zh,,0,0,0,,它能从四次元口袋中拿出秘密道具
@@ -64,7 +60,7 @@ Dialogue: 0,0:02:02.08,0:02:04.39,zh,,0,0,0,,听起来很梦幻的事情
 Dialogue: 0,0:02:04.39,0:02:06.16,zh,,0,0,0,,但这只是那本漫画里的台词对吧
 Dialogue: 0,0:02:06.16,0:02:08.35,zh,,0,0,0,,就让我异想天开一下不行嘛
 Dialogue: 0,0:02:08.35,0:02:11.03,zh,,0,0,0,,谁也预料不到未来会变成什么样不是吗
-Dialogue: 0,0:02:12.74,0:02:14.23,zh,,0,0,0,,...雄子是这样说的
+Dialogue: 0,0:02:12.74,0:02:14.23,zh,,0,0,0,,...出部子是这样说的
 Dialogue: 0,0:02:14.87,0:02:16.13,zh,,0,0,0,,未来啊...
 Dialogue: 0,0:02:20.54,0:02:24.88,zh,,0,0,0,,应该不太可能会有那么随心所欲的未来吧
 Dialogue: 0,0:02:35.24,0:02:37.00,zh,,0,0,0,,在看什么呢  亚衣
