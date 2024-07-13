@@ -1,4 +1,6 @@
 # CheeseAni-SubRepository
+[字幕项目表格视图](https://github.com/users/op200/projects/1)
+
 ### 版本命名规则
 ##### 每一个大版本对应一次发布，小版本对应一次更改
 如`v1.0`就是第一次发布，`v1.1`就是在第一次发布的基础上加以修改，但是没有发布，`v1.2`就是在`v1.1`的基础上加以修改  
@@ -8,10 +10,14 @@
 如`WebRip v2.0`表示匹配WebRip的第二次发布  
 如`BDRip v1.0`表示匹配WebRip的第一次发布，但这并不代表这个字幕第一次发布，仅代表第一次发布匹配BDRip的版本  
 制作BDRip的版本后，弃用WebRip版本
+
+
 ### 个人使用
 正常渲染字幕需要安装字幕所需字体，并使用合适的解码器和渲染器  
 字体列表可能会标注在README中  
 若该字幕发过合集，则可以在合集中找到字体包
+
+
 ### 修改与传播
 须遵守本仓库许可证内容  
 详见[LICENSE](https://github.com/op200/CheeseAni-SubRepository?tab=License-1-ov-file)
