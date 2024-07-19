@@ -20,4 +20,5 @@
 
 ### 修改与传播
 须遵守本仓库许可证内容  
-详见[LICENSE](https://github.com/op200/CheeseAni-SubRepository?tab=License-1-ov-file)
+详见[LICENSE](https://github.com/op200/CheeseAni-SubRepository?tab=License-1-ov-file)  
+若路径内有单独的LICENSE，优先遵守子路径的LICENSE，其后遵守父路径的LICENSE的无矛盾部分
