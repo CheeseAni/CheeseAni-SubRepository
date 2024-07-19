@@ -9,16 +9,6 @@ YCbCr Matrix: TV.709
 WrapStyle: 0
 Title: [CheeseAni] Nanatsu no Maken ga Shihai Suru [08][BD]
 
-[Aegisub Project Garbage]
-Audio File: 08.va(1).mkv
-Video File: 08.va(1).mkv
-Video AR Mode: 4
-Video AR Value: 1.777778
-Video Zoom Percent: 0.500000
-Scroll Position: 393
-Active Line: 405
-Video Position: 33926
-
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: M1,方正兰亭圆_GBK_中,64,&H00FFFFFF,&H000000FF,&H42424242,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0,0,40,0
