@@ -14,8 +14,9 @@ Video File: 08.va.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Active Line: 4
-Video Position: 482
+Scroll Position: 423
+Active Line: 432
+Video Position: 34044
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -38,7 +39,7 @@ Dialogue: 0,0:00:19.80,0:00:21.23,zh,,0,0,0,,我都没注意到
 Dialogue: 0,0:00:21.23,0:00:22.59,zh,,0,0,0,,是在等人吗
 Dialogue: 0,0:00:26.23,0:00:27.51,zh,,0,0,0,,这是…
 Dialogue: 0,0:00:27.81,0:00:29.09,zh,,0,0,0,,布莱德？
-Dialogue: 0,0:00:32.17,0:00:35.01,zh - top,,0,0,0,,（第8集 未及人类）
+Dialogue: 0,0:00:32.05,0:00:35.01,screen,,0,0,0,,{\fad(2000,0)\fs144\b1\pos(516.67,767.33)}第8集 未及人类
 Dialogue: 0,0:00:39.38,0:00:41.65,zh,,0,0,0,,好无聊啊
 Dialogue: 0,0:00:42.70,0:00:44.65,zh,,0,0,0,,很危险的 小库
 Dialogue: 0,0:00:45.95,0:00:49.28,zh,,0,0,0,,爸爸 你这到底是在干什么啊
@@ -458,4 +459,4 @@ Dialogue: 0,0:23:21.65,0:23:23.94,zh - top,,0,0,0,,好…好难受
 Dialogue: 0,0:23:22.20,0:23:24.24,zh,,0,0,0,,主人 主人
 Dialogue: 0,0:23:25.47,0:23:27.48,zh,,0,0,0,,还是不行
 Dialogue: 0,0:23:27.48,0:23:30.78,zh,,0,0,0,,赶紧分开 赶紧给我分开
-Dialogue: 0,0:23:34.64,0:23:39.94,zh - top,,0,0,0,,（下集 超生物讨伐委员会）
+Dialogue: 0,0:23:34.52,0:23:39.94,screen,,0,0,0,,{\fad(2000,0)\fs144\b1\pos(1288.67,801.33)}下集 超生物讨伐委员会
