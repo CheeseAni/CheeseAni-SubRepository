@@ -14,9 +14,9 @@ Video File: 05.va.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 393
-Active Line: 397
-Video Position: 32881
+Scroll Position: 405
+Active Line: 407
+Video Position: 34045
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -51,7 +51,7 @@ Dialogue: 0,0:00:59.05,0:01:01.47,zh,,0,0,0,,布莱德同学 可以把我…
 Dialogue: 0,0:01:02.69,0:01:04.44,zh,,0,0,0,,杀了吗
 Dialogue: 0,0:01:05.97,0:01:07.01,zh,,0,0,0,,你误会了
 Dialogue: 0,0:01:07.01,0:01:11.17,zh,,0,0,0,,我是想让你在我无法自控时杀死我
-Dialogue: 0,0:01:10.92,0:01:15.74,zh - top,,0,0,0,,（第5集 魔王的女儿）
+Dialogue: 0,0:01:10.76,0:01:16.93,screen,,0,0,0,,{\fad(1500,800)\fs86\b1\3c&HFFFFFF&\bord3\4c&H000000&\shad2\blur1\pos(1468,878)}第5集   {\fs122}魔王的女儿
 Dialogue: 0,0:01:11.17,0:01:12.94,zh,,0,0,0,,这是什么意思
 Dialogue: 0,0:01:12.94,0:01:15.74,zh,,0,0,0,,那个 其实我…
 Dialogue: 0,0:01:15.74,0:01:17.23,zh,,0,0,0,,不是人类
@@ -352,7 +352,7 @@ Dialogue: 0,0:17:43.20,0:17:44.98,zh,,0,0,0,,因为这样更轻松
 Dialogue: 0,0:17:46.32,0:17:50.84,zh,,0,0,0,,我跟你说这么多 是因为你比常人更接近我们
 Dialogue: 0,0:17:50.84,0:17:52.81,zh,,0,0,0,,你的这方面我也很喜欢哦
 Dialogue: 0,0:17:53.89,0:17:55.59,zh,,0,0,0,,那样的我已经不复存在了吧
-Dialogue: 0,0:17:56.05,0:17:58.52,zh - top,,0,0,0,,（几天后）
+Comment: 0,0:17:56.05,0:17:58.52,screen,,0,0,0,,几天后
 Dialogue: 0,0:17:58.52,0:18:00.16,zh,,0,0,0,,我调查过之后发现
 Dialogue: 0,0:18:00.16,0:18:03.73,zh,,0,0,0,,那项链怎么都不可能是封印道具
 Dialogue: 0,0:18:04.83,0:18:06.23,zh,,0,0,0,,呃 这人是谁来着
@@ -434,4 +434,4 @@ Dialogue: 0,0:23:14.99,0:23:17.50,zh - top,,0,0,0,,这是她想要的未来
 Dialogue: 0,0:23:18.85,0:23:20.06,zh - top,,0,0,0,,快投降
 Dialogue: 0,0:23:20.06,0:23:22.01,zh - top,,0,0,0,,魔王怎么可能投降
 Dialogue: 0,0:23:23.44,0:23:26.78,zh - top,,0,0,0,,玛奥 干掉布莱德
-Dialogue: 0,0:23:34.02,0:23:39.98,zh - top,,0,0,0,,（下集 将军和怪鸟）
+Dialogue: 0,0:23:34.02,0:23:39.98,screen,,0,0,0,,{\fad(2000,0)\fs144\b1\pos(1306,820)}下集 将军和怪鸟
