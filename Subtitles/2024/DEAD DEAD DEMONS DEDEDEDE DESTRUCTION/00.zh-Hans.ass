@@ -7,10 +7,6 @@ PlayResY: 1080
 YCbCr Matrix: TV.709
 ScaledBorderAndShadow: yes
 
-[Aegisub Project Garbage]
-Scroll Position: 195
-Active Line: 197
-
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: zh,方正兰亭中粗黑_GBK,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H7F404040,0,0,0,0,100,100,1,0,1,2.5,0,2,0,0,30,0
