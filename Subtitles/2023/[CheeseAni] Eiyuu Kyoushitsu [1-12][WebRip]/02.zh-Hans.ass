@@ -9,18 +9,18 @@ YCbCr Matrix: TV.709
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: 02.va.mkv
-Video File: 02.va.mkv
+Audio File: 02.mkv
+Video File: 02.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.500000
-Scroll Position: 391
-Active Line: 395
-Video Position: 29799
+Video Zoom Percent: 0.750000
+Scroll Position: 423
+Active Line: 434
+Video Position: 33975
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: screen,思源黑体 VF,48,&H003F37B1,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0,0,30,1
+Style: screen,方正小标宋_GBK,48,&H003F37B1,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0,0,30,1
 Style: zh,方正兰亭圆_GBK_中,64,&H00FFFFFF,&H00FFFFFF,&H42424242,&H42424242,0,0,0,0,100,100,0,0,1,3,0,2,0,0,30,134
 Style: zh - top,方正兰亭圆_GBK_中,64,&H00FFFFFF,&H00FFFFFF,&H42424242,&H42424242,0,0,0,0,100,100,0,0,1,3,0,8,0,0,30,134
 Style: ed - zh,方正兰亭圆_GBK_中,48,&H00FFFFFF,&H000000FF,&H007164FD,&H32FFFFFF,0,0,0,0,100,100,0,0,1,2,0,7,10,10,10,1
@@ -98,11 +98,11 @@ Dialogue: 0,0:04:05.02,0:04:09.98,ed - zh,,0,0,0,,{\fad(200,200)\blur3}笑出来
 Dialogue: 0,0:04:09.98,0:04:15.52,ed - zh,,0,0,0,,{\fad(200,200)\blur3}山穷水尽！？即使出现种种困难
 Dialogue: 0,0:04:15.52,0:04:18.50,ed - zh,,0,0,0,,{\fad(200,200)\blur3}也要乐在其中 放心吧
 Dialogue: 0,0:04:18.50,0:04:25.61,ed - zh,,0,0,0,,{\fad(200,200)\blur3}我不是说过吗 「最后我会保护好你的」
-Dialogue: 0,0:04:33.17,0:04:35.96,screen,,0,0,0,,{\fs122\b1\iclip(180,452,1080,1980)\move(600,562,600,442,0,500)}第
-Dialogue: 0,0:04:33.42,0:04:35.96,screen,,0,0,0,,{\fs122\b1\iclip(180,452,1080,1980)\move(700,562,700,442,0,500)}2
-Dialogue: 0,0:04:33.59,0:04:35.96,screen,,0,0,0,,{\fs122\b1\iclip(180,452,1080,1980)\move(800,562,800,442,0,500)}集
-Dialogue: 0,0:04:34.00,0:04:35.96,screen,,0,0,0,,{\fs144\b1\iclip(180,636,1080,1980)\move(800,750,800,630,0,500)}索
-Dialogue: 0,0:04:34.30,0:04:35.96,screen,,0,0,0,,{\fs144\b1\iclip(180,636,1080,1980)\move(950,750,950,630,0,500)}菲
+Dialogue: 0,0:04:33.17,0:04:36.01,screen,,0,0,0,,{\1vc(&H7A0263&,&H7A0263&,&H0C63FD&,&H0C63FD&)\fad(440,0)\fs122\iclip(180,452,1080,1980)\move(600,562,600,442,0,500)}第
+Dialogue: 0,0:04:33.42,0:04:36.01,screen,,0,0,0,,{\1vc(&H7A0263&,&H7A0263&,&H0C63FD&,&H0C63FD&)\fad(440,0)\fs122\iclip(180,452,1080,1980)\move(700,562,700,442,0,500)}2
+Dialogue: 0,0:04:33.59,0:04:36.01,screen,,0,0,0,,{\1vc(&H7A0263&,&H7A0263&,&H0C63FD&,&H0C63FD&)\fad(440,0)\fs122\iclip(180,452,1080,1980)\move(800,562,800,442,0,500)}集
+Dialogue: 0,0:04:34.00,0:04:36.01,screen,,0,0,0,,{\1vc(&H7A0263&,&H7A0263&,&H0C63FD&,&H0C63FD&)\fad(440,0)\fs144\iclip(180,636,1080,1980)\move(800,750,800,630,0,500)}索
+Dialogue: 0,0:04:34.30,0:04:36.01,screen,,0,0,0,,{\1vc(&H7A0263&,&H7A0263&,&H0C63FD&,&H0C63FD&)\fad(440,0)\fs144\iclip(180,636,1080,1980)\move(950,750,950,630,0,500)}菲
 Dialogue: 0,0:04:39.47,0:04:40.68,zh,,0,0,0,,砍不动
 Dialogue: 0,0:04:40.68,0:04:42.92,zh,,0,0,0,,要将斗气凝聚在剑上
 Dialogue: 0,0:04:42.92,0:04:45.71,zh,,0,0,0,,你用拳头攻击时 手上就有斗气吧
@@ -460,8 +460,8 @@ Dialogue: 0,0:23:01.53,0:23:03.88,ed - zh,,0,0,0,,{\fad(200,200)\blur3}光明背
 Dialogue: 0,0:23:03.88,0:23:08.27,ed - zh,,0,0,0,,{\fad(200,200)\blur3}低语沉吟的我
 Dialogue: 0,0:23:08.27,0:23:13.68,ed - zh,,0,0,0,,{\fad(200,200)\blur3}感受到的是 “I am alive”
 Dialogue: 0,0:23:13.68,0:23:15.33,ed - zh,,0,0,0,,{\fad(200,200)\blur3}发信
-Dialogue: 0,0:23:34.52,0:23:40.00,screen,,0,0,0,,{\fs122\b1\iclip(0,475,1920,1080)\move(900,562,900,470,0,500)}下
-Dialogue: 0,0:23:34.94,0:23:40.00,screen,,0,0,0,,{\fs122\b1\iclip(0,475,1920,1080)\move(1050,562,1050,470,0,500)}集
-Dialogue: 0,0:23:35.27,0:23:40.00,screen,,0,0,0,,{\fs140\b1\iclip(0,800,1920,1080)\move(1050,910,1050,780,0,500)}库
-Dialogue: 0,0:23:35.52,0:23:40.00,screen,,0,0,0,,{\fs140\b1\iclip(0,800,1920,1080)\move(1300,910,1300,780,0,500)}邱
-Dialogue: 0,0:23:35.69,0:23:40.00,screen,,0,0,0,,{\fs140\b1\iclip(0,800,1920,1080)\move(1550,910,1550,780,0,500)}林
+Dialogue: 0,0:23:34.52,0:23:40.00,screen,,0,0,0,,{\1vc(&H7A0263&,&H7A0263&,&H0C63FD&,&H0C63FD&)\fad(440,0)\fs110\b1\iclip(0,475,1920,1080)\move(900,562,900,470,0,500)}下
+Dialogue: 0,0:23:34.94,0:23:40.00,screen,,0,0,0,,{\1vc(&H7A0263&,&H7A0263&,&H0C63FD&,&H0C63FD&)\fad(440,0)\fs110\b1\iclip(0,475,1920,1080)\move(1050,562,1050,470,0,500)}集
+Dialogue: 0,0:23:35.27,0:23:40.00,screen,,0,0,0,,{\1vc(&H7A0263&,&H7A0263&,&H0C63FD&,&H0C63FD&)\fad(440,0)\fs140\b1\iclip(0,800,1920,1080)\move(1050,910,1050,780,0,500)}库
+Dialogue: 0,0:23:35.52,0:23:40.00,screen,,0,0,0,,{\1vc(&H7A0263&,&H7A0263&,&H0C63FD&,&H0C63FD&)\fad(440,0)\fs140\b1\iclip(0,800,1920,1080)\move(1300,910,1300,780,0,500)}邱
+Dialogue: 0,0:23:35.69,0:23:40.00,screen,,0,0,0,,{\1vc(&H7A0263&,&H7A0263&,&H0C63FD&,&H0C63FD&)\fad(440,0)\fs140\b1\iclip(0,800,1920,1080)\move(1550,910,1550,780,0,500)}林
