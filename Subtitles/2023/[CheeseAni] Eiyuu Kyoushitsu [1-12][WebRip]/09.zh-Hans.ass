@@ -7,16 +7,6 @@ PlayResY: 1080
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.709
 
-[Aegisub Project Garbage]
-Last Style Storage: Default
-Audio File: 09.va.mkv
-Video File: 09.va.mkv
-Video AR Mode: 4
-Video AR Value: 1.777778
-Video Zoom Percent: 0.500000
-Active Line: 505
-Video Position: 31709
-
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: screen,方正小标宋_GBK,48,&H003F37B1,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0,0,30,1
