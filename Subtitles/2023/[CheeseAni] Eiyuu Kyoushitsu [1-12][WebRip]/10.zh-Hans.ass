@@ -20,7 +20,7 @@ Video Position: 5343
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: screen,思源黑体 VF,48,&H003F37B1,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0,0,30,1
+Style: screen,方正小标宋_GBK,48,&H003F37B1,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0,0,30,1
 Style: zh,方正兰亭圆_GBK_中,64,&H00FFFFFF,&H00FFFFFF,&H42424242,&H42424242,0,0,0,0,100,100,0,0,1,3,0,2,0,0,30,134
 Style: zh - top,方正兰亭圆_GBK_中,64,&H00FFFFFF,&H00FFFFFF,&H42424242,&H42424242,0,0,0,0,100,100,0,0,1,3,0,8,0,0,30,134
 Style: ed - zh,方正兰亭圆_GBK_中,48,&H00FFFFFF,&H000000FF,&H007164FD,&H32FFFFFF,0,0,0,0,100,100,0,0,1,2,0,7,10,10,10,1
