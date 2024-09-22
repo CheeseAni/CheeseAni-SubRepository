@@ -17,6 +17,7 @@ Style: sign,方正兰亭中粗黑_GBK,50,&H00FFFFFF,&H00FFFFFF,&H00000000,&H7F40
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,zh,,0,0,0,,翻译: panda  校对: Kindred
 Dialogue: 0,0:02:56.50,0:02:58.91,zh,,0,0,0,,受到电视和网络上一些消息的影响
 Dialogue: 0,0:02:58.91,0:03:02.62,zh,,0,0,0,,出现了部分居民集体撤离市中心、造成交通堵塞的情况
 Dialogue: 0,0:03:03.66,0:03:07.21,zh,,0,0,0,,今天新干线的车票已经全部售空了
