@@ -177,14 +177,14 @@ Dialogue: 0,0:15:12.89,0:15:14.57,zh,,0,0,0,,嗯  我知道了
 Dialogue: 0,0:15:14.57,0:15:16.71,zh,,0,0,0,,姐姐路上小心
 Dialogue: 0,0:15:04.63,0:15:07.14,screen,,0,0,0,,{\a6\fn方正兰亭中粗黑_GBK\fs40\pos(1580,60)\c&H5F5F5F&\b0}东京上空奇怪的云
 Dialogue: 0,0:15:04.63,0:15:07.14,screen,,0,0,0,,{\a2\fn方正兰亭中粗黑_GBK\fs48\pos(1086,915)\c&H5D5D5D&\b0}针对市民们密集的询问  气象台正在展开调查
-Dialogue: 3,0:15:26.78,0:15:29.28,screen,,0,0,0,,{\fad(271,269)\fn方正兰亭特黑_GBK\fs65\fax-0.131548\fscx95\frz12.3066\frx-0.2941\fry-31.819\org(1490,486)\move(1495,453,1491,450)\fsp3}巴黎
-Dialogue: 2,0:15:26.78,0:15:29.28,screen,,0,0,0,,{\fad(271,269)\fn方正兰亭特黑_GBK\fs65\fax-0.131548\fscx95\frz12.3066\frx-0.2941\fry-31.819\org(1490,486)\move(1495,453,1491,450)\fsp3}{\4c&H0000FF&\4a&H5D&\bord0\1aFE\shad1\t(\shad3)}巴黎
-Dialogue: 1,0:15:26.78,0:15:29.28,screen,,0,0,0,,{\fad(271,269)\fn方正兰亭特黑_GBK\fs65\fax-0.131548\fscx95\frz12.3066\frx-0.2941\fry-31.819\org(1490,486)\move(1495,453,1491,450)\fsp3}{\4c&HFF3400&\4a&H5D&\bord0\1aFE\shad2\t(\shad5)}巴黎
-Dialogue: 0,0:15:26.78,0:15:29.28,screen,,0,0,0,,{\fad(271,269)\fn方正兰亭特黑_GBK\fs65\fax-0.131548\fscx95\frz12.3066\frx-0.2941\fry-31.819\org(1490,486)\move(1495,453,1491,450)\fsp3}{\4c&H05D900&\4a&H5D&\bord0\1aFE\shad3\t(\shad7)}巴黎
-Dialogue: 3,0:15:35.79,0:15:38.29,screen,,0,0,0,,{\fad(270,270)\fn方正兰亭特黑_GBK\fs65\fsp5\fax-0.13\fscy139\frz-1.94\frx45.56\fry6.23\org(793,715)\pos(798,670)}纽约
-Dialogue: 2,0:15:35.79,0:15:38.29,screen,,0,0,0,,{\fad(270,270)\fn方正兰亭特黑_GBK\fs65\fsp5\fax-0.13\fscy139\frz-1.94\frx45.56\fry6.23\org(793,715)\pos(798,670)}{\4c&H0000FF&\4a&H5D&\bord0\1aFE\shad1\t(\shad1.5)}纽约
-Dialogue: 1,0:15:35.79,0:15:38.29,screen,,0,0,0,,{\fad(270,270)\fn方正兰亭特黑_GBK\fs65\fsp5\fax-0.13\fscy139\frz-1.94\frx45.56\fry6.23\org(793,715)\pos(798,670)}{\4c&HFF3400&\4a&H5D&\bord0\1aFE\shad2\t(\shad3)}纽约
-Dialogue: 0,0:15:35.79,0:15:38.29,screen,,0,0,0,,{\fad(270,270)\fn方正兰亭特黑_GBK\fs65\fsp5\fax-0.13\fscy139\frz-1.94\frx45.56\fry6.23\org(793,715)\pos(798,670)}{\4c&H05D900&\4a&H5D&\bord0\1aFE\shad3\t(\shad4.5)}纽约
+Dialogue: 3,0:15:26.78,0:15:29.28,screen,,0,0,0,,{\fad(271,269)\fs65\fax-0.131548\fscx95\frz12.3066\frx-0.2941\fry-31.819\org(1490,486)\move(1495,453,1491,450)\fsp3}巴黎
+Dialogue: 2,0:15:26.78,0:15:29.28,screen,,0,0,0,,{\fad(271,269)\fs65\fax-0.131548\fscx95\frz12.3066\frx-0.2941\fry-31.819\org(1490,486)\move(1495,453,1491,450)\fsp3}{\4c&H0000FF&\4a&H5D&\bord0\1aFE\shad1\t(\shad3)}巴黎
+Dialogue: 1,0:15:26.78,0:15:29.28,screen,,0,0,0,,{\fad(271,269)\fs65\fax-0.131548\fscx95\frz12.3066\frx-0.2941\fry-31.819\org(1490,486)\move(1495,453,1491,450)\fsp3}{\4c&HFF3400&\4a&H5D&\bord0\1aFE\shad2\t(\shad5)}巴黎
+Dialogue: 0,0:15:26.78,0:15:29.28,screen,,0,0,0,,{\fad(271,269)\fs65\fax-0.131548\fscx95\frz12.3066\frx-0.2941\fry-31.819\org(1490,486)\move(1495,453,1491,450)\fsp3}{\4c&H05D900&\4a&H5D&\bord0\1aFE\shad3\t(\shad7)}巴黎
+Dialogue: 3,0:15:35.79,0:15:38.29,screen,,0,0,0,,{\fad(270,270)\fs65\fsp5\fax-0.13\fscy139\frz-1.94\frx45.56\fry6.23\org(793,715)\pos(798,670)}纽约
+Dialogue: 2,0:15:35.79,0:15:38.29,screen,,0,0,0,,{\fad(270,270)\fs65\fsp5\fax-0.13\fscy139\frz-1.94\frx45.56\fry6.23\org(793,715)\pos(798,670)}{\4c&H0000FF&\4a&H5D&\bord0\1aFE\shad1\t(\shad1.5)}纽约
+Dialogue: 1,0:15:35.79,0:15:38.29,screen,,0,0,0,,{\fad(270,270)\fs65\fsp5\fax-0.13\fscy139\frz-1.94\frx45.56\fry6.23\org(793,715)\pos(798,670)}{\4c&HFF3400&\4a&H5D&\bord0\1aFE\shad2\t(\shad3)}纽约
+Dialogue: 0,0:15:35.79,0:15:38.29,screen,,0,0,0,,{\fad(270,270)\fs65\fsp5\fax-0.13\fscy139\frz-1.94\frx45.56\fry6.23\org(793,715)\pos(798,670)}{\4c&H05D900&\4a&H5D&\bord0\1aFE\shad3\t(\shad4.5)}纽约
 Dialogue: 0,0:15:43.63,0:15:46.76,zh,,0,350,10,,哎呀  我跟她只是朋友
 Dialogue: 0,0:15:46.76,0:15:49.39,zh,,0,0,10,,那是什么…？
 Dialogue: 0,0:15:49.39,0:15:50.30,zh,,0,0,10,,啊？
