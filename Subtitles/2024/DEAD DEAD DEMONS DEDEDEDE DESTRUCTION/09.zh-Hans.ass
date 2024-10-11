@@ -8,15 +8,6 @@ WrapStyle: 0
 YCbCr Matrix: TV.709
 ScaledBorderAndShadow: yes
 
-[Aegisub Project Garbage]
-Audio File: 09.mkv
-Video File: 09.mkv
-Video AR Mode: 4
-Video AR Value: 1.777778
-Scroll Position: 214
-Active Line: 569
-Video Position: 19507
-
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: zh,方正兰亭中粗黑_GBK,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H7F404040,0,0,0,0,100,100,1,0,1,2.5,0,2,0,0,30,0
@@ -229,7 +220,8 @@ Dialogue: 0,0:10:34.60,0:10:37.20,zh,,0,0,0,,我们先到那去休息一下
 Dialogue: 0,0:10:38.57,0:10:39.70,zh,,0,0,0,,对不起啊
 Dialogue: 0,0:10:39.70,0:10:42.45,zh,,0,0,0,,情况变得有点尴尬…
 Dialogue: 0,0:10:43.62,0:10:44.77,zh,,0,0,0,,没关系啦
-Dialogue: 0,0:10:44.77,0:10:48.51,zh,,0,0,0,,倒是平时怕生的凰凰竟然\N和初次见面的人一起去吃饭了
+Dialogue: 0,0:10:44.77,0:10:46.13,zh,,0,0,0,,倒是平时怕生的凰凰
+Dialogue: 0,0:10:46.13,0:10:48.51,zh,,0,0,0,,竟然和初次见面的人一起去吃饭了
 Dialogue: 0,0:10:48.51,0:10:49.49,zh,,0,0,0,,我还挺意外的
 Dialogue: 0,0:10:54.10,0:10:56.52,zh,,0,0,0,,明明我才刚刚认识你们
 Dialogue: 0,0:10:57.68,0:11:01.89,zh,,0,0,0,,没想到这么快就要出现隔阂了
@@ -319,7 +311,7 @@ Dialogue: 0,0:15:10.55,0:15:14.10,zh,,0,0,0,,我通宵在网上搜集资料\N然
 Dialogue: 0,0:15:14.39,0:15:16.11,zh,,0,0,0,,你今天玩得开心吗？
 Dialogue: 0,0:15:17.14,0:15:19.61,zh,,0,0,0,,我倒挺开心的…
 Dialogue: 0,0:15:20.07,0:15:22.30,zh,,0,0,0,,但看电影的时候你基本都在睡觉吧
-Dialogue: 0,0:15:22.30,0:15:25.59,zh,,0,0,0,,咦  那个  只是眯了一下…
+Dialogue: 0,0:15:22.30,0:15:25.59,zh,,0,0,0,,呃  那个  只是眯了一下…
 Dialogue: 0,0:15:26.46,0:15:28.82,zh,,0,0,0,,那  接下来要做什么？
 Dialogue: 0,0:15:29.24,0:15:30.90,zh,,0,0,0,,你已经在网上调查好了对吧
 Dialogue: 0,0:15:33.13,0:15:34.69,zh,,0,0,0,,那个…
@@ -371,7 +363,7 @@ Dialogue: 0,0:18:07.00,0:18:09.65,zh,,0,0,0,,凛终于开始在女仆咖啡厅�
 Dialogue: 0,0:18:10.45,0:18:13.24,zh,,0,0,0,,凛朝着自己的梦想前进了一步  多么闪耀动人
 Dialogue: 0,0:18:13.24,0:18:15.66,zh,,0,0,0,,这么开心的事情  不如…
 Dialogue: 0,0:18:15.66,0:18:17.74,zh,,0,0,0,,对我们这些老百姓来说
-Dialogue: 0,0:18:17.74,0:18:21.73,zh,,0,0,0,,现在最宝贵的是全面彻底的疗愈！
+Dialogue: 0,0:18:17.74,0:18:21.73,zh,,0,0,0,,现在最宝贵的是无微不至的疗愈！
 Dialogue: 0,0:18:22.19,0:18:24.12,zh,,0,0,0,,我们每周末都要去光顾
 Dialogue: 0,0:18:24.12,0:18:26.49,zh,,0,0,0,,到时用你广袤的温柔将我们彻底包裹住吧！
 Dialogue: 0,0:18:27.65,0:18:28.67,zh,,0,0,0,,包在我身上
