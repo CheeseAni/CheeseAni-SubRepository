@@ -1,7 +1,7 @@
 ### [芝士动物朋友] DDDD 恶魔的破坏 / DEAD DEAD DEMONS DEDEDEDE DESTRUCTION [0-17][CR-WebRip][1080p][HEVC+AAC][简繁内封]
 #### 版本提示
 v1.90: 二次校对  
-v1.91: 规范化修改
+v1.91: 规范化修改  
 v1.92: OPED合轴
 #### 字体
 ```
