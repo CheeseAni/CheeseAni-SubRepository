@@ -1,6 +1,6 @@
 ### [CheeseAni] Giji Harem [1-12][CR-WebRip][1080p][HEVC+AAC][简繁内封]
 
-### 字体
+#### 字体
 ```
 FOT-ニューシネマA Std D <FOT-NewCinemaA Std D>
 FTT-ハミング B <FTT-Humming B>
