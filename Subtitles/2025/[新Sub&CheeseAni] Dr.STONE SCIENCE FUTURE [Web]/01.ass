@@ -13,13 +13,6 @@ PlayResY: 0
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
-Style: M1,方正兰亭圆_GBK_中,64,&H00FFFFFF,&H000000FF,&H42424242,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0,0,40,0
-Style: M1-low,方正兰亭圆_GBK_中,64,&H00FFFFFF,&H000000FF,&H42424242,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0,0,0,0
-Style: M2,方正兰亭圆_GBK_中,64,&H00FFFFFF,&H000000FF,&HA6A6FF00,&H00395800,0,0,0,0,100,100,0,0,1,2,0.1,2,0,0,40,0
-Style: F1,方正兰亭圆_GBK_中,64,&H00FEEDE5,&H000000FF,&H42424242,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0,0,40,0
-Style: F2,方正兰亭圆_GBK_中,64,&H00FEEDE5,&H000000FF,&HA6A6FF00,&H00395800,0,0,0,0,100,100,0,0,1,2,0.1,2,0,0,40,0
-Style: Nr,方正兰亭圆_GBK_中,64,&H00FFFFFF,&H000000FF,&H420042FF,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,0,0,40,0
-Style: screen-ep6,方正兰亭圆_GBK_中,50,&H00000000,&H00FFFFFF,&H5DFFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,1,0,0,7,60,60,66,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
