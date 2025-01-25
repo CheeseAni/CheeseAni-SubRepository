@@ -15,10 +15,10 @@ Audio File: 11.va.mkv
 Video File: 11.va.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.625000
-Scroll Position: 321
-Active Line: 333
-Video Position: 33968
+Video Zoom Percent: 0.500000
+Scroll Position: 24
+Active Line: 38
+Video Position: 3929
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -37,7 +37,7 @@ Dialogue: 0,0:00:07.17,0:00:09.50,M1,,0,0,0,,这就没新招了？
 Dialogue: 0,0:00:10.95,0:00:14.38,M1,,0,0,0,,我想也是 这就是凡人的极限
 Dialogue: 0,0:00:16.64,0:00:18.08,M1,,0,0,0,,你的话刺激不到我
 Dialogue: 0,0:00:19.67,0:00:22.02,M1,,0,0,0,,看来你的自信只是虚张声势
-Dialogue: 0,0:00:22.75,0:00:26.18,M1,,0,0,0,,我感受不到安德鲁斯先生那种露骨的自豪感
+Dialogue: 0,0:00:22.75,0:00:26.18,M1,,0,0,0,,我感受不到那种安德鲁斯先生散发出的自豪感
 Dialogue: 0,0:00:26.62,0:00:31.18,M1,,0,0,0,,你蔑视我的态度 就像是某种义务
 Dialogue: 0,0:00:31.18,0:00:32.60,M1,,0,0,0,,闭嘴
 Dialogue: 0,0:00:39.56,0:00:40.92,M1,,0,0,0,,该结束了
@@ -70,8 +70,7 @@ Comment: 0,0:02:25.66,0:02:29.08,OP,,0,0,0,:beretag@op,{\1vc(&HFFFFFF&,&HFFFFFF&
 Comment: 0,0:02:29.08,0:02:32.42,OP,,0,0,0,:beretag@op,{\1vc(&HFFFFFF&,&HFFFFFF&,&H838383&,&H838383&)}朝紧握的胜利
 Comment: 0,0:02:32.42,0:02:36.51,OP,,0,0,0,:beretag@op,{\1vc(&HFFFFFF&,&HFFFFFF&,&H838383&,&H838383&)}{\fad(0,800)}走出进攻的一步
 Comment: 0,0:02:43.31,0:02:48.31,M1,,0,0,0,template@staff#uninsert,{}{}!$staff=sub[$bere_line]!
-Comment: 0,0:02:43.31,0:02:48.31,M1,,0,0,0,template#code,!$tilt=300 $gap=240 $step=20 $exp_stime=800 $exp_etime=800 local floor=math.floor local line=$deepCopy($staff) local x={} for i=-$gap,2000,$gap/2 do table.insert(x,i) end local t,pos,exp=line.start_time,0,0 while t<line.start_time+$exp_stime do local new=$deepCopy(line) new.start_time=t t=t+41.708375 new.end_time=t local L=floor(x[1]+pos-$tilt-exp).." 1080 "..floor(x[1]+pos-$tilt+exp).." 1080 "..floor(x[1]+pos+exp).." 0" for i=2,#x do L=L.." "..floor(x[i]+pos-exp).." 0 "..floor(x[i]+pos-$tilt-exp).." 1080 "..floor(x[i]+pos-$tilt+exp).." 1080 "..floor(x[i]+pos+exp).." 0" end new.text=[[{\clip(m ]]..x[1]+pos-exp.." 0 l "..L..[[)}]]..new.text table.insert($subcache,new) pos=pos+$step exp=exp+$gap*10/$exp_stime end local new=$deepCopy(line) new.start_time=t new.end_time=line.end_time-$exp_etime table.insert($subcache,new) local t,pos,exp=line.end_time-$exp_etime,0,0 while t<line.end_time do local new=$deepCopy(line) new.start_time=t t=t+41.6 new.end_time=t local L=floor(x[1]+pos-$tilt-exp).." 1080 "..floor(x[1]+pos-$tilt+exp).." 1080 "..floor(x[1]+pos+exp).." 0" for i=2,#x do L=L.." "..floor(x[i]+pos-exp).." 0 "..floor(x[i]+pos-$tilt-exp).." 1080 "..floor(x[i]+pos-$tilt+exp).." 1080 "..floor(x[i]+pos+exp).." 0" end new.text=[[{\iclip(m ]]..x[1]+pos-exp.." 0 l "..L..[[)}]]..new.text table.insert($subcache,new) pos=pos+$step exp=exp+$gap*10/$exp_etime end!
-Comment: 0,0:02:43.31,0:02:48.31,M1,,0,0,0,template@staff#recache;append,{}{}
+Comment: 0,0:02:43.31,0:02:48.31,M1,,0,0,0,template#code;recache;append,!$tilt=300 $gap=240 $step=20 $exp_stime=800 $exp_etime=800 local floor=math.floor local line=$deepCopy($staff) local x={} for i=-$gap,2000,$gap/2 do table.insert(x,i) end local t,pos,exp=line.start_time,0,0 while t<line.start_time+$exp_stime do local new=$deepCopy(line) new.start_time=t t=t+41.708375 new.end_time=t local L=floor(x[1]+pos-$tilt-exp).." 1080 "..floor(x[1]+pos-$tilt+exp).." 1080 "..floor(x[1]+pos+exp).." 0" for i=2,#x do L=L.." "..floor(x[i]+pos-exp).." 0 "..floor(x[i]+pos-$tilt-exp).." 1080 "..floor(x[i]+pos-$tilt+exp).." 1080 "..floor(x[i]+pos+exp).." 0" end new.text=[[{\clip(m ]]..x[1]+pos-exp.." 0 l "..L..[[)}]]..new.text table.insert($subcache,new) pos=pos+$step exp=exp+$gap*10/$exp_stime end local new=$deepCopy(line) new.start_time=t new.end_time=line.end_time-$exp_etime table.insert($subcache,new) local t,pos,exp=line.end_time-$exp_etime,0,0 while t<line.end_time do local new=$deepCopy(line) new.start_time=t t=t+41.6 new.end_time=t local L=floor(x[1]+pos-$tilt-exp).." 1080 "..floor(x[1]+pos-$tilt+exp).." 1080 "..floor(x[1]+pos+exp).." 0" for i=2,#x do L=L.." "..floor(x[i]+pos-exp).." 0 "..floor(x[i]+pos-$tilt-exp).." 1080 "..floor(x[i]+pos-$tilt+exp).." 1080 "..floor(x[i]+pos+exp).." 0" end new.text=[[{\iclip(m ]]..x[1]+pos-exp.." 0 l "..L..[[)}]]..new.text table.insert($subcache,new) pos=pos+$step exp=exp+$gap*10/$exp_etime end!
 Comment: 0,0:02:43.31,0:02:48.31,M1,,0,0,10,:beretag@staff,{\a6\fs54}本字幕由 {\c&H26D0FF&\3c&HFFFFF2&\bord3}Cheese{\c&HBCB9BA&}Ani{\c\3c\bord3} 制作\N{\fs23.4\bord2}转载请遵守本组字幕使用许可  主页: github.com/CheeseAni\N{\fs40\c&H0000FF&\alphaFF}\{\alphaAA}如果你能看到这行红色文字，说明你使用的字幕filter不是新版libass，这可能会导致某些位置出现渲染问题
 Dialogue: 0,0:02:56.99,0:03:00.06,M1,,0,0,0,,只要不进入剑的攻击范围 就不用怕那个武士
 Dialogue: 0,0:03:00.06,0:03:01.79,M1,,0,0,0,,目标只有米雪拉一人
@@ -198,7 +197,7 @@ Dialogue: 0,0:11:23.88,0:11:25.18,M1,,0,0,0,,你说得很对
 Dialogue: 0,0:11:26.06,0:11:30.00,M1,,0,0,0,,想必我今后也会一直蔑视别人
 Dialogue: 0,0:11:30.63,0:11:32.29,M1,,0,0,0,,「召唤眷属」
 Dialogue: 0,0:11:45.50,0:11:46.43,M1,,0,0,0,,那是？
-Dialogue: 0,0:11:46.43,0:11:48.65,M1,,0,0,0,,\h\h\hSting bee\N是       穿刺蜂
+Dialogue: 0,0:11:46.43,0:11:48.65,M1,,0,0,0,,Sting bee 也就是穿刺蜂
 Dialogue: 0,0:11:55.06,0:11:57.57,M1,,0,0,0,,你这是想干什么 奥布莱特先生
 Dialogue: 0,0:11:57.57,0:11:58.90,M1,,0,0,0,,我说过
 Dialogue: 0,0:11:58.90,0:12:00.69,M1,,0,0,0,,我是奥布莱特家的人
