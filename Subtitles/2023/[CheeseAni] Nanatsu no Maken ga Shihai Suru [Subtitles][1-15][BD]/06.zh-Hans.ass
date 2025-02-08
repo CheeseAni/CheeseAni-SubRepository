@@ -16,8 +16,9 @@ Video File: 06.va.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Active Line: 21
-Video Position: 2321
+Scroll Position: 69
+Active Line: 86
+Video Position: 8506
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -114,9 +115,9 @@ Dialogue: 0,0:05:11.17,0:05:12.50,M2,,0,0,0,,将军了
 Dialogue: 0,0:05:16.63,0:05:17.71,M2,,0,0,0,,左手？
 Dialogue: 0,0:05:23.59,0:05:24.74,M2,,0,0,0,,难道是…
 Dialogue: 0,0:05:29.22,0:05:31.06,M2,,0,0,0,,第二只魔眼
-Dialogue: 0,0:05:43.44,0:05:45.93,M2,,0,0,0,,太慢了 这样是够不着的
-Dialogue: 0,0:05:46.69,0:00:05.26,M2,,0,0,0,,那诡异眼睛释放的诅咒 想必跟光一样快
-Dialogue: 0,0:05:52.92,0:05:54.96,M2,,0,0,0,,那就先斩断吧
+Dialogue: 0,0:05:43.44,0:05:45.99,M2,,0,0,0,,太慢了 这样是够不着的
+Dialogue: 0,0:05:46.69,0:05:52.02,M2,,0,0,0,,那诡异眼睛释放的诅咒 想必跟光一样快
+Dialogue: 0,0:05:52.92,0:05:54.79,M2,,0,0,0,,那就先斩断吧
 Dialogue: 0,0:05:55.45,0:05:58.67,M2,,0,0,0,,斩断眼前的空间 斩断流逝的时间
 Dialogue: 0,0:06:01.09,0:06:04.89,M2,,0,0,0,,如此 这一刀定能超越光速
 Dialogue: 0,0:06:11.72,0:06:13.58,M1,,0,0,0,,你刚才…做了什么
