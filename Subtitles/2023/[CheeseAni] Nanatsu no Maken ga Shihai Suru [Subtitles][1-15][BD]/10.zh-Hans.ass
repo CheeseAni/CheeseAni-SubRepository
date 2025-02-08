@@ -16,9 +16,9 @@ Video File: 10.va.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.625000
-Scroll Position: 22
-Active Line: 31
-Video Position: 3287
+Scroll Position: 191
+Active Line: 203
+Video Position: 16873
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -234,7 +234,7 @@ Dialogue: 0,0:11:20.86,0:11:22.03,M1,,0,0,0,,费 你好烦
 Dialogue: 0,0:11:33.39,0:11:34.93,M1,,0,0,0,,这就是第二层
 Dialogue: 0,0:11:34.93,0:11:36.93,M1,,0,0,0,,看着的确不像在地下
 Dialogue: 0,0:11:37.84,0:11:39.10,M1,,0,0,0,,到这就行了吧
-Dialogue: 0,0:11:40.22,0:11:44.67,M1,,0,0,0,,喂 跟你们说下 不杀咒语肯定只上一半 没问题吧
+Dialogue: 0,0:11:40.22,0:11:44.67,M1,,0,0,0,,喂 跟你们说下 不杀咒语当然是只上一半 没问题吧
 Dialogue: 0,0:11:45.18,0:11:46.76,M1,,0,0,0,,用不着你说
 Dialogue: 0,0:11:46.76,0:11:48.22,M1,,0,0,0,,没问题
 Dialogue: 0,0:11:48.22,0:11:50.54,M1,,0,0,0,,在开打前 我有个建议
