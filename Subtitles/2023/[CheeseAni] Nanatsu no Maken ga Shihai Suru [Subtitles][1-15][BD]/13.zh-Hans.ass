@@ -20,7 +20,7 @@ Style: Signs,方正大标宋简繁,150,&H001011A0,&H00FFFFFF,&H00FFFFFF,&H00FFFF
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:33.98,0:00:35.56,F1,,0,0,0,,你是谁
+Dialogue: 0,0:00:33.97,0:00:35.56,F1,,0,0,0,,你是谁
 Dialogue: 0,0:00:36.02,0:00:39.27,F1,,0,0,0,,从今天起 我立志要当你的朋友
 Dialogue: 0,0:00:40.44,0:00:42.65,F1,,0,0,0,,这次要生你的孩子？
 Dialogue: 0,0:00:43.16,0:00:44.69,F1,,0,0,0,,不是的

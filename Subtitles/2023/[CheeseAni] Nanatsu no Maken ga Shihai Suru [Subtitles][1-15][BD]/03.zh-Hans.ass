@@ -9,17 +9,6 @@ PlayResY: 1080
 YCbCr Matrix: TV.709
 Title: [CheeseAni] Nanatsu no Maken ga Shihai Suru [03][BD]
 
-[Aegisub Project Garbage]
-Last Style Storage: 七魔剑BD
-Audio File: 03.va.mkv
-Video File: 03.va.mkv
-Video AR Mode: 4
-Video AR Value: 1.777778
-Video Zoom Percent: 0.500000
-Scroll Position: 18
-Active Line: 42
-Video Position: 2870
-
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Signs,方正大标宋简繁,150,&H001011A0,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,65,0,1,0,0,2,95,0,100,1
