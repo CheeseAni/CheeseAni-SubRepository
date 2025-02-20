@@ -16,8 +16,8 @@ Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.750000
 Scroll Position: 25
-Active Line: 36
-Video Position: 29218
+Active Line: 35
+Video Position: 29213
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -62,7 +62,9 @@ Dialogue: 0,0:11:29.83,0:11:32.58,screen,,-1200,0,275,,{\fs42\c&H0D0D0D&\3c&HECE
 Dialogue: 0,0:15:04.97,0:15:07.64,screen,,0,0,0,,{\a3\fs160\bord10\blur3\b1\c&H343A44&\3c&HC6CCCD&\fsp190\move(1699.99,325,373.32,325,2019,2645)\iclip(0,0,168,1080)}龙水剧场
 Dialogue: 0,0:15:19.02,0:15:22.21,screen,,0,0,0,,{\frz18.39\c&H383F49&\3c&HE4E2E1&\bord5\blur3\b1\iclip(0,0,877,1080)\t(23,190,\iclip(0,0,520,1080))\pos(706.75,611.22)}美洲大陆
 Dialogue: 0,0:15:41.09,0:15:42.50,screen,,0,0,0,,{\a3\c&H383F49&\3c&HE4E2E1&\bord5\blur3\b1\fs46\iclip(433,0,593,1080)\frz19.22\move(1050.62,651.96,-16,651.96,726,1393)}美洲大陆
-Dialogue: 0,0:20:18.53,0:20:18.61,screen,,0,0,0,,{\c&HFFFFFD&\fs36\fscx100\fscy75\pos(1484.5,833)\bord0\blur1\fsp8}得到太阳之石了
+Dialogue: 0,0:20:18.36,0:20:18.45,screen,,0,0,0,,{\c&HFFFFFD&\fs36\fscx6\fscy6\pos(1485,819)\bord0\fsp8}得到太阳之石了
+Dialogue: 0,0:20:18.45,0:20:18.53,screen,,0,0,0,,{\c&HFFFFFD&\fs36\fscy1\pos(1485,819)\bord0\fsp8}得到太阳之石了
+Dialogue: 0,0:20:18.53,0:20:18.61,screen,,0,0,0,,{\c&HFFFFFD&\fs36\fscy75\pos(1485,833)\bord0\fsp8}得到太阳之石了
 Dialogue: 0,0:20:18.61,0:20:20.91,screen,,0,0,0,,{\c&HFFFFFD&\fs36\pos(1484.5,836)\bord0\fsp8}得到太阳之石了
 Dialogue: 0,0:23:50.37,0:23:52.45,screen,,0,0,0,,{\frz32.23\c&H3B312F&\bord0\fs32\fad(393,478)\pos(911.2,666.4)}黑暗的诱蛾灯
 Dialogue: 0,0:23:52.13,0:23:54.95,screen,,0,0,120,,{\fsp9\fad(400,0)\b1\bord8\fs100\3c&HFFFFFF&\blur25\1aFF\3a25}黑暗的诱蛾灯
