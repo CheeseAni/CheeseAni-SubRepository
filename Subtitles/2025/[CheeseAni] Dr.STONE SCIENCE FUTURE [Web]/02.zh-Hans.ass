@@ -14,8 +14,10 @@ Audio File: 02.va.mkv
 Video File: 02.va.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.500000
-Video Position: 18
+Video Zoom Percent: 0.750000
+Scroll Position: 25
+Active Line: 36
+Video Position: 29218
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -25,38 +27,43 @@ Style: zh-top,方正兰亭圆_GBK_中,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H0000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 1,0:00:00.73,0:00:04.10,screen,,0,0,0,,{\pos(960,834)\fs64\fad(858,0)\bord0\c&HFFFFFF&}珀耳修斯号出航两周前
-Dialogue: 0,0:00:00.73,0:00:04.10,screen,,0,0,0,,{\pos(962,838)\fs64\fad(858,0)\bord0\c&H090B0B&}珀耳修斯号出航两周前
-Dialogue: 0,0:03:37.02,0:03:41.99,screen,,0,0,66,,{\fn方正新舒体_GBK\b1\c&H000000&\bord0\fs100\fad(438,0)}科学之旅
-Dialogue: 0,0:05:13.25,0:05:15.83,screen,,0,0,0,,{\pos(1713.6,771.2)\c&HFFFFFD&\fad(146,0)}得到\N乳酸饮料\N了\h\h!!
+Dialogue: 1,0:00:00.73,0:00:04.11,screen,,0,0,0,,{\pos(960,834)\fs64\fad(1022,0)\bord0\c&HFFFFFF&\4c&H090B0B&\shad3}珀耳修斯号出航两周前
+Dialogue: 0,0:03:37.03,0:03:41.99,screen,,0,0,66,,{\fn方正新舒体_GBK\b1\c&H000000&\bord0\fs100\fad(437,0)}科学之旅
+Dialogue: 0,0:05:13.13,0:05:13.21,screen,,0,0,0,,{\c&HFFFFFD&\bord0\blur1\fscx6\fscy8\pos(1494,720.1)}得到乳酸\N饮料了!!
+Dialogue: 0,0:05:13.21,0:05:13.29,screen,,0,0,0,,{\c&HFFFFFD&\bord0\fscy8\pos(1680,725)\blur2}得到乳酸\N饮料了!!
+Dialogue: 0,0:05:13.29,0:05:13.38,screen,,0,0,0,,{\c&HFFFFFD&\bord0\fscy60\pos(1698,724)\blur1\fscx95\fsp8}得到乳酸\N饮料了!!
+Dialogue: 0,0:05:13.38,0:05:15.84,screen,,0,0,0,,{\c&HFFFFFD&\bord0\pos(1708,724)\fscx95\fsp8}得到乳酸\N饮料了!!
 Dialogue: 0,0:06:35.95,0:06:41.17,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(325,640)}乳酸饮料
 Dialogue: 0,0:06:35.95,0:06:41.17,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(325,731.2)}苹果汁
 Dialogue: 0,0:06:35.95,0:06:41.17,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(325,832)}黄瓜泥
 Dialogue: 0,0:06:35.95,0:06:41.17,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(325,944)}小黄瓜
-Dialogue: 0,0:07:08.86,0:07:11.95,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(1375,714.8)}红石榴(糖浆)
-Dialogue: 0,0:07:08.86,0:07:11.95,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(1375,814e)}通宁水
-Dialogue: 0,0:07:34.05,0:07:36.71,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(1235,560)}可乐
-Dialogue: 0,0:07:34.05,0:07:36.71,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(1235,656)}印度奶茶糖浆
-Dialogue: 0,0:07:34.05,0:07:36.71,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(1235,842)}柠檬
-Dialogue: 0,0:07:34.05,0:07:36.71,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(1235,934)}辣椒
-Dialogue: 0,0:07:44.44,0:07:47.19,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(516,326)}辛辣灰姑娘
-Dialogue: 0,0:07:44.44,0:07:47.19,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(365,584.8)}姜汁汽水
-Dialogue: 0,0:07:44.44,0:07:47.19,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(365,684)}柳橙汁
-Dialogue: 0,0:07:44.44,0:07:47.19,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(365,778)}菠萝汁
-Dialogue: 0,0:07:44.44,0:07:47.19,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(365,868)}柠檬汁
-Dialogue: 0,0:07:44.44,0:07:47.19,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(365,964.8)}姜末
-Dialogue: 0,0:08:03.71,0:08:08.67,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(1425,324)}3层TEA LATTE
-Dialogue: 0,0:08:03.71,0:08:08.67,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(1250,594.13)}抹茶奶霜
-Dialogue: 0,0:08:03.71,0:08:08.67,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(1250,690)}羊奶
-Dialogue: 0,0:08:03.71,0:08:08.67,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(1250,784)}焙茶
-Dialogue: 0,0:08:03.71,0:08:08.67,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(1250,874.67)}阿拉伯胶糖浆
-Dialogue: 0,0:11:29.83,0:11:32.58,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(475,455.2)}抹茶啤酒
-Dialogue: 0,0:11:29.83,0:11:32.58,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(475,705.6)}啤酒
-Dialogue: 0,0:11:29.83,0:11:32.58,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(475,801.6)}抹茶
+Dialogue: 0,0:07:08.87,0:07:11.95,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\fn方正大标宋简繁\b1\pos(1440,425)}石榴汤力水
+Dialogue: 0,0:07:08.87,0:07:11.95,screen,,805,0,260,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\fn方正大标宋简繁\b1}红石榴(糖浆)
+Dialogue: 0,0:07:08.87,0:07:11.95,screen,,805,0,365,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\fn方正大标宋简繁\b1}通宁水
+Dialogue: 0,0:07:34.05,0:07:36.71,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\fn方正大标宋简繁\b1\pos(1426,296)}辛柠可乐
+Dialogue: 0,0:07:34.05,0:07:36.71,screen,,560,0,520,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\fn方正大标宋简繁\b1}可乐
+Dialogue: 0,0:07:34.05,0:07:36.71,screen,,560,0,425,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\fn方正大标宋简繁\b1}印度奶茶糖浆
+Dialogue: 0,0:07:34.05,0:07:36.71,screen,,560,0,240,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\fn方正大标宋简繁\b1}柠檬
+Dialogue: 0,0:07:34.05,0:07:36.71,screen,,560,0,145,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\fn方正大标宋简繁\b1}辣椒
+Dialogue: 0,0:07:44.44,0:07:47.19,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(522.75,324)\fn方正大标宋简繁\b1}辛辣灰姑娘
+Dialogue: 0,0:07:44.44,0:07:47.19,screen,,-1100,0,494,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\fn方正大标宋简繁\b1}姜汁汽水
+Dialogue: 0,0:07:44.44,0:07:47.19,screen,,-1100,0,400,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\fn方正大标宋简繁\b1}柳橙汁
+Dialogue: 0,0:07:44.44,0:07:47.19,screen,,-1100,0,304,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\fn方正大标宋简繁\b1}菠萝汁
+Dialogue: 0,0:07:44.44,0:07:47.19,screen,,-1100,0,214,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\fn方正大标宋简繁\b1}柠檬汁
+Dialogue: 0,0:07:44.44,0:07:47.19,screen,,-1100,0,115,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\fn方正大标宋简繁\b1}姜末
+Dialogue: 0,0:08:03.71,0:08:08.67,screen,,0,0,0,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\fn方正大标宋简繁\b1\pos(1417,325)}3层TEA LATTE
+Dialogue: 0,0:08:03.71,0:08:08.67,screen,,650,0,485,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\fn方正大标宋简繁\b1}抹茶奶霜
+Dialogue: 0,0:08:03.71,0:08:08.67,screen,,650,0,394,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\fn方正大标宋简繁\b1}羊奶
+Dialogue: 0,0:08:03.71,0:08:08.67,screen,,650,0,295,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\fn方正大标宋简繁\b1}焙茶
+Dialogue: 0,0:08:03.71,0:08:08.67,screen,,650,0,200,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\fn方正大标宋简繁\b1}阿拉伯胶糖浆
+Dialogue: 0,0:11:29.83,0:11:32.58,screen,,0,0,0,,{\fs40\c&H0D0D0D&\3c&HECECEC&\bord5\be3\pos(492,454)\fn方正大标宋简繁\b1}抹茶啤酒
+Dialogue: 0,0:11:29.83,0:11:32.58,screen,,-1200,0,374,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\fn方正大标宋简繁\b1}啤酒
+Dialogue: 0,0:11:29.83,0:11:32.58,screen,,-1200,0,275,,{\fs42\c&H0D0D0D&\3c&HECECEC&\bord5\be3\fn方正大标宋简繁\b1}抹茶
 Dialogue: 0,0:15:04.97,0:15:07.64,screen,,0,0,0,,{\a3\fs160\bord10\blur3\b1\c&H343A44&\3c&HC6CCCD&\fsp190\move(1699.99,325,373.32,325,2019,2645)\iclip(0,0,168,1080)}龙水剧场
 Dialogue: 0,0:15:19.02,0:15:22.21,screen,,0,0,0,,{\frz18.39\c&H383F49&\3c&HE4E2E1&\bord5\blur3\b1\iclip(0,0,877,1080)\t(23,190,\iclip(0,0,520,1080))\pos(706.75,611.22)}美洲大陆
 Dialogue: 0,0:15:41.09,0:15:42.50,screen,,0,0,0,,{\a3\c&H383F49&\3c&HE4E2E1&\bord5\blur3\b1\fs46\iclip(433,0,593,1080)\frz19.22\move(1050.62,651.96,-16,651.96,726,1393)}美洲大陆
-Dialogue: 0,0:20:18.49,0:20:20.91,screen,,0,0,0,,{\c&HFFFFFD&\fad(144,0)\fs36\pos(1510.4,838.4)}得到太阳之石了
+Dialogue: 0,0:20:18.53,0:20:18.61,screen,,0,0,0,,{\c&HFFFFFD&\fs36\fscx100\fscy75\pos(1484.5,833)\bord0\blur1\fsp8}得到太阳之石了
+Dialogue: 0,0:20:18.61,0:20:20.91,screen,,0,0,0,,{\c&HFFFFFD&\fs36\pos(1484.5,836)\bord0\fsp8}得到太阳之石了
 Dialogue: 0,0:23:50.37,0:23:52.45,screen,,0,0,0,,{\frz32.23\c&H3B312F&\bord0\fs32\fad(393,478)\pos(911.2,666.4)}黑暗的诱蛾灯
 Dialogue: 0,0:23:52.13,0:23:54.95,screen,,0,0,120,,{\fsp9\fad(400,0)\b1\bord8\fs100\3c&HFFFFFF&\blur25\1aFF\3a25}黑暗的诱蛾灯
 Dialogue: 1,0:23:52.13,0:23:54.95,screen,,0,0,120,,{\fsp9\fad(400,0)\b1\bord8\fs100\c&H5E5247&\3c&HFDFAC7&\blur10\3a10}黑暗的诱蛾灯
