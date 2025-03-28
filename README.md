@@ -1,5 +1,5 @@
 # CheeseAni-SubRepository
-[字幕项目表格视图](https://github.com/users/op200/projects/1)
+[字幕项目表格视图](https://github.com/orgs/CheeseAni/projects/1)
 
 ### 版本命名规则
 ##### 每一个大版本对应一次发布，小版本对应一次更改
