@@ -16,10 +16,10 @@ Audio File: 02.成品.mkv
 Video File: 02.成品.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.500000
-Scroll Position: 153
-Active Line: 160
-Video Position: 9612
+Video Zoom Percent: 0.625000
+Scroll Position: 75
+Active Line: 86
+Video Position: 5646
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -36,10 +36,11 @@ Style: ED-ja,Source Han Serif JP,74,&H00FFFFFF,&H00FFFFFF,&H00300AD5,&H00000000,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:05:06.81,0:05:09.81,staff,,0,0,0,template@staff#uninsert,{}{}!$staff=sub[$bere_line]!
+Comment: 0,0:00:00.00,0:00:00.00,staff,,0,0,0,template#,!$checkVer("2.4.4") $forcefps=24!
+Comment: 0,0:05:06.81,0:05:09.81,staff,,0,0,0,template@staff#uninsert,{}{}!$staff=$this!
 Comment: 0,0:05:06.81,0:05:09.81,staff,,0,0,0,template#code;recache;append,!$tilt=300 $gap=240 $step=20 $exp_stime=500 $exp_etime=500 local floor,line,x=math.floor,$deepCopy($staff),{} for i=-$gap,2000,$gap/2 do table.insert(x,i) end local t,pos,exp=line.start_time,0,0 while t<line.start_time+$exp_stime do local new=$deepCopy(line) new.start_time=t t=t+41.708375 new.end_time=t local L=floor(x[1]+pos-$tilt-exp).." 1080 "..floor(x[1]+pos-$tilt+exp).." 1080 "..floor(x[1]+pos+exp).." 0" for i=2,#x do L=L.." "..floor(x[i]+pos-exp).." 0 "..floor(x[i]+pos-$tilt-exp).." 1080 "..floor(x[i]+pos-$tilt+exp).." 1080 "..floor(x[i]+pos+exp).." 0" end new.text=[[{\clip(m ]]..x[1]+pos-exp.." 0 l "..L..[[)}]]..new.text table.insert($subcache,new) pos=pos+$step exp=exp+$gap*10/$exp_stime end local new=$deepCopy(line) new.start_time=t new.end_time=line.end_time-$exp_etime table.insert($subcache,new) local t,pos,exp=line.end_time-$exp_etime,0,0 while t<line.end_time do local new=$deepCopy(line) new.start_time=t t=t+41.708375 new.end_time=t local L=floor(x[1]+pos-$tilt-exp).." 1080 "..floor(x[1]+pos-$tilt+exp).." 1080 "..floor(x[1]+pos+exp).." 0" for i=2,#x do L=L.." "..floor(x[i]+pos-exp).." 0 "..floor(x[i]+pos-$tilt-exp).." 1080 "..floor(x[i]+pos-$tilt+exp).." 1080 "..floor(x[i]+pos+exp).." 0" end new.text=[[{\iclip(m ]]..x[1]+pos-exp.." 0 l "..L..[[)}]]..new.text table.insert($subcache,new) pos=pos+$step exp=exp+$gap*10/$exp_etime end!
 Comment: 0,0:05:06.81,0:05:09.81,staff,,0,0,0,:beretag@staff,本字幕由 {\c&H26D0FF&\3c&HFFFFF2&\bord3}Cheese{\c&HBCB9BA&}Ani{\c\3c\bord} 制作\N{\fs23.4\bord0.6}转载请遵守本组字幕使用许可  主页: github.com/CheeseAni\N{\fs29.3\bord0.8}原翻译: 官译(Viu)  时轴、校对: 百年风月  后期: op200\N{\fs40\c&H0000FF&\alphaFF}\{\alphaAA}如果你能看到这行红色文字，说明你使用的字幕filter不是新版libass，这可能会导致某些位置出现渲染问题
-Comment: 0,0:05:07.31,0:05:11.31,screen,,0,0,0,template@gdTitle#recache;append;uninsert,{}{}!local function toEven(a) a=math.floor(a) if a%2==0 then return a else return a+1 end end local meta, styles = karaskel.collect_head(sub) local line=sub[$bere_line] karaskel.preproc_line_pos(meta, styles, line) local l,r,t,b=toEven(line.left),toEven(line.right),line.top-6,line.bottom+6 local dif=toEven((r-l)*0.25) local blue, pink, red, yellow, green = "&HC73137&", "&HCE6BF9&", "&H5F39F8&", "&H2D8FF8&", "&H09822B&" local color1, color2, color3, color4 = {blue, pink, blue, pink}, {pink, red, pink, red}, {red, yellow, red, yellow}, {yellow, green, yellow, green} local pos1=l+dif local pos2=pos1+dif local pos3=pos2+dif $colorGradient({l-30,t, pos1,b, $bere_line}, color1, {2, nil, nil}, {"3c", "1a"}) $colorGradient({pos1+2,t, pos2,b, $bere_line}, color2, {2, nil, nil}, {"3c", "1a"}) $colorGradient({pos2+2,t, pos3,b, $bere_line}, color3, {2, nil, nil}, {"3c", "1a"}) $colorGradient({pos3+2,t, r+30,b, $bere_line}, color4, {2, nil, nil}, {"3c", "1a"})!
+Comment: 0,0:05:07.31,0:05:11.31,screen,,0,0,0,template@gdTitle#recache;append;uninsert,{}{}!local function toEven(a) a=math.floor(a) if a%2==0 then return a else return a+1 end end local line=$this local l,r,t,b=toEven(line.left),toEven(line.right),line.top-6,line.bottom+6 local dif=toEven((r-l)*0.25) local blue, pink, red, yellow, green = "&HC73137&", "&HCE6BF9&", "&H5F39F8&", "&H2D8FF8&", "&H09822B&" local color1, color2, color3, color4 = {blue, pink, blue, pink}, {pink, red, pink, red}, {red, yellow, red, yellow}, {yellow, green, yellow, green} local pos1=l+dif local pos2=pos1+dif local pos3=pos2+dif $colorGradient({l-30,t, pos1,b, $bere_line}, color1, {2, nil, nil}, {"3c", "1a"}) $colorGradient({pos1+2,t, pos2,b, $bere_line}, color2, {2, nil, nil}, {"3c", "1a"}) $colorGradient({pos2+2,t, pos3,b, $bere_line}, color3, {2, nil, nil}, {"3c", "1a"}) $colorGradient({pos3+2,t, r+30,b, $bere_line}, color4, {2, nil, nil}, {"3c", "1a"})!
 Comment: 0,0:05:07.31,0:05:11.31,screen,标题,0,505,140,:beretag@gdTitle,{\fad(523,0)\fn方正FW马蒂斯体 简\bord6\blur5}中年大叔，成为魔法师
 Dialogue: 0,0:00:45.06,0:00:48.31,screen,屏幕字,0,0,0,,{\fn@方正兰亭中黑_GBK\frz270\fs24\fsp3\c&H2C2C2D&\pos(78,545)}收藏用的也有买
 Dialogue: 0,0:07:44.85,0:07:50.10,screen,屏幕字,0,0,0,,{\fn@方正兰亭中黑_GBK\frz270\fs36\fsp2\c&H363636&\pos(210,786)}※没有想到
@@ -56,7 +57,7 @@ Dialogue: 0,0:23:36.21,0:23:38.52,screen,注释,20,0,20,,{\fad(200,200)\a8\fs40\
 Dialogue: 0,0:23:45.62,0:23:48.61,screen,注释,20,0,20,,{\fad(200,200)\a8\fs40\c&H000000&\3c&HFFFFFF&\bord2}※出自原作者漫画『ツダヌマ格闘街』
 Comment: 0,0:23:52.52,0:23:55.77,screen,下集标题,0,0,370,:beretag@gdTitle,{\fad(522,0)\fn方正FW马蒂斯体 简\bord6\blur5}中年大叔，开口讲冷笑话！
 Dialogue: 0,0:23:53.24,0:23:55.43,screen,注释,20,0,20,,{\fad(200,200)\a8\fs40\c&H000000&\3c&HFFFFFF&\bord2}※出自原作者漫画『エイジ'87』
-Comment: 0,0:00:00.00,0:00:00.00,zh,,0,0,0,template@dialog#onlyfind,!local line=sub[$bere_line] if not line.text:find("|") then $debug("对话行存在缺损: "..($bere_line-$begin)) end table.insert($subcache,$deepCopy(line)) if line.style=="zh" then line.style="ja" else if line.style=="zh-top" then line.style="ja-top" else $debug("dialog error: "..line.text) end end line.layer=1 table.insert($subcache,line)!
+Comment: 0,0:00:00.00,0:00:00.00,zh,,0,0,0,template@dialog#onlyfind,!local line=$this if not line.text:find("|") then $debug("对话行存在缺损: "..$num) end $addLine(line) if line.style=="zh" then line.style="ja" elseif line.style=="zh-top" then line.style="ja-top" else $debug("dialog error: "..line.text) end line.layer=1 $addLine(line)!
 Comment: 0,0:00:00.00,0:00:00.00,zh,,0,0,0,template@dialog#recache;uninsert;append,{}{}
 Comment: 0,0:00:00.00,0:00:00.00,zh,,0,0,0,template@dialog#findtext;strictstyle,{|.*}
 Comment: 0,0:00:00.00,0:00:00.00,ja,,0,0,0,template@dialog#findtext;strictstyle,{.*|}
@@ -121,7 +122,7 @@ Comment: 0,0:03:19.10,0:03:22.73,zh,,0,0,0,:beretag@dialog,我都会认真地将
 Comment: 0,0:03:23.73,0:03:24.46,zh,,0,0,0,:beretag@dialog,但是|が
 Comment: 0,0:03:25.08,0:03:27.93,zh,,0,0,0,:beretag@dialog,愿你一切安好 学院长|ご機嫌麗しゅう 学園長先生
 Comment: 0,0:03:33.46,0:03:36.56,zh,,0,0,0,:beretag@dialog,我这样的人 到底要怎么做…|こんな私に どうしろと
-Comment: 0,0:03:55.23,0:04:53.29,OP-zh,,0,0,0,template@gdOP#recache;append;uninsert,{}{}!local function toEven(a) a=math.floor(a) if a%2==0 then return a else return a+1 end end local meta, styles = karaskel.collect_head(sub) local line=sub[$bere_line] karaskel.preproc_line_pos(meta, styles, line) local l,r,t,b=toEven(line.left),toEven(line.right),line.top-6,line.bottom+6 local dif=toEven((r-l)*0.25) local blue, pink, red, yellow, green = "&HC73137&", "&HCE6BF9&", "&H5F39F8&", "&H2D8FF8&", "&H09822B&" local color1, color2, color3, color4 = {blue, pink, blue, pink}, {pink, red, pink, red}, {red, yellow, red, yellow}, {yellow, green, yellow, green} local pos1=l+dif local pos2=pos1+dif local pos3=pos2+dif $colorGradient({l-30,t, pos1,b, $bere_line}, color1, {2, nil, nil}, {"3c", "1a"}) $colorGradient({pos1+2,t, pos2,b, $bere_line}, color2, {2, nil, nil}, {"3c", "1a"}) $colorGradient({pos2+2,t, pos3,b, $bere_line}, color3, {2, nil, nil}, {"3c", "1a"}) $colorGradient({pos3+2,t, r+30,b, $bere_line}, color4, {2, nil, nil}, {"3c", "1a"})!
+Comment: 0,0:03:55.23,0:04:53.29,OP-zh,,0,0,0,template@gdOP#recache;append;uninsert,{}{}!local function toEven(a) a=math.floor(a) if a%2==0 then return a else return a+1 end end local line=$this local l,r,t,b=toEven(line.left),toEven(line.right),line.top-6,line.bottom+6 local dif=toEven((r-l)*0.25) local blue, pink, red, yellow, green = "&HC73137&", "&HCE6BF9&", "&H5F39F8&", "&H2D8FF8&", "&H09822B&" local color1, color2, color3, color4 = {blue, pink, blue, pink}, {pink, red, pink, red}, {red, yellow, red, yellow}, {yellow, green, yellow, green} local pos1=l+dif local pos2=pos1+dif local pos3=pos2+dif $colorGradient({l-30,t, pos1,b, $bere_line}, color1, {2, nil, nil}, {"3c", "1a"}) $colorGradient({pos1+2,t, pos2,b, $bere_line}, color2, {2, nil, nil}, {"3c", "1a"}) $colorGradient({pos2+2,t, pos3,b, $bere_line}, color3, {2, nil, nil}, {"3c", "1a"}) $colorGradient({pos3+2,t, r+30,b, $bere_line}, color4, {2, nil, nil}, {"3c", "1a"})!
 Dialogue: 0,0:03:55.23,0:03:58.77,OP-zh,,0,0,0,,{\fad(150,150)}不论过多久都无法从角色扮演中挣脱
 Dialogue: 0,0:03:55.23,0:03:58.77,OP-ja,,0,0,0,,{\fad(150,150)}いつまで経ってもロールプレイから抜け出せないよな
 Dialogue: 0,0:03:58.96,0:04:02.37,OP-zh,,0,0,0,,{\fad(150,150)}从早到晚我如同一颗齿轮 这里一切正常
