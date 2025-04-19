@@ -16,9 +16,9 @@ Video File: 05.va.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.625000
-Scroll Position: 30
-Active Line: 42
-Video Position: 11747
+Scroll Position: 58
+Active Line: 68
+Video Position: 13891
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -74,24 +74,40 @@ Dialogue: 0,0:08:06.23,0:08:06.65,screen,屏幕字,0,0,0,,{\a1\fs50\fsp10\1aFE\4
 Dialogue: 2,0:08:06.65,0:08:08.56,screen,屏幕字,0,0,0,,{\a1\fs50\fsp10\c&HF5EFF1&\pos(214,147)}欧里翁
 Dialogue: 1,0:08:06.65,0:08:08.56,screen,屏幕字,0,0,0,,{\a1\fs50\fsp10\1aFE\4c&H672A22\shad1\blur2\pos(214,147)}欧里翁
 Dialogue: 0,0:08:06.65,0:08:08.56,screen,屏幕字,0,0,0,,{\a1\fs50\fsp10\1aFE\4c&H95EDFB&\xshad-1\yshad-1\blur2\pos(214,147)}欧里翁
-Comment: 0,0:08:08.56,0:08:08.85,screen,,0,0,0,template#,!$keytext=[[]]!
-Comment: 0,0:08:08.56,0:08:08.85,screen,,0,0,0,template@key3#keyframe;append,{\fscx.*\fscy.*\frz.*\org[^%)]*%)}{}
-Dialogue: 2,0:08:08.56,0:08:08.85,screen,屏幕字,0,0,0,beretag@key3,{\a1\fs50\fsp10\c&HF5EFF1&\pos(214,147)}欧里翁
-Dialogue: 1,0:08:08.56,0:08:08.85,screen,屏幕字,0,0,0,beretag@key3,{\a1\fs50\fsp10\1aFE\4c&H672A22\shad1\blur2\pos(214,147)}欧里翁
-Dialogue: 0,0:08:08.56,0:08:08.85,screen,屏幕字,0,0,0,beretag@key3,{\a1\fs50\fsp10\1aFE\4c&H95EDFB&\xshad-1\yshad-1\blur2\pos(214,147)}欧里翁
+Comment: 0,0:08:08.56,0:08:08.85,screen,,0,0,0,template#,!$keytext=[[Adobe After Effects 6.0 Keyframe Data\N\N	Units Per Second	23.976\N	Source Width	1920\N	Source Height	1080\N	Source Pixel Aspect Ratio	1\N	Comp Pixel Aspect Ratio	1\N\NPosition\N	Frame	X pixels	Y pixels	Z pixels\N	14	215.791	150.407	0\N	15	206.555	145.275	0\N	16	184.486	132.419	0\N	17	147.761	112.008	0\N	18	103.558	85.0852	0\N	19	41.7695	50.3036	0\N	20	-36.0292	7.83589	0\N\NScale\N	Frame	X percent	Y percent	Z percent\N	14	100	100	100\N	15	100.465	100.465	100\N	16	101.11	101.11	100\N	17	102.913	102.913	100\N	18	102.826	102.826	100\N	19	105.264	105.264	100\N	20	109.479	109.479	100\N\NRotation\N	Frame	Degrees\N	14	0\N	15	0\N	16	0\N	17	0\N	18	0\N	19	0\N	20	0\N\NEnd of Keyframe Data\N]]!
+Comment: 0,0:08:08.56,0:08:08.85,screen,,0,0,0,template@key3#keyframe;append,{\frz.*\org[^%)]*%)}{}
+Comment: 2,0:08:08.56,0:08:08.85,screen,屏幕字,0,0,0,:beretag@key3,{\a1\fs50\fsp10\c&HF5EFF1&\pos(214,147)}欧里翁
+Comment: 1,0:08:08.56,0:08:08.85,screen,屏幕字,0,0,0,:beretag@key3,{\a1\fs50\fsp10\1aFE\4c&H672A22\shad1\blur2\pos(214,147)}欧里翁
+Comment: 0,0:08:08.56,0:08:08.85,screen,屏幕字,0,0,0,:beretag@key3,{\a1\fs50\fsp10\1aFE\4c&H95EDFB&\xshad-1\yshad-1\blur2\pos(214,147)}欧里翁
 Comment: 0,0:08:10.31,0:08:12.19,screen,*屏幕字,0,0,0,,王立魔法学院 ‧ 召唤魔兽的祭坛
-Dialogue: 0,0:08:10.81,0:08:13.31,screen,*屏幕字,0,0,0,,欧里翁 从魔: Lv.1
-Dialogue: 0,0:08:11.60,0:08:13.31,screen,*屏幕字,0,0,0,,宪三郎的心声
-Dialogue: 0,0:08:11.81,0:08:13.31,screen,屏幕字,0,0,0,,（欧里翁……？）
-Dialogue: 0,0:08:28.56,0:08:43.10,screen,*屏幕字,0,0,0,,宪三郎的心声
-Dialogue: 0,0:08:28.69,0:08:33.06,screen,屏幕字,0,0,0,,（恐龙型的魔兽会取这种名字就表示……）
-Dialogue: 0,0:08:33.06,0:08:36.69,screen,屏幕字,0,0,0,,（这款游戏的制作团队，\N也喜欢那部动画吗？）
-Dialogue: 0,0:08:38.31,0:08:43.10,screen,屏幕字,0,0,0,,（不过，就算不是那样，这个名字本身就很常见啊！）
-Dialogue: 0,0:09:20.90,0:09:29.52,screen,*屏幕字（右下闪烁）,0,0,0,,自动模式
-Dialogue: 0,0:09:20.90,0:09:29.52,screen,屏幕字,0,0,0,,不过，刚才那只是普通的火魔法吧。\N有办法施展水魔法吗？
-Dialogue: 0,0:09:29.52,0:09:35.77,screen,屏幕字,0,0,0,,欧里翁！\N接下来施展水魔法！准备好了吗？
+Comment: 0,0:08:10.81,0:08:13.31,screen,*屏幕字,0,0,0,,欧里翁 从魔: Lv.1
+Comment: 0,0:08:11.60,0:08:13.31,screen,,0,0,0,template#,!$keytext=[[Adobe After Effects 6.0 Keyframe Data\N\N	Units Per Second	23.976\N	Source Width	1920\N	Source Height	1080\N	Source Pixel Aspect Ratio	1\N	Comp Pixel Aspect Ratio	1\N\NPosition\N	Frame	X pixels	Y pixels	Z pixels\N	15	490.5	792.767	0\N	16	490.5	792.767	0\N	17	490.5	792.767	0\N	18	490.5	792.767	0\N	19	490.5	792.767	0\N	20	489.198	792.012	0\N	21	485.859	790.036	0\N	22	480.679	787.009	0\N	23	473.827	782.9	0\N	24	465.441	777.947	0\N	25	455.655	772.13	0\N	26	444.64	765.613	0\N	27	432.531	758.436	0\N	28	419.603	750.788	0\N	29	406.097	742.371	0\N	30	391.609	733.674	0\N	31	377.899	725.438	0\N	32	364.776	717.738	0\N	33	352.78	710.605	0\N	34	342.472	704.48	0\N	35	334.503	699.753	0\N	36	329.515	696.779	0\N	37	327.938	695.844	0\N	38	327.939	695.844	0\N	39	327.938	695.845	0\N	40	327.937	695.848	0\N	41	327.936	695.847	0\N	42	327.937	695.849	0\N	43	327.937	695.85	0\N	44	327.938	695.849	0\N	45	327.939	695.85	0\N	46	327.939	695.851	0\N	47	327.939	695.85	0\N	48	327.938	695.852	0\N	49	327.938	695.851	0\N	50	327.937	695.852	0\N	51	327.937	695.851	0\N	52	327.937	695.85	0\N	53	327.937	695.851	0\N	54	327.937	695.85	0\N	55	327.937	695.85	0\N\NScale\N	Frame	X percent	Y percent	Z percent\N	15	100	100	100\N	16	100	100	100\N	17	99.9999	99.9999	100\N	18	99.9997	99.9997	100\N	19	99.9997	99.9997	100\N	20	100.287	100.287	100\N	21	100.962	100.962	100\N	22	102.037	102.037	100\N	23	103.451	103.451	100\N	24	105.185	105.185	100\N	25	107.206	107.206	100\N	26	109.477	109.477	100\N	27	111.982	111.982	100\N	28	114.64	114.64	100\N	29	116.603	116.603	100\N	30	117.754	117.754	100\N	31	120.565	120.565	100\N	32	123.057	123.057	100\N	33	125.472	125.472	100\N	34	127.558	127.558	100\N	35	129.168	129.168	100\N	36	130.155	130.155	100\N	37	130.467	130.467	100\N	38	130.469	130.469	100\N	39	130.468	130.468	100\N	40	130.468	130.468	100\N	41	130.467	130.467	100\N	42	130.468	130.468	100\N	43	130.466	130.466	100\N	44	130.467	130.467	100\N	45	130.468	130.468	100\N	46	130.467	130.467	100\N	47	130.469	130.469	100\N	48	130.469	130.469	100\N	49	130.469	130.469	100\N	50	130.468	130.468	100\N	51	130.468	130.468	100\N	52	130.466	130.466	100\N	53	130.467	130.467	100\N	54	130.469	130.469	100\N	55	130.467	130.467	100\N\NRotation\N	Frame	Degrees\N	15	0\N	16	0\N	17	0\N	18	0\N	19	0\N	20	0\N	21	0\N	22	0\N	23	0\N	24	0\N	25	0\N	26	0\N	27	0\N	28	0\N	29	0\N	30	0\N	31	0\N	32	0\N	33	0\N	34	0\N	35	0\N	36	0\N	37	0\N	38	0\N	39	0\N	40	0\N	41	0\N	42	0\N	43	0\N	44	0\N	45	0\N	46	0\N	47	0\N	48	0\N	49	0\N	50	0\N	51	0\N	52	0\N	53	0\N	54	0\N	55	0\N\NEnd of Keyframe Data\N]]!
+Comment: 0,0:08:11.60,0:08:13.31,screen,,0,0,0,template@key4#keyframe;append,{\frz.*\org[^%)]*%)}{}
+Comment: 0,0:08:11.60,0:08:13.31,screen,,0,0,0,template@key4#,{\fscx([%d%.]+)}{\fscx!return $bere_match[1]!\bord!return 2 * tonumber($bere_match[1]) / 100!}
+Comment: 0,0:08:11.60,0:08:13.31,screen,*屏幕字,0,0,0,:beretag@key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(485,794)}宪三郎的心声
+Comment: 0,0:08:11.81,0:08:13.31,screen,,0,0,0,template#,!$keytext=[[Adobe After Effects 6.0 Keyframe Data\N\N	Units Per Second	23.976\N	Source Width	1920\N	Source Height	1080\N	Source Pixel Aspect Ratio	1\N	Comp Pixel Aspect Ratio	1\N\NPosition\N	Frame	X pixels	Y pixels	Z pixels\N	20	376.262	970.032	0\N	21	372.118	969.308	0\N	22	365.773	968.138	0\N	23	357.285	966.572	0\N	24	346.938	964.671	0\N	25	334.844	962.486	0\N	26	321.249	960.013	0\N	27	306.349	957.284	0\N	28	290.378	954.354	0\N	29	273.716	951.315	0\N	30	256.644	948.232	0\N	31	239.795	945.112	0\N	32	223.649	942.157	0\N	33	208.865	939.44	0\N	34	196.201	937.117	0\N	35	186.328	935.319	0\N	36	180.227	934.235	0\N	37	178.28	933.835	0\N	38	178.285	933.833	0\N	39	178.293	933.824	0\N	40	178.279	933.837	0\N	41	178.281	933.834	0\N	42	178.283	933.832	0\N	43	178.28	933.837	0\N	44	178.276	933.835	0\N	45	178.276	933.839	0\N	46	178.284	933.833	0\N	47	178.271	933.844	0\N	48	178.279	933.837	0\N	49	178.271	933.845	0\N	50	178.278	933.84	0\N	51	178.279	933.839	0\N	52	178.279	933.84	0\N	53	178.278	933.84	0\N	54	178.276	933.842	0\N	55	178.275	933.842	0\N\NScale\N	Frame	X percent	Y percent	Z percent\N	20	100	100	100\N	21	100.696	100.696	100\N	22	101.718	101.718	100\N	23	103.174	103.174	100\N	24	104.895	104.895	100\N	25	106.918	106.918	100\N	26	109.184	109.184	100\N	27	111.675	111.675	100\N	28	114.342	114.342	100\N	29	117.111	117.111	100\N	30	119.976	119.976	100\N	31	122.779	122.779	100\N	32	125.474	125.474	100\N	33	127.936	127.936	100\N	34	130.04	130.04	100\N	35	131.715	131.715	100\N	36	132.699	132.699	100\N	37	133.02	133.02	100\N	38	133.01	133.01	100\N	39	132.996	132.996	100\N	40	133.013	133.013	100\N	41	133.008	133.008	100\N	42	133.004	133.004	100\N	43	133.009	133.009	100\N	44	133.013	133.013	100\N	45	133.015	133.015	100\N	46	133.003	133.003	100\N	47	133.022	133.022	100\N	48	133.01	133.01	100\N	49	133.025	133.025	100\N	50	133.015	133.015	100\N	51	133.013	133.013	100\N	52	133.013	133.013	100\N	53	133.014	133.014	100\N	54	133.017	133.017	100\N	55	133.017	133.017	100\N\NRotation\N	Frame	Degrees\N	20	0\N	21	0\N	22	2.14343e-14\N	23	0\N	24	-2.07849e-14\N	25	0\N	26	0\N	27	0\N	28	0\N	29	0\N	30	-9.08615e-15\N	31	-8.8787e-15\N	32	-8.68802e-15\N	33	0\N	34	1.6766e-14\N	35	1.65527e-14\N	36	1.643e-14\N	37	8.19515e-15\N	38	1.63916e-14\N	39	0\N	40	1.63911e-14\N	41	0\N	42	1.63924e-14\N	43	8.19586e-15\N	44	1.63912e-14\N	45	8.19549e-15\N	46	8.19623e-15\N	47	0\N	48	0\N	49	0\N	50	8.19548e-15\N	51	1.63912e-14\N	52	8.19559e-15\N	53	1.63911e-14\N	54	8.19537e-15\N	55	1.63907e-14\N\NEnd of Keyframe Data\N]]!
+Comment: 0,0:08:11.81,0:08:13.31,screen,,0,0,0,template@key5#keyframe;append,{\frz.*\org[^%)]*%)}{}
+Comment: 0,0:08:11.81,0:08:13.31,screen,,0,0,0,template@key5#,{\fscx([%d%.]+)}{\fscx!return $bere_match[1]!\bord!return 3 * tonumber($bere_match[1]) / 100!}
+Comment: 0,0:08:11.81,0:08:13.31,screen,屏幕字,0,0,0,:beretag@key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(376.67,971)}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:28.56,0:08:43.10,screen,*屏幕字,0,0,0,,{\fs28\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\bord2.6\pos(358,710)}宪三郎的心声
+Dialogue: 0,0:08:28.69,0:08:33.06,screen,屏幕字,0,0,0,,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\bord3\blur2\pos(214,932)}(恐龙型的魔兽会取这种名字就表示{\fsp0}…{\fsp3}…)
+Dialogue: 0,0:08:33.06,0:08:38.31,screen,屏幕字,0,0,0,,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\bord3\blur2\pos(178,1040)}　(这款游戏的制作团队，\N　 也喜欢那部动画{\fsp8}吗?)
+Dialogue: 0,0:08:38.31,0:08:43.10,screen,屏幕字,0,0,0,,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\bord3\blur2\pos(214,932)}(不过，就算不是那样，这个名字本身就很常见{\fsp8}啊!)
+Comment: 0,0:09:20.90,0:09:29.52,screen,*屏幕字（右下闪烁）,0,0,0,,自动模式
+Dialogue: 0,0:09:20.90,0:09:20.98,screen,屏幕字,0,0,0,,{\alphaAA\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\bord2\blur2\pos(424,998)\clip(m 369.78 984 l 431.03 805.53 436.32 926.78 444.91 1030.09)}不过，刚才那只是普通的火魔法吧。{\fs220}\N\N{\fs44}有办法施展水魔法吗?
+Dialogue: 1,0:09:20.90,0:09:20.98,screen,屏幕字,0,0,0,,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\bord2\blur2\pos(424,998)\clip(m 371.78 989.71 l 429.6 813.82 429.18 925.64 438.62 1033.8)}不过，刚才那只是普通的火魔法吧。{\fs220}\N\N{\fs44}有办法施展水魔法吗?
+Dialogue: 0,0:09:21.10,0:09:21.23,screen,屏幕字,0,0,0,,{\alphaAA\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\bord2\blur2\pos(424,998)\clip(m 925.27 773.4 l 972.83 1050.01 1200.76 979.73 1254.86 776)}不过，刚才那只是普通的火魔法吧。{\fs220}\N\N{\fs44}有办法施展水魔法吗?
+Dialogue: 1,0:09:21.10,0:09:21.23,screen,屏幕字,0,0,0,,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\bord2\blur2\pos(424,998)\clip(m 936.27 790.4 l 944.47 851.8 1213.33 819.73)}不过，刚才那只是普通的火魔法吧。{\fs220}\N\N{\fs44}有办法施展水魔法吗?
+Dialogue: 0,0:09:21.23,0:09:21.31,screen,屏幕字,0,0,0,,{\alphaAA\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\bord2\blur2\pos(424,998)\clip(m 678.9 779.86 l 700.69 940.14 688.28 947.31 693.52 1017.38 1112.28 1004.14 1131.03 793.1)}不过，刚才那只是普通的火魔法吧。{\fs220}\N\N{\fs44}有办法施展水魔法吗?
+Dialogue: 1,0:09:21.23,0:09:21.31,screen,屏幕字,0,0,0,,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\bord2\blur2\pos(424,998)\clip(m 688.68 776.75 l 706.91 902.36 706.06 936.2 701.08 948.05 692.28 953.92 695.92 1026.43 1184.89 980.89 1185.78 732.44)}不过，刚才那只是普通的火魔法吧。{\fs220}\N\N{\fs44}有办法施展水魔法吗?
+Dialogue: 0,0:09:21.31,0:09:21.40,screen,屏幕字,0,0,0,,{\alphaAA\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\bord2\blur2\pos(424,998)\clip(m 426.35 785.41 l 446.12 948.24 434.82 953.41 438.59 1031.06 1192.47 1017.88 1166.12 764.24)}不过，刚才那只是普通的火魔法吧。{\fs220}\N\N{\fs44}有办法施展水魔法吗?
+Dialogue: 1,0:09:21.31,0:09:21.40,screen,屏幕字,0,0,0,,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\bord2\blur2\pos(424,998)\clip(m 437.3 783.3 l 455.8 951.61 440.29 958.04 445.33 1031.06 1192.47 1017.88 1166.12 764.24)}不过，刚才那只是普通的火魔法吧。{\fs220}\N\N{\fs44}有办法施展水魔法吗?
+Dialogue: 0,0:09:21.40,0:09:29.52,screen,屏幕字,0,0,0,,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\bord2\blur2\pos(424,998)}不过，刚才那只是普通的火魔法吧。{\fs220}\N\N{\fs44}有办法施展水魔法吗?
+Comment: 0,0:09:29.52,0:09:35.77,screen,屏幕字,0,0,0,template#,
+Comment: 0,0:09:29.52,0:09:35.77,screen,屏幕字,0,0,0,template@key6#keyframe;append,{\frz.*\org[^%)]*%)}{}
+Dialogue: 0,0:09:29.52,0:09:35.77,screen,屏幕字,0,0,0,beretag@key6,欧里翁！\N接下来施展水魔法！准备好了吗？
 Dialogue: 0,0:09:35.77,0:09:39.02,screen,屏幕字,0,0,0,,欧……欧里翁！你有在听吗？
-Dialogue: 0,0:09:50.40,0:09:58.94,screen,*屏幕字,0,0,0,,对话纪录
+Comment: 0,0:09:50.40,0:09:58.94,screen,*屏幕字,0,0,0,,对话纪录
 Dialogue: 0,0:09:56.94,0:09:58.94,screen,屏幕字,0,0,0,,日记\N魔兽\N设定\N返回游戏
 Dialogue: 0,0:10:00.90,0:10:02.40,screen,*屏幕字（中间最上）,0,0,0,,欧里翁
 Dialogue: 0,0:10:00.90,0:10:02.40,screen,屏幕字（中间长段）,0,0,0,,古代龙<万古巨龙>型的魔兽。\N主人是格蕾丝 = 宪三郎。\N本身已经是传说级的稀有魔兽，\N同时还是合成了两种魔力诞生出的\N同时拥有「火」「水」两种属性的未知魔兽。\N能随时变换属性，根据情况使用不同的魔法。
@@ -291,7 +307,7 @@ Comment: 0,0:08:20.40,0:08:22.43,zh,,0,0,0,:beretag@dialog,爸爸当然也有陪
 Comment: 0,0:08:22.81,0:08:23.88,zh,,0,0,0,:beretag@dialog,爸爸看到了|お父さんなら
 Comment: 0,0:08:23.88,0:08:27.61,zh,,0,0,0,:beretag@dialog,说不定会注意到取这个名字的人是我|この名前を付けたのは 私だってことに気付いてくれるかも
 Comment: 0,0:08:36.78,0:08:37.56,zh,,0,0,0,:beretag@dialog,可惜|惜しい
-Comment: 0,0:08:41.61,0:08:43.10,zh,,0,0,0,:beretag@dialog,是这样没错啦|そうだけども
+Comment: 0,0:08:41.54,0:08:43.10,zh,,0,0,0,:beretag@dialog,是这样没错啦|そうだけども
 Comment: 0,0:08:44.72,0:08:45.82,zh,,0,0,0,:beretag@dialog,原来如此|なるほど
 Comment: 0,0:08:45.82,0:08:47.40,zh,,0,0,0,:beretag@dialog,会这样想也是正常的|そりゃそうだよね
 Comment: 0,0:08:47.40,0:08:50.63,zh,,0,0,0,:beretag@dialog,毕竟诞生出前所未有的魔兽了|前代未聞のビーストが 生まれちゃったんだから
@@ -1450,6 +1466,104 @@ Dialogue: 0,0:03:37.44,0:03:37.48,screen,屏幕字,0,0,0,beretag!key2,{\fs108\fn
 Dialogue: 0,0:03:37.48,0:03:37.52,screen,屏幕字,0,0,0,beretag!key2,{\fs108\fn方正中粗雅宋_GBK\c&HC8609E&\3c&HFFFFFF&\bord12\pos(1007.99,-0.8)\b1}是否要转换属性？
 Dialogue: 0,0:03:37.52,0:03:37.57,screen,屏幕字,0,0,0,beretag!key2,{\fs108\fn方正中粗雅宋_GBK\c&HC8609E&\3c&HFFFFFF&\bord12\pos(1008.01,-9.28)\b1}是否要转换属性？
 Dialogue: 0,0:03:37.57,0:03:37.61,screen,屏幕字,0,0,0,beretag!key2,{\fs108\fn方正中粗雅宋_GBK\c&HC8609E&\3c&HFFFFFF&\bord12\pos(1008.04,-17.76)\b1}是否要转换属性？
+Dialogue: 2,0:08:08.56,0:08:08.60,screen,屏幕字,0,0,0,beretag!key3,{\a1\fs50\fsp10\c&HF5EFF1&\pos(214,147)\fscx100\fscy100}欧里翁
+Dialogue: 2,0:08:08.60,0:08:08.64,screen,屏幕字,0,0,0,beretag!key3,{\a1\fs50\fsp10\c&HF5EFF1&\pos(204.76,141.87)\fscx100.47\fscy100.47}欧里翁
+Dialogue: 2,0:08:08.64,0:08:08.69,screen,屏幕字,0,0,0,beretag!key3,{\a1\fs50\fsp10\c&HF5EFF1&\pos(182.7,129.01)\fscx101.11\fscy101.11}欧里翁
+Dialogue: 2,0:08:08.69,0:08:08.73,screen,屏幕字,0,0,0,beretag!key3,{\a1\fs50\fsp10\c&HF5EFF1&\pos(145.97,108.6)\fscx102.91\fscy102.91}欧里翁
+Dialogue: 2,0:08:08.73,0:08:08.77,screen,屏幕字,0,0,0,beretag!key3,{\a1\fs50\fsp10\c&HF5EFF1&\pos(101.77,81.68)\fscx102.83\fscy102.83}欧里翁
+Dialogue: 2,0:08:08.77,0:08:08.81,screen,屏幕字,0,0,0,beretag!key3,{\a1\fs50\fsp10\c&HF5EFF1&\pos(39.98,46.9)\fscx105.26\fscy105.26}欧里翁
+Dialogue: 2,0:08:08.81,0:08:08.85,screen,屏幕字,0,0,0,beretag!key3,{\a1\fs50\fsp10\c&HF5EFF1&\pos(-37.82,4.43)\fscx109.48\fscy109.48}欧里翁
+Dialogue: 1,0:08:08.56,0:08:08.60,screen,屏幕字,0,0,0,beretag!key3,{\a1\fs50\fsp10\1aFE\4c&H672A22\shad1\blur2\pos(214,147)\fscx100\fscy100}欧里翁
+Dialogue: 1,0:08:08.60,0:08:08.64,screen,屏幕字,0,0,0,beretag!key3,{\a1\fs50\fsp10\1aFE\4c&H672A22\shad1\blur2\pos(204.76,141.87)\fscx100.47\fscy100.47}欧里翁
+Dialogue: 1,0:08:08.64,0:08:08.69,screen,屏幕字,0,0,0,beretag!key3,{\a1\fs50\fsp10\1aFE\4c&H672A22\shad1\blur2\pos(182.7,129.01)\fscx101.11\fscy101.11}欧里翁
+Dialogue: 1,0:08:08.69,0:08:08.73,screen,屏幕字,0,0,0,beretag!key3,{\a1\fs50\fsp10\1aFE\4c&H672A22\shad1\blur2\pos(145.97,108.6)\fscx102.91\fscy102.91}欧里翁
+Dialogue: 1,0:08:08.73,0:08:08.77,screen,屏幕字,0,0,0,beretag!key3,{\a1\fs50\fsp10\1aFE\4c&H672A22\shad1\blur2\pos(101.77,81.68)\fscx102.83\fscy102.83}欧里翁
+Dialogue: 1,0:08:08.77,0:08:08.81,screen,屏幕字,0,0,0,beretag!key3,{\a1\fs50\fsp10\1aFE\4c&H672A22\shad1\blur2\pos(39.98,46.9)\fscx105.26\fscy105.26}欧里翁
+Dialogue: 1,0:08:08.81,0:08:08.85,screen,屏幕字,0,0,0,beretag!key3,{\a1\fs50\fsp10\1aFE\4c&H672A22\shad1\blur2\pos(-37.82,4.43)\fscx109.48\fscy109.48}欧里翁
+Dialogue: 0,0:08:08.56,0:08:08.60,screen,屏幕字,0,0,0,beretag!key3,{\a1\fs50\fsp10\1aFE\4c&H95EDFB&\xshad-1\yshad-1\blur2\pos(214,147)\fscx100\fscy100}欧里翁
+Dialogue: 0,0:08:08.60,0:08:08.64,screen,屏幕字,0,0,0,beretag!key3,{\a1\fs50\fsp10\1aFE\4c&H95EDFB&\xshad-1\yshad-1\blur2\pos(204.76,141.87)\fscx100.47\fscy100.47}欧里翁
+Dialogue: 0,0:08:08.64,0:08:08.69,screen,屏幕字,0,0,0,beretag!key3,{\a1\fs50\fsp10\1aFE\4c&H95EDFB&\xshad-1\yshad-1\blur2\pos(182.7,129.01)\fscx101.11\fscy101.11}欧里翁
+Dialogue: 0,0:08:08.69,0:08:08.73,screen,屏幕字,0,0,0,beretag!key3,{\a1\fs50\fsp10\1aFE\4c&H95EDFB&\xshad-1\yshad-1\blur2\pos(145.97,108.6)\fscx102.91\fscy102.91}欧里翁
+Dialogue: 0,0:08:08.73,0:08:08.77,screen,屏幕字,0,0,0,beretag!key3,{\a1\fs50\fsp10\1aFE\4c&H95EDFB&\xshad-1\yshad-1\blur2\pos(101.77,81.68)\fscx102.83\fscy102.83}欧里翁
+Dialogue: 0,0:08:08.77,0:08:08.81,screen,屏幕字,0,0,0,beretag!key3,{\a1\fs50\fsp10\1aFE\4c&H95EDFB&\xshad-1\yshad-1\blur2\pos(39.98,46.9)\fscx105.26\fscy105.26}欧里翁
+Dialogue: 0,0:08:08.81,0:08:08.85,screen,屏幕字,0,0,0,beretag!key3,{\a1\fs50\fsp10\1aFE\4c&H95EDFB&\xshad-1\yshad-1\blur2\pos(-37.82,4.43)\fscx109.48\fscy109.48}欧里翁
+Dialogue: 0,0:08:11.60,0:08:11.64,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(485,794)\fscx100\bord2\fscy100}宪三郎的心声
+Dialogue: 0,0:08:11.64,0:08:11.68,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(485,794)\fscx100\bord2\fscy100}宪三郎的心声
+Dialogue: 0,0:08:11.68,0:08:11.73,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(485,794)\fscx100\bord2\fscy100}宪三郎的心声
+Dialogue: 0,0:08:11.73,0:08:11.77,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(485,794)\fscx100\bord2\fscy100}宪三郎的心声
+Dialogue: 0,0:08:11.77,0:08:11.81,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(485,794)\fscx100\bord2\fscy100}宪三郎的心声
+Dialogue: 0,0:08:11.81,0:08:11.85,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(483.7,793.24)\fscx100.29\bord2.0058\fscy100.29}宪三郎的心声
+Dialogue: 0,0:08:11.85,0:08:11.89,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(480.36,791.27)\fscx100.96\bord2.0192\fscy100.96}宪三郎的心声
+Dialogue: 0,0:08:11.89,0:08:11.93,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(475.18,788.24)\fscx102.04\bord2.0408\fscy102.04}宪三郎的心声
+Dialogue: 0,0:08:11.93,0:08:11.98,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(468.33,784.13)\fscx103.45\bord2.069\fscy103.45}宪三郎的心声
+Dialogue: 0,0:08:11.98,0:08:12.02,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(459.94,779.18)\fscx105.19\bord2.1038\fscy105.19}宪三郎的心声
+Dialogue: 0,0:08:12.02,0:08:12.06,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(450.16,773.36)\fscx107.21\bord2.1442\fscy107.21}宪三郎的心声
+Dialogue: 0,0:08:12.06,0:08:12.10,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(439.14,766.85)\fscx109.48\bord2.1896\fscy109.48}宪三郎的心声
+Dialogue: 0,0:08:12.10,0:08:12.14,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(427.03,759.67)\fscx111.98\bord2.2396\fscy111.98}宪三郎的心声
+Dialogue: 0,0:08:12.14,0:08:12.18,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(414.1,752.02)\fscx114.64\bord2.2928\fscy114.64}宪三郎的心声
+Dialogue: 0,0:08:12.18,0:08:12.23,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(400.6,743.6)\fscx116.6\bord2.332\fscy116.6}宪三郎的心声
+Dialogue: 0,0:08:12.23,0:08:12.27,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(386.11,734.91)\fscx117.75\bord2.355\fscy117.75}宪三郎的心声
+Dialogue: 0,0:08:12.27,0:08:12.31,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(372.4,726.67)\fscx120.56\bord2.4112\fscy120.56}宪三郎的心声
+Dialogue: 0,0:08:12.31,0:08:12.35,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(359.28,718.97)\fscx123.06\bord2.4612\fscy123.06}宪三郎的心声
+Dialogue: 0,0:08:12.35,0:08:12.39,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(347.28,711.84)\fscx125.47\bord2.5094\fscy125.47}宪三郎的心声
+Dialogue: 0,0:08:12.39,0:08:12.43,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(336.97,705.71)\fscx127.56\bord2.5512\fscy127.56}宪三郎的心声
+Dialogue: 0,0:08:12.43,0:08:12.48,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(329,700.99)\fscx129.17\bord2.5834\fscy129.17}宪三郎的心声
+Dialogue: 0,0:08:12.48,0:08:12.52,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(324.02,698.01)\fscx130.16\bord2.6032\fscy130.16}宪三郎的心声
+Dialogue: 0,0:08:12.52,0:08:12.56,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(322.44,697.08)\fscx130.47\bord2.6094\fscy130.47}宪三郎的心声
+Dialogue: 0,0:08:12.56,0:08:12.60,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(322.44,697.08)\fscx130.47\bord2.6094\fscy130.47}宪三郎的心声
+Dialogue: 0,0:08:12.60,0:08:12.64,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(322.44,697.08)\fscx130.47\bord2.6094\fscy130.47}宪三郎的心声
+Dialogue: 0,0:08:12.64,0:08:12.68,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(322.44,697.08)\fscx130.47\bord2.6094\fscy130.47}宪三郎的心声
+Dialogue: 0,0:08:12.68,0:08:12.73,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(322.44,697.08)\fscx130.47\bord2.6094\fscy130.47}宪三郎的心声
+Dialogue: 0,0:08:12.73,0:08:12.77,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(322.44,697.08)\fscx130.47\bord2.6094\fscy130.47}宪三郎的心声
+Dialogue: 0,0:08:12.77,0:08:12.81,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(322.44,697.08)\fscx130.47\bord2.6094\fscy130.47}宪三郎的心声
+Dialogue: 0,0:08:12.81,0:08:12.85,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(322.44,697.08)\fscx130.47\bord2.6094\fscy130.47}宪三郎的心声
+Dialogue: 0,0:08:12.85,0:08:12.89,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(322.44,697.08)\fscx130.47\bord2.6094\fscy130.47}宪三郎的心声
+Dialogue: 0,0:08:12.89,0:08:12.93,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(322.44,697.08)\fscx130.47\bord2.6094\fscy130.47}宪三郎的心声
+Dialogue: 0,0:08:12.93,0:08:12.98,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(322.44,697.08)\fscx130.47\bord2.6094\fscy130.47}宪三郎的心声
+Dialogue: 0,0:08:12.98,0:08:13.02,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(322.44,697.08)\fscx130.47\bord2.6094\fscy130.47}宪三郎的心声
+Dialogue: 0,0:08:13.02,0:08:13.06,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(322.44,697.08)\fscx130.47\bord2.6094\fscy130.47}宪三郎的心声
+Dialogue: 0,0:08:13.06,0:08:13.10,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(322.44,697.08)\fscx130.47\bord2.6094\fscy130.47}宪三郎的心声
+Dialogue: 0,0:08:13.10,0:08:13.14,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(322.44,697.08)\fscx130.47\bord2.6094\fscy130.47}宪三郎的心声
+Dialogue: 0,0:08:13.14,0:08:13.18,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(322.44,697.08)\fscx130.47\bord2.6094\fscy130.47}宪三郎的心声
+Dialogue: 0,0:08:13.18,0:08:13.23,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(322.44,697.08)\fscx130.47\bord2.6094\fscy130.47}宪三郎的心声
+Dialogue: 0,0:08:13.23,0:08:13.27,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(322.44,697.08)\fscx130.47\bord2.6094\fscy130.47}宪三郎的心声
+Dialogue: 0,0:08:13.27,0:08:13.31,screen,*屏幕字,0,0,0,beretag!key4,{\fs24\fn方正中粗雅宋_GBK\c&HC25E9E&\3c&HFFFFFF&\pos(322.44,697.08)\fscx130.47\bord2.6094\fscy130.47}宪三郎的心声
+Dialogue: 0,0:08:11.81,0:08:11.85,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(376.67,971)\fscx100\bord3\fscy100}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:11.85,0:08:11.89,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(372.53,970.28)\fscx100.7\bord3.021\fscy100.7}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:11.89,0:08:11.94,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(366.18,969.11)\fscx101.72\bord3.0516\fscy101.72}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:11.94,0:08:11.98,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(357.69,967.54)\fscx103.17\bord3.0951\fscy103.17}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:11.98,0:08:12.02,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(347.35,965.64)\fscx104.9\bord3.147\fscy104.9}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.02,0:08:12.06,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(335.25,963.45)\fscx106.92\bord3.2076\fscy106.92}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.06,0:08:12.10,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(321.66,960.98)\fscx109.18\bord3.2754\fscy109.18}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.10,0:08:12.14,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(306.76,958.25)\fscx111.68\bord3.3504\fscy111.68}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.14,0:08:12.19,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(290.79,955.32)\fscx114.34\bord3.4302\fscy114.34}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.19,0:08:12.23,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(274.12,952.28)\fscx117.11\bord3.5133\fscy117.11}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.23,0:08:12.27,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(257.05,949.2)\fscx119.98\bord3.5994\fscy119.98}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.27,0:08:12.31,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(240.2,946.08)\fscx122.78\bord3.6834\fscy122.78}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.31,0:08:12.35,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(224.06,943.13)\fscx125.47\bord3.7641\fscy125.47}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.35,0:08:12.39,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(209.27,940.41)\fscx127.94\bord3.8382\fscy127.94}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.39,0:08:12.44,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(196.61,938.08)\fscx130.04\bord3.9012\fscy130.04}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.44,0:08:12.48,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(186.74,936.29)\fscx131.72\bord3.9516\fscy131.72}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.48,0:08:12.52,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(180.64,935.2)\fscx132.7\bord3.981\fscy132.7}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.52,0:08:12.56,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(178.69,934.8)\fscx133.02\bord3.9906\fscy133.02}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.56,0:08:12.60,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(178.69,934.8)\fscx133.01\bord3.9903\fscy133.01}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.60,0:08:12.64,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(178.7,934.79)\fscx133\bord3.99\fscy133}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.64,0:08:12.69,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(178.69,934.81)\fscx133.01\bord3.9903\fscy133.01}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.69,0:08:12.73,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(178.69,934.8)\fscx133.01\bord3.9903\fscy133.01}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.73,0:08:12.77,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(178.69,934.8)\fscx133\bord3.99\fscy133}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.77,0:08:12.81,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(178.69,934.81)\fscx133.01\bord3.9903\fscy133.01}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.81,0:08:12.85,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(178.68,934.8)\fscx133.01\bord3.9903\fscy133.01}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.85,0:08:12.89,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(178.68,934.81)\fscx133.01\bord3.9903\fscy133.01}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.89,0:08:12.94,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(178.69,934.8)\fscx133\bord3.99\fscy133}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.94,0:08:12.98,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(178.68,934.81)\fscx133.02\bord3.9906\fscy133.02}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:12.98,0:08:13.02,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(178.69,934.81)\fscx133.01\bord3.9903\fscy133.01}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:13.02,0:08:13.06,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(178.68,934.81)\fscx133.03\bord3.9909\fscy133.03}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:13.06,0:08:13.10,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(178.69,934.81)\fscx133.01\bord3.9903\fscy133.01}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:13.10,0:08:13.14,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(178.69,934.81)\fscx133.01\bord3.9903\fscy133.01}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:13.14,0:08:13.19,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(178.69,934.81)\fscx133.01\bord3.9903\fscy133.01}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:13.19,0:08:13.23,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(178.69,934.81)\fscx133.01\bord3.9903\fscy133.01}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:13.23,0:08:13.27,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(178.68,934.81)\fscx133.02\bord3.9906\fscy133.02}(欧里翁{\fsp0}…{\fsp8}…?)
+Dialogue: 0,0:08:13.27,0:08:13.31,screen,屏幕字,0,0,0,beretag!key5,{\a1\fs44\fsp3\fn方正中粗雅宋_GBK\c&H8B1C62&\3c&HFFFFFF&\blur2\pos(178.68,934.81)\fscx133.02\bord3.9906\fscy133.02}(欧里翁{\fsp0}…{\fsp8}…?)
 Dialogue: 0,0:00:10.71,0:00:12.23,zh,,0,0,0,beretag!dialog,原来如此
 Dialogue: 1,0:00:10.71,0:00:12.23,ja,,0,0,0,beretag!dialog,なるほど
 Dialogue: 0,0:00:12.85,0:00:17.54,zh,,0,0,0,beretag!dialog,古代龙这种族我也曾见过几次
@@ -1688,8 +1802,8 @@ Dialogue: 0,0:08:23.88,0:08:27.61,zh,,0,0,0,beretag!dialog,说不定会注意到
 Dialogue: 1,0:08:23.88,0:08:27.61,ja,,0,0,0,beretag!dialog,この名前を付けたのは 私だってことに気付いてくれるかも
 Dialogue: 0,0:08:36.78,0:08:37.56,zh,,0,0,0,beretag!dialog,可惜
 Dialogue: 1,0:08:36.78,0:08:37.56,ja,,0,0,0,beretag!dialog,惜しい
-Dialogue: 0,0:08:41.61,0:08:43.10,zh,,0,0,0,beretag!dialog,是这样没错啦
-Dialogue: 1,0:08:41.61,0:08:43.10,ja,,0,0,0,beretag!dialog,そうだけども
+Dialogue: 0,0:08:41.54,0:08:43.10,zh,,0,0,0,beretag!dialog,是这样没错啦
+Dialogue: 1,0:08:41.54,0:08:43.10,ja,,0,0,0,beretag!dialog,そうだけども
 Dialogue: 0,0:08:44.72,0:08:45.82,zh,,0,0,0,beretag!dialog,原来如此
 Dialogue: 1,0:08:44.72,0:08:45.82,ja,,0,0,0,beretag!dialog,なるほど
 Dialogue: 0,0:08:45.82,0:08:47.40,zh,,0,0,0,beretag!dialog,会这样想也是正常的
