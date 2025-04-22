@@ -12,26 +12,24 @@ LayoutResY: 1080
 WrapStyle: 0
 
 [Aegisub Project Garbage]
-Last Style Storage: Default
+Last Style Storage: Dr stone
 Audio File: 05.va.mkv
 Video File: 05.va.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 192
-Active Line: 196
 Video Position: 11515
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: staff,方正兰亭圆_GBK_中,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,2,0,1,1.2,0,8,0,0,3,1
+Style: screen,方正兰亭中粗黑_GBK,55,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0,0,0,1
 Style: zh,方正兰亭圆_GBK_中,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,2,0,0,45,1
 Style: zh-top,方正兰亭圆_GBK_中,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,8,0,0,45,1
-Style: screen,方正兰亭中粗黑_GBK,55,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0,0,0,1
 Style: OP-zh,方正兰亭圆_GBK_中,48,&H00FFFFFF,&H00FFFFFF,&H35353535,&H00FFFFFF,0,0,0,0,100,100,2,0,1,2,0,3,25,25,25,1
 Style: OP-ja,FTT-Humming B,38,&H00FFFFFF,&H00FFFFFF,&H35353535,&H00FFFFFF,0,0,0,0,100,100,2,0,1,2,0,7,25,25,25,1
 Style: ED-zh,方正兰亭圆_GBK_中,48,&H00FFFFFF,&H00FFFFFF,&H35353535,&H00FFFFFF,0,0,0,0,100,100,2,0,1,2,0,3,25,25,25,1
 Style: ED-ja,FTT-Humming B,38,&H00FFFFFF,&H00FFFFFF,&H35353535,&H00FFFFFF,0,0,0,0,100,100,2,0,1,2,0,7,25,25,25,1
-Style: staff,方正兰亭圆_GBK_中,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,2,0,1,1.2,0,8,0,0,3,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
