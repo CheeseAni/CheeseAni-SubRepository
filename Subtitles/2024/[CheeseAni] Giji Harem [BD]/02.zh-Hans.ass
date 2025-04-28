@@ -11,20 +11,22 @@ LayoutResX: 1920
 LayoutResY: 1080
 
 [Aegisub Project Garbage]
-Last Style Storage: Default
+Last Style Storage: GijiHarem
 Audio File: 02.mkv
 Video File: 02.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.750000
-Video Position: 32770
+Scroll Position: 21
+Active Line: 27
+Video Position: 26358
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: staff,方正兰亭圆_GBK_中,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,2,0,1,1.2,0,8,0,0,3,1
+Style: zh,方正兰亭圆_GBK_中,64,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,1.5,0,1,2.5,0,2,0,0,60,1
+Style: jp,FTT-Humming B,32,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,2,0,2,0,0,15,1
 Style: screen,方正隶变_GBK,88,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
-Style: zh,方正兰亭圆_GBK_中,64,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,2,0,0,60,1
-Style: jp,FTT-Humming B,32,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0,0,15,1
 Style: OP-zh,方正隶变_GBK,48,&H000C0C0C,&H00FFFFFF,&H00FFFFFF,&HBC000000,0,0,0,0,100,110,3,0,1,3,0,2,0,0,18,1
 Style: OP-ja,FOT-NewCinemaA Std D,48,&H000C0C0C,&H00FFFFFF,&H00FFFFFF,&HBC000000,0,0,0,0,100,100,8,0,1,3,0,8,0,0,16,1
 Style: ED-zh,方正隶变_GBK,48,&H009262F8,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,110,1,0,1,3,0,2,0,0,12,1
@@ -32,7 +34,7 @@ Style: ED-ja,FOT-NewCinemaA Std D,48,&H009262F8,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,staff,,0,0,0,template#,!$checkVer("2.5.3") $forcefps=23.976!
+Comment: 0,0:00:00.00,0:00:00.00,staff,,0,0,0,template#,!$checkVer("2.5.4") $forcefps=23.976!
 Comment: 0,0:01:29.99,0:01:33.99,staff,,0,0,0,template@staff#uninsert;onlyfind,!$staff=$this!
 Comment: 0,0:01:29.99,0:01:33.99,staff,,0,0,0,template#code;recache;append,!$tilt=300 $gap=240 $step=10 $exp_stime=800 $exp_etime=600 local f2ms,ms2f=aegisub.ms_from_frame,aegisub.frame_from_ms local floor,line,x=math.floor,$deepCopy($staff),{} for i=-$gap,2000,$gap/2 do table.insert(x,i) end local f,f_end,pos,exp=ms2f(line.start_time),ms2f(line.start_time+$exp_stime),0,0 while f<f_end do local new=$deepCopy(line) new.start_time=f2ms(f) f=f+1 new.end_time=f2ms(f) local L=floor(x[1]+pos-$tilt-exp).." 1080 "..floor(x[1]+pos-$tilt+exp).." 1080 "..floor(x[1]+pos+exp).." 0" for i=2,#x do L=L.." "..floor(x[i]+pos-exp).." 0 "..floor(x[i]+pos-$tilt-exp).." 1080 "..floor(x[i]+pos-$tilt+exp).." 1080 "..floor(x[i]+pos+exp).." 0" end new.text=[[{\clip(m ]]..x[1]+pos-exp.." 0 l "..L..[[)}]]..new.text $addLine(new) pos=pos+$step exp=exp+$gap*10/$exp_stime end local new=$deepCopy(line) new.start_time=f2ms(f) local f,f_end,pos,exp=ms2f(line.end_time-$exp_etime),ms2f(line.end_time),0,0 new.end_time=f2ms(f) $addLine(new) while f<f_end do local new=$deepCopy(line) new.start_time=f2ms(f) f=f+1 new.end_time=f2ms(f) local L=floor(x[1]+pos-$tilt-exp).." 1080 "..floor(x[1]+pos-$tilt+exp).." 1080 "..floor(x[1]+pos+exp).." 0" for i=2,#x do L=L.." "..floor(x[i]+pos-exp).." 0 "..floor(x[i]+pos-$tilt-exp).." 1080 "..floor(x[i]+pos-$tilt+exp).." 1080 "..floor(x[i]+pos+exp).." 0" end new.text=[[{\iclip(m ]]..x[1]+pos-exp.." 0 l "..L..[[)}]]..new.text $addLine(new) pos=pos+$step exp=exp+$gap*10/$exp_etime end!
 Comment: 0,0:01:29.99,0:01:33.99,staff,staff,0,0,0,:beretag@staff,本字幕由 {\c&H26D0FF&\3c&HFFFFF2&\bord3}Cheese{\c&HBCB9BA&}Ani{\c\3c\bord} 制作\N{\fs24\bord0.8}转载请遵守本组字幕使用许可  主页: github.com/CheeseAni\N{\fs27\fsp0\bord1}原字幕: 官译(Bili)  后期: op200、ziyii\N{\fs40\c&H0000FF&\alphaFF}\{\alphaAA}如果你能看到这行红色文字，说明你使用的字幕filter不是新版libass，这可能会导致某些位置出现渲染问题
@@ -887,41 +889,41 @@ Dialogue: 0,0:01:33.87,0:01:33.91,staff,staff,0,0,0,beretag!staff,{\iclip(m -174
 Dialogue: 0,0:01:33.91,0:01:33.95,staff,staff,0,0,0,beretag!staff,{\iclip(m -168 0 l -468 1080 -372 1080 -72 0 -48 0 -348 1080 -252 1080 48 0 72 0 -228 1080 -132 1080 168 0 192 0 -108 1080 -12 1080 288 0 312 0 12 1080 108 1080 408 0 432 0 132 1080 228 1080 528 0 552 0 252 1080 348 1080 648 0 672 0 372 1080 468 1080 768 0 792 0 492 1080 588 1080 888 0 912 0 612 1080 708 1080 1008 0 1032 0 732 1080 828 1080 1128 0 1152 0 852 1080 948 1080 1248 0 1272 0 972 1080 1068 1080 1368 0 1392 0 1092 1080 1188 1080 1488 0 1512 0 1212 1080 1308 1080 1608 0 1632 0 1332 1080 1428 1080 1728 0 1752 0 1452 1080 1548 1080 1848 0 1872 0 1572 1080 1668 1080 1968 0 1992 0 1692 1080 1788 1080 2088 0)}本字幕由 {\c&H26D0FF&\3c&HFFFFF2&\bord3}Cheese{\c&HBCB9BA&}Ani{\c\3c\bord} 制作\N{\fs24\bord0.8}转载请遵守本组字幕使用许可  主页: github.com/CheeseAni\N{\fs27\fsp0\bord1}原字幕: 官译(Bili)  后期: op200、ziyii\N{\fs40\c&H0000FF&\alphaFF}\{\alphaAA}如果你能看到这行红色文字，说明你使用的字幕filter不是新版libass，这可能会导致某些位置出现渲染问题
 Dialogue: 0,0:01:33.95,0:01:33.99,staff,staff,0,0,0,beretag!staff,{\iclip(m -162 0 l -462 1080 -358 1080 -58 0 -42 0 -342 1080 -238 1080 62 0 78 0 -222 1080 -118 1080 182 0 198 0 -102 1080 2 1080 302 0 318 0 18 1080 122 1080 422 0 438 0 138 1080 242 1080 542 0 558 0 258 1080 362 1080 662 0 678 0 378 1080 482 1080 782 0 798 0 498 1080 602 1080 902 0 918 0 618 1080 722 1080 1022 0 1038 0 738 1080 842 1080 1142 0 1158 0 858 1080 962 1080 1262 0 1278 0 978 1080 1082 1080 1382 0 1398 0 1098 1080 1202 1080 1502 0 1518 0 1218 1080 1322 1080 1622 0 1638 0 1338 1080 1442 1080 1742 0 1758 0 1458 1080 1562 1080 1862 0 1878 0 1578 1080 1682 1080 1982 0 1998 0 1698 1080 1802 1080 2102 0)}本字幕由 {\c&H26D0FF&\3c&HFFFFF2&\bord3}Cheese{\c&HBCB9BA&}Ani{\c\3c\bord} 制作\N{\fs24\bord0.8}转载请遵守本组字幕使用许可  主页: github.com/CheeseAni\N{\fs27\fsp0\bord1}原字幕: 官译(Bili)  后期: op200、ziyii\N{\fs40\c&H0000FF&\alphaFF}\{\alphaAA}如果你能看到这行红色文字，说明你使用的字幕filter不是新版libass，这可能会导致某些位置出现渲染问题
 Dialogue: 0,0:02:34.68,0:02:34.72,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120\b1\c&H3C4051&\pos(636,437.33)\fscx100\fscy100}从以前起
-Dialogue: 0,0:02:34.72,0:02:34.76,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.99\b1\c&H3C4051&\pos(637.95,438.62)\fscx100.34\fscy100.34}从以前起
-Dialogue: 0,0:02:34.76,0:02:34.81,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.01\b1\c&H3C4051&\pos(639.88,439.89)\fscx100.69\fscy100.69}从以前起
-Dialogue: 0,0:02:34.81,0:02:34.85,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.99\b1\c&H3C4051&\pos(641.86,441.2)\fscx101.03\fscy101.03}从以前起
-Dialogue: 0,0:02:34.85,0:02:34.89,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.99\b1\c&H3C4051&\pos(643.85,442.5)\fscx101.36\fscy101.36}从以前起
-Dialogue: 0,0:02:34.89,0:02:34.93,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120\b1\c&H3C4051&\pos(645.85,443.81)\fscx101.69\fscy101.69}从以前起
-Dialogue: 0,0:02:34.93,0:02:34.97,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.99\b1\c&H3C4051&\pos(647.85,445.13)\fscx102.04\fscy102.04}从以前起
-Dialogue: 0,0:02:34.97,0:02:35.01,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.98\b1\c&H3C4051&\pos(649.89,446.46)\fscx102.37\fscy102.37}从以前起
-Dialogue: 0,0:02:35.01,0:02:35.06,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.99\b1\c&H3C4051&\pos(651.92,447.8)\fscx102.7\fscy102.7}从以前起
-Dialogue: 0,0:02:35.06,0:02:35.10,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.97\b1\c&H3C4051&\pos(654.02,449.15)\fscx103.05\fscy103.05}从以前起
-Dialogue: 0,0:02:35.10,0:02:35.14,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.98\b1\c&H3C4051&\pos(656.05,450.51)\fscx103.41\fscy103.41}从以前起
-Dialogue: 0,0:02:35.14,0:02:35.18,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.99\b1\c&H3C4051&\pos(658.15,451.86)\fscx103.76\fscy103.76}从以前起
-Dialogue: 0,0:02:35.18,0:02:35.22,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.96\b1\c&H3C4051&\pos(660.22,453.26)\fscx104.11\fscy104.11}从以前起
-Dialogue: 0,0:02:35.22,0:02:35.26,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.98\b1\c&H3C4051&\pos(662.33,454.63)\fscx104.48\fscy104.48}从以前起
+Dialogue: 0,0:02:34.72,0:02:34.76,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.01\b1\c&H3C4051&\pos(637.95,438.62)\fscx100.34\fscy100.34}从以前起
+Dialogue: 0,0:02:34.76,0:02:34.81,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.99\b1\c&H3C4051&\pos(639.88,439.89)\fscx100.69\fscy100.69}从以前起
+Dialogue: 0,0:02:34.81,0:02:34.85,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.01\b1\c&H3C4051&\pos(641.86,441.2)\fscx101.03\fscy101.03}从以前起
+Dialogue: 0,0:02:34.85,0:02:34.89,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.01\b1\c&H3C4051&\pos(643.85,442.5)\fscx101.36\fscy101.36}从以前起
+Dialogue: 0,0:02:34.89,0:02:34.93,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120\b1\c&H3C4051&\pos(645.85,443.8)\fscx101.69\fscy101.69}从以前起
+Dialogue: 0,0:02:34.93,0:02:34.97,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.01\b1\c&H3C4051&\pos(647.85,445.13)\fscx102.04\fscy102.04}从以前起
+Dialogue: 0,0:02:34.97,0:02:35.01,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.02\b1\c&H3C4051&\pos(649.89,446.46)\fscx102.37\fscy102.37}从以前起
+Dialogue: 0,0:02:35.01,0:02:35.06,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.01\b1\c&H3C4051&\pos(651.92,447.79)\fscx102.7\fscy102.7}从以前起
+Dialogue: 0,0:02:35.06,0:02:35.10,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.03\b1\c&H3C4051&\pos(654.02,449.15)\fscx103.05\fscy103.05}从以前起
+Dialogue: 0,0:02:35.10,0:02:35.14,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.02\b1\c&H3C4051&\pos(656.05,450.51)\fscx103.41\fscy103.41}从以前起
+Dialogue: 0,0:02:35.14,0:02:35.18,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.01\b1\c&H3C4051&\pos(658.15,451.86)\fscx103.76\fscy103.76}从以前起
+Dialogue: 0,0:02:35.18,0:02:35.22,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.04\b1\c&H3C4051&\pos(660.22,453.26)\fscx104.11\fscy104.11}从以前起
+Dialogue: 0,0:02:35.22,0:02:35.26,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.02\b1\c&H3C4051&\pos(662.33,454.63)\fscx104.48\fscy104.48}从以前起
 Dialogue: 0,0:02:35.26,0:02:35.31,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120\b1\c&H3C4051&\pos(664.46,456)\fscx104.84\fscy104.84}从以前起
-Dialogue: 0,0:02:35.31,0:02:35.35,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.99\b1\c&H3C4051&\pos(666.59,457.4)\fscx105.23\fscy105.23}从以前起
-Dialogue: 0,0:02:35.35,0:02:35.39,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.96\b1\c&H3C4051&\pos(668.73,458.85)\fscx105.57\fscy105.57}从以前起
-Dialogue: 0,0:02:35.39,0:02:35.43,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.99\b1\c&H3C4051&\pos(670.94,460.23)\fscx105.94\fscy105.94}从以前起
-Dialogue: 0,0:02:35.43,0:02:35.47,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.97\b1\c&H3C4051&\pos(673.1,461.68)\fscx106.28\fscy106.28}从以前起
-Dialogue: 0,0:02:35.47,0:02:35.51,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.99\b1\c&H3C4051&\pos(675.3,463.11)\fscx106.67\fscy106.67}从以前起
-Dialogue: 0,0:02:35.51,0:02:35.56,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.98\b1\c&H3C4051&\pos(677.52,464.58)\fscx107.05\fscy107.05}从以前起
-Dialogue: 0,0:02:35.56,0:02:35.60,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.98\b1\c&H3C4051&\pos(679.74,466.03)\fscx107.43\fscy107.43}从以前起
-Dialogue: 0,0:02:35.60,0:02:35.64,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.99\b1\c&H3C4051&\pos(681.99,467.5)\fscx107.81\fscy107.81}从以前起
-Dialogue: 0,0:02:35.64,0:02:35.68,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.99\b1\c&H3C4051&\pos(684.24,468.98)\fscx108.21\fscy108.21}从以前起
-Dialogue: 0,0:02:35.68,0:02:35.72,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.98\b1\c&H3C4051&\pos(686.52,470.49)\fscx108.55\fscy108.55}从以前起
-Dialogue: 0,0:02:35.72,0:02:35.76,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.97\b1\c&H3C4051&\pos(688.81,471.99)\fscx108.95\fscy108.95}从以前起
-Dialogue: 0,0:02:35.76,0:02:35.81,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.97\b1\c&H3C4051&\pos(691.13,473.5)\fscx109.36\fscy109.36}从以前起
-Dialogue: 0,0:02:35.81,0:02:35.85,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.99\b1\c&H3C4051&\pos(693.43,475.01)\fscx109.75\fscy109.75}从以前起
-Dialogue: 0,0:02:35.85,0:02:35.89,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.97\b1\c&H3C4051&\pos(695.8,476.56)\fscx110.14\fscy110.14}从以前起
-Dialogue: 0,0:02:35.89,0:02:35.93,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.97\b1\c&H3C4051&\pos(698.18,478.1)\fscx110.53\fscy110.53}从以前起
-Dialogue: 0,0:02:35.93,0:02:35.97,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.98\b1\c&H3C4051&\pos(700.54,479.66)\fscx110.96\fscy110.96}从以前起
-Dialogue: 0,0:02:35.97,0:02:36.01,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.98\b1\c&H3C4051&\pos(702.94,481.23)\fscx111.33\fscy111.33}从以前起
-Dialogue: 0,0:02:36.01,0:02:36.06,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.97\b1\c&H3C4051&\pos(705.33,482.81)\fscx111.74\fscy111.74}从以前起
-Dialogue: 0,0:02:36.06,0:02:36.10,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.99\b1\c&H3C4051&\pos(707.75,484.39)\fscx112.17\fscy112.17}从以前起
-Dialogue: 0,0:02:36.10,0:02:36.14,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.98\b1\c&H3C4051&\pos(710.23,486)\fscx112.58\fscy112.58}从以前起
-Dialogue: 0,0:02:36.14,0:02:36.18,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz119.98\b1\c&H3C4051&\pos(712.57,487.54)\fscx112.98\fscy112.98}从以前起
+Dialogue: 0,0:02:35.31,0:02:35.35,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.01\b1\c&H3C4051&\pos(666.59,457.4)\fscx105.23\fscy105.23}从以前起
+Dialogue: 0,0:02:35.35,0:02:35.39,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.04\b1\c&H3C4051&\pos(668.73,458.85)\fscx105.57\fscy105.57}从以前起
+Dialogue: 0,0:02:35.39,0:02:35.43,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.01\b1\c&H3C4051&\pos(670.94,460.23)\fscx105.94\fscy105.94}从以前起
+Dialogue: 0,0:02:35.43,0:02:35.47,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.03\b1\c&H3C4051&\pos(673.1,461.68)\fscx106.28\fscy106.28}从以前起
+Dialogue: 0,0:02:35.47,0:02:35.51,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.01\b1\c&H3C4051&\pos(675.3,463.11)\fscx106.67\fscy106.67}从以前起
+Dialogue: 0,0:02:35.51,0:02:35.56,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.02\b1\c&H3C4051&\pos(677.52,464.58)\fscx107.05\fscy107.05}从以前起
+Dialogue: 0,0:02:35.56,0:02:35.60,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.02\b1\c&H3C4051&\pos(679.74,466.03)\fscx107.43\fscy107.43}从以前起
+Dialogue: 0,0:02:35.60,0:02:35.64,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.01\b1\c&H3C4051&\pos(681.99,467.5)\fscx107.81\fscy107.81}从以前起
+Dialogue: 0,0:02:35.64,0:02:35.68,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.01\b1\c&H3C4051&\pos(684.24,468.98)\fscx108.21\fscy108.21}从以前起
+Dialogue: 0,0:02:35.68,0:02:35.72,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.02\b1\c&H3C4051&\pos(686.52,470.49)\fscx108.55\fscy108.55}从以前起
+Dialogue: 0,0:02:35.72,0:02:35.76,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.03\b1\c&H3C4051&\pos(688.81,471.99)\fscx108.95\fscy108.95}从以前起
+Dialogue: 0,0:02:35.76,0:02:35.81,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.03\b1\c&H3C4051&\pos(691.13,473.5)\fscx109.36\fscy109.36}从以前起
+Dialogue: 0,0:02:35.81,0:02:35.85,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.01\b1\c&H3C4051&\pos(693.43,475.01)\fscx109.75\fscy109.75}从以前起
+Dialogue: 0,0:02:35.85,0:02:35.89,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.03\b1\c&H3C4051&\pos(695.8,476.56)\fscx110.14\fscy110.14}从以前起
+Dialogue: 0,0:02:35.89,0:02:35.93,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.03\b1\c&H3C4051&\pos(698.18,478.1)\fscx110.53\fscy110.53}从以前起
+Dialogue: 0,0:02:35.93,0:02:35.97,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.02\b1\c&H3C4051&\pos(700.54,479.66)\fscx110.96\fscy110.96}从以前起
+Dialogue: 0,0:02:35.97,0:02:36.01,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.02\b1\c&H3C4051&\pos(702.94,481.23)\fscx111.33\fscy111.33}从以前起
+Dialogue: 0,0:02:36.01,0:02:36.06,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.03\b1\c&H3C4051&\pos(705.33,482.81)\fscx111.74\fscy111.74}从以前起
+Dialogue: 0,0:02:36.06,0:02:36.10,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.01\b1\c&H3C4051&\pos(707.75,484.39)\fscx112.17\fscy112.17}从以前起
+Dialogue: 0,0:02:36.10,0:02:36.14,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.02\b1\c&H3C4051&\pos(710.23,486)\fscx112.58\fscy112.58}从以前起
+Dialogue: 0,0:02:36.14,0:02:36.18,screen,,0,0,0,beretag!key1,{\fs40\fn方正卡通_GBK\frz120.02\b1\c&H3C4051&\pos(712.57,487.54)\fscx112.98\fscy112.98}从以前起
 Dialogue: 0,0:05:31.77,0:05:31.81,screen,,0,0,0,beretag!key2,{\fn方正行楷_GBK\fs52\fsp-2\c&H695C52&\b1\pos(886,-6)\frz0.8\fscx100\fscy100}第六十三届光盘高中文化节
 Dialogue: 0,0:05:31.81,0:05:31.85,screen,,0,0,0,beretag!key2,{\fn方正行楷_GBK\fs52\fsp-2\c&H695C52&\b1\pos(886,-3.63)\frz0.8\fscx99.69\fscy99.69}第六十三届光盘高中文化节
 Dialogue: 0,0:05:31.85,0:05:31.90,screen,,0,0,0,beretag!key2,{\fn方正行楷_GBK\fs52\fsp-2\c&H695C52&\b1\pos(886.02,-1.29)\frz0.8\fscx99.38\fscy99.38}第六十三届光盘高中文化节
@@ -949,7 +951,7 @@ Dialogue: 0,0:05:32.73,0:05:32.77,screen,,0,0,0,beretag!key2,{\fn方正行楷_GB
 Dialogue: 0,0:05:32.77,0:05:32.81,screen,,0,0,0,beretag!key2,{\fn方正行楷_GBK\fs52\fsp-2\c&H695C52&\b1\pos(886.22,46.77)\frz0.8\fscx93.08\fscy93.08}第六十三届光盘高中文化节
 Dialogue: 0,0:05:32.81,0:05:32.85,screen,,0,0,0,beretag!key2,{\fn方正行楷_GBK\fs52\fsp-2\c&H695C52&\b1\pos(886.23,48.81)\frz0.8\fscx92.81\fscy92.81}第六十三届光盘高中文化节
 Dialogue: 0,0:05:32.85,0:05:32.90,screen,,0,0,0,beretag!key2,{\fn方正行楷_GBK\fs52\fsp-2\c&H695C52&\b1\pos(886.24,50.84)\frz0.8\fscx92.55\fscy92.55}第六十三届光盘高中文化节
-Dialogue: 0,0:05:32.90,0:05:32.94,screen,,0,0,0,beretag!key2,{\fn方正行楷_GBK\fs52\fsp-2\c&H695C52&\b1\pos(886.25,52.85)\frz0.8\fscx92.28\fscy92.28}第六十三届光盘高中文化节
+Dialogue: 0,0:05:32.90,0:05:32.94,screen,,0,0,0,beretag!key2,{\fn方正行楷_GBK\fs52\fsp-2\c&H695C52&\b1\pos(886.24,52.85)\frz0.8\fscx92.28\fscy92.28}第六十三届光盘高中文化节
 Dialogue: 0,0:05:32.94,0:05:32.98,screen,,0,0,0,beretag!key2,{\fn方正行楷_GBK\fs52\fsp-2\c&H695C52&\b1\pos(886.25,54.85)\frz0.8\fscx92.02\fscy92.02}第六十三届光盘高中文化节
 Dialogue: 0,0:05:32.98,0:05:33.02,screen,,0,0,0,beretag!key2,{\fn方正行楷_GBK\fs52\fsp-2\c&H695C52&\b1\pos(886.26,56.85)\frz0.8\fscx91.76\fscy91.76}第六十三届光盘高中文化节
 Dialogue: 0,0:05:33.02,0:05:33.06,screen,,0,0,0,beretag!key2,{\fn方正行楷_GBK\fs52\fsp-2\c&H695C52&\b1\pos(886.27,58.83)\frz0.8\fscx91.5\fscy91.5}第六十三届光盘高中文化节
@@ -1001,7 +1003,7 @@ Dialogue: 0,0:05:29.90,0:05:29.94,screen,,0,0,0,beretag!key3,{\fn方正楷体_GB
 Dialogue: 0,0:05:29.94,0:05:29.98,screen,,0,0,0,beretag!key3,{\fn方正楷体_GBK\b1\fs56\c&H3D333B&\pos(402.37,640.26)\fscx98.22\fscy98.22}　63\N{\fs46}\N\N
 Dialogue: 0,0:05:29.98,0:05:30.02,screen,,0,0,0,beretag!key3,{\fn方正楷体_GBK\b1\fs56\c&H3D333B&\pos(404.06,640.66)\fscx97.88\fscy97.88}　63\N{\fs46}\N\N
 Dialogue: 0,0:05:30.02,0:05:30.06,screen,,0,0,0,beretag!key3,{\fn方正楷体_GBK\b1\fs56\c&H3D333B&\pos(405.77,641.11)\fscx97.51\fscy97.51}　63\N{\fs46}\N\N
-Dialogue: 0,0:05:30.06,0:05:30.11,screen,,0,0,0,beretag!key3,{\fn方正楷体_GBK\b1\fs56\c&H3D333B&\pos(407.44,641.53)\fscx97.17\fscy97.17}　63\N{\fs46}\N\N
+Dialogue: 0,0:05:30.06,0:05:30.11,screen,,0,0,0,beretag!key3,{\fn方正楷体_GBK\b1\fs56\c&H3D333B&\pos(407.43,641.53)\fscx97.17\fscy97.17}　63\N{\fs46}\N\N
 Dialogue: 0,0:05:30.11,0:05:30.15,screen,,0,0,0,beretag!key3,{\fn方正楷体_GBK\b1\fs56\c&H3D333B&\pos(409.08,641.97)\fscx96.81\fscy96.81}　63\N{\fs46}\N\N
 Dialogue: 0,0:05:30.15,0:05:30.19,screen,,0,0,0,beretag!key3,{\fn方正楷体_GBK\b1\fs56\c&H3D333B&\pos(410.76,642.37)\fscx96.47\fscy96.47}　63\N{\fs46}\N\N
 Dialogue: 0,0:05:30.19,0:05:30.23,screen,,0,0,0,beretag!key3,{\fn方正楷体_GBK\b1\fs56\c&H3D333B&\pos(412.39,642.81)\fscx96.13\fscy96.13}　63\N{\fs46}\N\N
@@ -1073,7 +1075,7 @@ Dialogue: 0,0:05:32.90,0:05:32.94,screen,,0,0,0,beretag!key3,{\fn方正楷体_GB
 Dialogue: 0,0:05:32.94,0:05:32.98,screen,,0,0,0,beretag!key3,{\fn方正楷体_GBK\b1\fs56\c&H3D333B&\pos(499.84,665.1)\fscx78.09\fscy78.09}　63\N{\fs46}\N\N
 Dialogue: 0,0:05:32.98,0:05:33.02,screen,,0,0,0,beretag!key3,{\fn方正楷体_GBK\b1\fs56\c&H3D333B&\pos(500.97,665.41)\fscx77.85\fscy77.85}　63\N{\fs46}\N\N
 Dialogue: 0,0:05:33.02,0:05:33.07,screen,,0,0,0,beretag!key3,{\fn方正楷体_GBK\b1\fs56\c&H3D333B&\pos(501.99,665.62)\fscx77.65\fscy77.65}　63\N{\fs46}\N\N
-Dialogue: 0,0:05:33.07,0:05:33.11,screen,,0,0,0,beretag!key3,{\fn方正楷体_GBK\b1\fs56\c&H3D333B&\pos(503.08,665.95)\fscx77.41\fscy77.41}　63\N{\fs46}\N\N
+Dialogue: 0,0:05:33.07,0:05:33.11,screen,,0,0,0,beretag!key3,{\fn方正楷体_GBK\b1\fs56\c&H3D333B&\pos(503.08,665.94)\fscx77.41\fscy77.41}　63\N{\fs46}\N\N
 Dialogue: 0,0:05:33.11,0:05:33.15,screen,,0,0,0,beretag!key3,{\fn方正楷体_GBK\b1\fs56\c&H3D333B&\pos(504.13,666.19)\fscx77.2\fscy77.2}　63\N{\fs46}\N\N
 Dialogue: 0,0:05:33.15,0:05:33.19,screen,,0,0,0,beretag!key3,{\fn方正楷体_GBK\b1\fs56\c&H3D333B&\pos(505.18,666.47)\fscx76.98\fscy76.98}　63\N{\fs46}\N\N
 Dialogue: 0,0:05:33.19,0:05:33.23,screen,,0,0,0,beretag!key3,{\fn方正楷体_GBK\b1\fs56\c&H3D333B&\pos(506.23,666.75)\fscx76.75\fscy76.75}　63\N{\fs46}\N\N
@@ -1127,12 +1129,12 @@ Dialogue: 1,0:05:30.15,0:05:30.19,screen,,0,0,0,beretag!key3,{\fn@方正楷体_G
 Dialogue: 1,0:05:30.19,0:05:30.23,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(412.84,643.37)\fscx96.13\fscy96.13}第\h\h\h\h届光盘节
 Dialogue: 1,0:05:30.23,0:05:30.27,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(414.51,643.74)\fscx95.81\fscy95.81}第\h\h\h\h届光盘节
 Dialogue: 1,0:05:30.27,0:05:30.31,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(416.11,644.18)\fscx95.47\fscy95.47}第\h\h\h\h届光盘节
-Dialogue: 1,0:05:30.31,0:05:30.36,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(417.66,644.6)\fscx95.14\fscy95.14}第\h\h\h\h届光盘节
+Dialogue: 1,0:05:30.31,0:05:30.36,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(417.66,644.59)\fscx95.14\fscy95.14}第\h\h\h\h届光盘节
 Dialogue: 1,0:05:30.36,0:05:30.40,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(419.29,645.02)\fscx94.8\fscy94.8}第\h\h\h\h届光盘节
 Dialogue: 1,0:05:30.40,0:05:30.44,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(420.87,645.42)\fscx94.49\fscy94.49}第\h\h\h\h届光盘节
 Dialogue: 1,0:05:30.44,0:05:30.48,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(422.45,645.82)\fscx94.16\fscy94.16}第\h\h\h\h届光盘节
 Dialogue: 1,0:05:30.48,0:05:30.52,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(424.01,646.19)\fscx93.83\fscy93.83}第\h\h\h\h届光盘节
-Dialogue: 1,0:05:30.52,0:05:30.56,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(425.53,646.62)\fscx93.5\fscy93.5}第\h\h\h\h届光盘节
+Dialogue: 1,0:05:30.52,0:05:30.56,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(425.53,646.61)\fscx93.5\fscy93.5}第\h\h\h\h届光盘节
 Dialogue: 1,0:05:30.56,0:05:30.61,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(427.03,647.01)\fscx93.19\fscy93.19}第\h\h\h\h届光盘节
 Dialogue: 1,0:05:30.61,0:05:30.65,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(428.63,647.4)\fscx92.87\fscy92.87}第\h\h\h\h届光盘节
 Dialogue: 1,0:05:30.65,0:05:30.69,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(430.17,647.73)\fscx92.58\fscy92.58}第\h\h\h\h届光盘节
@@ -1175,7 +1177,7 @@ Dialogue: 1,0:05:32.15,0:05:32.19,screen,,0,0,0,beretag!key3,{\fn@方正楷体_G
 Dialogue: 1,0:05:32.19,0:05:32.23,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(479.98,660.5)\fscx82.27\fscy82.27}第\h\h\h\h届光盘节
 Dialogue: 1,0:05:32.23,0:05:32.27,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(481.17,660.79)\fscx82.02\fscy82.02}第\h\h\h\h届光盘节
 Dialogue: 1,0:05:32.27,0:05:32.32,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(482.36,661.1)\fscx81.78\fscy81.78}第\h\h\h\h届光盘节
-Dialogue: 1,0:05:32.32,0:05:32.36,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(483.55,661.39)\fscx81.54\fscy81.54}第\h\h\h\h届光盘节
+Dialogue: 1,0:05:32.32,0:05:32.36,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(483.55,661.38)\fscx81.54\fscy81.54}第\h\h\h\h届光盘节
 Dialogue: 1,0:05:32.36,0:05:32.40,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(484.68,661.66)\fscx81.31\fscy81.31}第\h\h\h\h届光盘节
 Dialogue: 1,0:05:32.40,0:05:32.44,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(485.87,662)\fscx81.05\fscy81.05}第\h\h\h\h届光盘节
 Dialogue: 1,0:05:32.44,0:05:32.48,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(487.01,662.28)\fscx80.83\fscy80.83}第\h\h\h\h届光盘节
@@ -1189,7 +1191,7 @@ Dialogue: 1,0:05:32.73,0:05:32.77,screen,,0,0,0,beretag!key3,{\fn@方正楷体_G
 Dialogue: 1,0:05:32.77,0:05:32.82,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(495.92,664.56)\fscx78.98\fscy78.98}第\h\h\h\h届光盘节
 Dialogue: 1,0:05:32.82,0:05:32.86,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(497.11,664.85)\fscx78.74\fscy78.74}第\h\h\h\h届光盘节
 Dialogue: 1,0:05:32.86,0:05:32.90,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(498.29,665.12)\fscx78.51\fscy78.51}第\h\h\h\h届光盘节
-Dialogue: 1,0:05:32.90,0:05:32.94,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(499.22,665.41)\fscx78.3\fscy78.3}第\h\h\h\h届光盘节
+Dialogue: 1,0:05:32.90,0:05:32.94,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(499.22,665.4)\fscx78.3\fscy78.3}第\h\h\h\h届光盘节
 Dialogue: 1,0:05:32.94,0:05:32.98,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(500.29,665.66)\fscx78.09\fscy78.09}第\h\h\h\h届光盘节
 Dialogue: 1,0:05:32.98,0:05:33.02,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(501.42,665.97)\fscx77.85\fscy77.85}第\h\h\h\h届光盘节
 Dialogue: 1,0:05:33.02,0:05:33.07,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(502.44,666.18)\fscx77.65\fscy77.65}第\h\h\h\h届光盘节
@@ -1234,7 +1236,7 @@ Dialogue: 1,0:05:34.61,0:05:34.65,screen,,0,0,0,beretag!key3,{\fn@方正楷体_G
 Dialogue: 1,0:05:34.65,0:05:34.69,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(539.63,675.8)\fscx69.88\fscy69.88}第\h\h\h\h届光盘节
 Dialogue: 1,0:05:34.69,0:05:34.74,screen,,0,0,0,beretag!key3,{\fn@方正楷体_GBK\b1\fs56\fsp-1\fr-90\c&H3D333B&\pos(540.39,676.01)\fscx69.71\fscy69.71}第\h\h\h\h届光盘节
 Dialogue: 0,0:18:17.45,0:18:17.49,screen,,0,0,0,beretag!key4,{\fn@方正卡通_GBK\fr-90\c&H171518&\pos(1508,388)\fax0.04\blur3.5\fscy103.5}图书室内请保持安静
-Dialogue: 0,0:18:17.49,0:18:17.53,screen,,0,0,0,beretag!key4,{\fn@方正卡通_GBK\fr-90\c&H171518&\pos(1508,398.03)\fax0.04\blur3.32\fscy103.32}图书室内请保持安静
+Dialogue: 0,0:18:17.49,0:18:17.53,screen,,0,0,0,beretag!key4,{\fn@方正卡通_GBK\fr-90\c&H171518&\pos(1508,398.02)\fax0.04\blur3.32\fscy103.32}图书室内请保持安静
 Dialogue: 0,0:18:17.53,0:18:17.58,screen,,0,0,0,beretag!key4,{\fn@方正卡通_GBK\fr-90\c&H171518&\pos(1507.99,408.01)\fax0.04\blur3.14\fscy103.14}图书室内请保持安静
 Dialogue: 0,0:18:17.58,0:18:17.62,screen,,0,0,0,beretag!key4,{\fn@方正卡通_GBK\fr-90\c&H171518&\pos(1508,417.96)\fax0.04\blur2.96\fscy102.96}图书室内请保持安静
 Dialogue: 0,0:18:17.62,0:18:17.66,screen,,0,0,0,beretag!key4,{\fn@方正卡通_GBK\fr-90\c&H171518&\pos(1507.96,427.75)\fax0.04\blur2.78\fscy102.78}图书室内请保持安静
@@ -1243,8 +1245,8 @@ Dialogue: 0,0:18:17.70,0:18:17.74,screen,,0,0,0,beretag!key4,{\fn@方正卡通_G
 Dialogue: 0,0:18:17.74,0:18:17.78,screen,,0,0,0,beretag!key4,{\fn@方正卡通_GBK\fr-90\c&H171518&\pos(1508.23,456.46)\fax0.04\blur2.24\fscy102.24}图书室内请保持安静
 Dialogue: 0,0:18:17.78,0:18:17.83,screen,,0,0,0,beretag!key4,{\fn@方正卡通_GBK\fr-90\c&H171518&\pos(1508.28,465.7)\fax0.04\blur2.06\fscy102.06}图书室内请保持安静
 Dialogue: 0,0:18:17.83,0:18:17.87,screen,,0,0,0,beretag!key4,{\fn@方正卡通_GBK\fr-90\c&H171518&\pos(1508.35,474.8)\fax0.04\blur1.88\fscy101.88}图书室内请保持安静
-Dialogue: 0,0:18:17.87,0:18:17.91,screen,,0,0,0,beretag!key4,{\fn@方正卡通_GBK\fr-90\c&H171518&\pos(1508.48,483.78)\fax0.04\blur1.7\fscy101.7}图书室内请保持安静
-Dialogue: 0,0:18:17.91,0:18:17.95,screen,,0,0,0,beretag!key4,{\fn@方正卡通_GBK\fr-90\c&H171518&\pos(1508.65,492.54)\fax0.04\blur1.52\fscy101.52}图书室内请保持安静
+Dialogue: 0,0:18:17.87,0:18:17.91,screen,,0,0,0,beretag!key4,{\fn@方正卡通_GBK\fr-90\c&H171518&\pos(1508.48,483.77)\fax0.04\blur1.7\fscy101.7}图书室内请保持安静
+Dialogue: 0,0:18:17.91,0:18:17.95,screen,,0,0,0,beretag!key4,{\fn@方正卡通_GBK\fr-90\c&H171518&\pos(1508.65,492.53)\fax0.04\blur1.52\fscy101.52}图书室内请保持安静
 Dialogue: 0,0:18:17.95,0:18:17.99,screen,,0,0,0,beretag!key4,{\fn@方正卡通_GBK\fr-90\c&H171518&\pos(1508.82,501.17)\fax0.04\blur1.34\fscy101.34}图书室内请保持安静
 Dialogue: 0,0:18:17.99,0:18:18.03,screen,,0,0,0,beretag!key4,{\fn@方正卡通_GBK\fr-90\c&H171518&\pos(1508.95,509.45)\fax0.04\blur1.16\fscy101.16}图书室内请保持安静
 Dialogue: 0,0:18:18.03,0:18:18.08,screen,,0,0,0,beretag!key4,{\fn@方正卡通_GBK\fr-90\c&H171518&\pos(1509.09,517.61)\fax0.04\blur0.98\fscy100.98}图书室内请保持安静
