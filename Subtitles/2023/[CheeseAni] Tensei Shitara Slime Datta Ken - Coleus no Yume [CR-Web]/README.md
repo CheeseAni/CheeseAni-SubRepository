@@ -1,2 +1,3 @@
-WebRip v2.0  
-对应WebRip合集v1
+
+### 版本
+均匹配 Web 合集 v1

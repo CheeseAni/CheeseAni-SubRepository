@@ -1,8 +1,7 @@
 ### [芝士动物朋友] 转生为第七王子，随心所欲的魔法学习之路 / Dainanaoji [1-12][CR-WebRip][1080p][HEVC+AAC][简繁日内封]
 #### 版本提示
-```
-v2.0 匹配WebRip合集
-```
+v2.0 匹配 Web 合集 v1
+
 #### 字体
 ```
 A-OTF タカハンド Std L <A-OTF TakaHand Std L>

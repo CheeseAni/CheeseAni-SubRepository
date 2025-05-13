@@ -1,7 +1,7 @@
 ### [芝士动物朋友] DDDD 恶魔的破坏 / DEAD DEAD DEMONS DEDEDEDE DESTRUCTION [0-17][BDRip][1080p][HEVC+OPUS][简繁内封]
 
 #### 版本提示
-BD版制作中…
+BD 合集制作中…
 
 #### 字体
 ```

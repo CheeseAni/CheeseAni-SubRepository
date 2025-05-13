@@ -1,1 +1,10 @@
-### [新Sub] 蔚蓝档案 / 碧蓝档案 / Blue Archive The Animation [1-12][WebRip 1080p HEVC EAC3][简繁日内封]
+## [新Sub] 蔚蓝档案 / 碧蓝档案 / Blue Archive The Animation [1-12][WebRip 1080p HEVC EAC3][简繁日内封]
+
+### 版本
+| 集数 | 版本 |
+| :- | :- |
+| 1    | v2.0.1 修正1处错字 |
+| 2-5  | v2.0 匹配 Web 合集 v1 |
+| 6    | v2.0.1 修正1处换行符错误 |
+| 7    | v2.0.1 修正3处换行符错误 |
+| 8-12 | v2.0 匹配 Web 合集 v1 |
