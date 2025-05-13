@@ -1,6 +1,10 @@
 /*
+!.github/
+!Subtitles/
 !.gitignore
 !LICENSE
 !README.md
+
+/Subtitles/**/*.*
 !*.ass
-!.github/
+!README.md
