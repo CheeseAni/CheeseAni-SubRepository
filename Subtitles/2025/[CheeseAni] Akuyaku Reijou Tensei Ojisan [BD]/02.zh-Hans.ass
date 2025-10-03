@@ -17,9 +17,6 @@ Video File: 02.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.625000
-Scroll Position: 6
-Active Line: 17
-Video Position: 34050
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -53,10 +50,10 @@ Dialogue: 0,0:11:08.11,0:11:08.32,screen,屏幕字,0,0,0,,{\c&H98987C&\t(23,64,\
 Dialogue: 0,0:11:08.32,0:11:15.20,screen,屏幕字,0,0,0,,{\c&H404052&\t(6778,6861,\c&HA8A56A&)\fs50\fn方正中粗雅宋_GBK\pos(792,305)\frz20.42}看得懂
 Dialogue: 0,0:14:11.46,0:14:14.97,screen,屏幕字,0,0,0,,{\fn@方正兰亭中黑_GBK\frz270\fs24\fsp3\c&H2C2C2D&\pos(147,750)}能用就行
 Dialogue: 0,0:18:04.28,0:18:06.41,screen,屏幕字,0,0,0,,{\fn@方正兰亭中黑_GBK\frz270\fs24\fsp3\c&H2C2C2D&\pos(122,356)}策略奏效了
-Dialogue: 0,0:23:36.33,0:23:38.64,screen,注释,20,0,20,,{\fad(200,200)\a8\fs40\c&H000000&\3c&HFFFFFF&\bord2}※出自原作者漫画『エイジ'87』
-Dialogue: 0,0:23:45.74,0:23:48.73,screen,注释,20,0,20,,{\fad(200,200)\a8\fs40\c&H000000&\3c&HFFFFFF&\bord2}※出自原作者漫画『ツダヌマ格闘街』
+Dialogue: 0,0:23:41.37,0:23:43.66,screen,注释,20,0,20,,{\fad(200,200)\a8\fs40\c&H000000&\3c&HFFFFFF&\bord2}※出自原作者漫画『エイジ'87』
+Dialogue: 0,0:23:50.75,0:23:53.75,screen,注释,20,0,20,,{\fad(200,200)\a8\fs40\c&H000000&\3c&HFFFFFF&\bord2}※出自原作者漫画『ツダヌマ格闘街』
 Comment: 0,0:23:57.67,0:24:00.93,screen,下集标题,0,0,370,:beretag@gdTitle,{\fad(524,0)\fn方正FW马蒂斯体 简\bord6\blur5}中年大叔，开口讲冷笑话！
-Dialogue: 0,0:23:58.39,0:24:00.58,screen,注释,20,0,20,,{\fad(200,200)\a8\fs40\c&H000000&\3c&HFFFFFF&\bord2}※出自原作者漫画『エイジ'87』
+Dialogue: 0,0:23:58.34,0:24:00.55,screen,注释,20,0,20,,{\fad(200,200)\a8\fs40\c&H000000&\3c&HFFFFFF&\bord2}※出自原作者漫画『エイジ'87』
 Comment: 0,0:00:00.00,0:00:00.00,zh,,0,0,0,template@dialog#onlyfind,!local line=$this if not line.text:find("|") then $debug("对话行存在缺损: "..$num) end $addLine(line) if line.style=="zh" then line.style="ja" elseif line.style=="zh-top" then line.style="ja-top" else $debug("dialog error: "..line.text) end line.layer=1 $addLine(line)!
 Comment: 0,0:00:00.00,0:00:00.00,zh,,0,0,0,template@dialog#recache;uninsert;append,{}{}
 Comment: 0,0:00:00.00,0:00:00.00,zh,,0,0,0,template@dialog#findtext;strictstyle,{|.*}
@@ -706,14 +703,14 @@ Comment: 0,0:23:22.88,0:23:25.23,zh,,0,0,0,:beretag@dialog,您有办法做出这
 Comment: 0,0:23:25.23,0:23:27.97,zh,,0,0,0,:beretag@dialog,计算器 这是什么|計算器 それが
 Comment: 0,0:23:28.41,0:23:30.10,zh,,0,0,0,:beretag@dialog,在异世界制作算盘|異世界で そろばん
 Comment: 0,0:23:30.59,0:23:33.84,zh,,0,0,0,:beretag@dialog,你究竟有什么打算呢 宪三郎| 一体 何をするつもりなのか憲三郎
-Comment: 0,0:23:41.36,0:23:43.67,zh,,0,0,0,:beretag@dialog,如果要拜托须黑野英司老师的话|須黒野エイジ先生にお願いするならば
+Comment: 0,0:23:41.37,0:23:43.66,zh,,0,0,0,:beretag@dialog,如果要拜托须黑野英司老师的话|須黒野エイジ先生にお願いするならば
 Comment: 0,0:23:43.67,0:23:46.95,zh,,0,0,0,:beretag@dialog,至少也要将代表作『妖怪侦探银河』看一遍|代表作である「妖怪探偵ギンガ」も一読しておくべきだ
 Comment: 0,0:23:46.95,0:23:48.92,zh,,0,0,0,:beretag@dialog,就这个层面来说 隔壁的花节市|そういう意味では 隣の花節市が
 Comment: 0,0:23:48.92,0:23:50.77,zh,,0,0,0,:beretag@dialog,与『音速少年阿贤』的联动计划中|「音速少年ゲン」のコラボ企画に
-Comment: 0,0:23:50.77,0:23:53.76,zh,,0,0,0,:beretag@dialog,请到了当年的作画监督西崎健先生|当時の作監である西崎健氏を起用したというのは
-Comment: 0,0:23:53.76,0:23:54.52,zh,,0,0,0,:beretag@dialog,实在是巧妙的一步棋|見事だった
-Comment: 0,0:23:54.52,0:23:58.33,zh,,0,0,0,:beretag@dialog,他汲取了曾拍成电影的『行星少女』作者奥屋公彦老师|映画化された「惑星少女」の作者奥屋公彦先生や
-Comment: 0,0:23:58.33,0:24:00.54,zh,,0,0,0,:beretag@dialog,以及蛇川鳞老师的作品中的手法|蛇川うろこ先生の作品の取り
+Comment: 0,0:23:50.75,0:23:53.75,zh,,0,0,0,:beretag@dialog,请到了当年的作画监督西崎健先生|当時の作監である西崎健氏を起用したというのは
+Comment: 0,0:23:53.75,0:23:54.50,zh,,0,0,0,:beretag@dialog,实在是巧妙的一步棋|見事だった
+Comment: 0,0:23:54.50,0:23:58.34,zh,,0,0,0,:beretag@dialog,他汲取了曾拍成电影的『行星少女』作者奥屋公彦老师|映画化された「惑星少女」の作者奥屋公彦先生や
+Comment: 0,0:23:58.34,0:24:00.55,zh,,0,0,0,:beretag@dialog,以及蛇川鳞老师的作品中的手法|蛇川うろこ先生の作品の取り
 Dialogue: 0,0:05:07.46,0:05:11.46,screen,标题,0,505,140,beretag!gdTitle,{\3c&HF13739&}{\pos(707.50,940.00)\clip(411.25,866.00,415.25,951.00)}{\fad(521,0)\fn方正FW马蒂斯体 简\bord6\blur5}中年大叔，成为魔法师
 Dialogue: 0,0:05:07.46,0:05:11.46,screen,标题,0,505,140,beretag!gdTitle,{\3c&HF0383D&}{\pos(707.50,940.00)\clip(415.25,866.00,419.25,951.00)}{\fad(521,0)\fn方正FW马蒂斯体 简\bord6\blur5}中年大叔，成为魔法师
 Dialogue: 0,0:05:07.46,0:05:11.46,screen,标题,0,505,140,beretag!gdTitle,{\3c&HEF3941&}{\pos(707.50,940.00)\clip(419.25,866.00,423.25,951.00)}{\fad(521,0)\fn方正FW马蒂斯体 简\bord6\blur5}中年大叔，成为魔法师
@@ -4667,19 +4664,19 @@ Dialogue: 0,0:23:28.41,0:23:30.10,zh,,0,0,0,beretag!dialog,在异世界制作算
 Dialogue: 1,0:23:28.41,0:23:30.10,ja,,0,0,0,beretag!dialog,異世界で そろばん
 Dialogue: 0,0:23:30.59,0:23:33.84,zh,,0,0,0,beretag!dialog,你究竟有什么打算呢 宪三郎
 Dialogue: 1,0:23:30.59,0:23:33.84,ja,,0,0,0,beretag!dialog, 一体 何をするつもりなのか憲三郎
-Dialogue: 0,0:23:41.36,0:23:43.67,zh,,0,0,0,beretag!dialog,如果要拜托须黑野英司老师的话
-Dialogue: 1,0:23:41.36,0:23:43.67,ja,,0,0,0,beretag!dialog,須黒野エイジ先生にお願いするならば
+Dialogue: 0,0:23:41.37,0:23:43.66,zh,,0,0,0,beretag!dialog,如果要拜托须黑野英司老师的话
+Dialogue: 1,0:23:41.37,0:23:43.66,ja,,0,0,0,beretag!dialog,須黒野エイジ先生にお願いするならば
 Dialogue: 0,0:23:43.67,0:23:46.95,zh,,0,0,0,beretag!dialog,至少也要将代表作『妖怪侦探银河』看一遍
 Dialogue: 1,0:23:43.67,0:23:46.95,ja,,0,0,0,beretag!dialog,代表作である「妖怪探偵ギンガ」も一読しておくべきだ
 Dialogue: 0,0:23:46.95,0:23:48.92,zh,,0,0,0,beretag!dialog,就这个层面来说 隔壁的花节市
 Dialogue: 1,0:23:46.95,0:23:48.92,ja,,0,0,0,beretag!dialog,そういう意味では 隣の花節市が
 Dialogue: 0,0:23:48.92,0:23:50.77,zh,,0,0,0,beretag!dialog,与『音速少年阿贤』的联动计划中
 Dialogue: 1,0:23:48.92,0:23:50.77,ja,,0,0,0,beretag!dialog,「音速少年ゲン」のコラボ企画に
-Dialogue: 0,0:23:50.77,0:23:53.76,zh,,0,0,0,beretag!dialog,请到了当年的作画监督西崎健先生
-Dialogue: 1,0:23:50.77,0:23:53.76,ja,,0,0,0,beretag!dialog,当時の作監である西崎健氏を起用したというのは
-Dialogue: 0,0:23:53.76,0:23:54.52,zh,,0,0,0,beretag!dialog,实在是巧妙的一步棋
-Dialogue: 1,0:23:53.76,0:23:54.52,ja,,0,0,0,beretag!dialog,見事だった
-Dialogue: 0,0:23:54.52,0:23:58.33,zh,,0,0,0,beretag!dialog,他汲取了曾拍成电影的『行星少女』作者奥屋公彦老师
-Dialogue: 1,0:23:54.52,0:23:58.33,ja,,0,0,0,beretag!dialog,映画化された「惑星少女」の作者奥屋公彦先生や
-Dialogue: 0,0:23:58.33,0:24:00.54,zh,,0,0,0,beretag!dialog,以及蛇川鳞老师的作品中的手法
-Dialogue: 1,0:23:58.33,0:24:00.54,ja,,0,0,0,beretag!dialog,蛇川うろこ先生の作品の取り
+Dialogue: 0,0:23:50.75,0:23:53.75,zh,,0,0,0,beretag!dialog,请到了当年的作画监督西崎健先生
+Dialogue: 1,0:23:50.75,0:23:53.75,ja,,0,0,0,beretag!dialog,当時の作監である西崎健氏を起用したというのは
+Dialogue: 0,0:23:53.75,0:23:54.50,zh,,0,0,0,beretag!dialog,实在是巧妙的一步棋
+Dialogue: 1,0:23:53.75,0:23:54.50,ja,,0,0,0,beretag!dialog,見事だった
+Dialogue: 0,0:23:54.50,0:23:58.34,zh,,0,0,0,beretag!dialog,他汲取了曾拍成电影的『行星少女』作者奥屋公彦老师
+Dialogue: 1,0:23:54.50,0:23:58.34,ja,,0,0,0,beretag!dialog,映画化された「惑星少女」の作者奥屋公彦先生や
+Dialogue: 0,0:23:58.34,0:24:00.55,zh,,0,0,0,beretag!dialog,以及蛇川鳞老师的作品中的手法
+Dialogue: 1,0:23:58.34,0:24:00.55,ja,,0,0,0,beretag!dialog,蛇川うろこ先生の作品の取り
