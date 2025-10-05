@@ -17,8 +17,9 @@ Video File: 12.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.750000
-Active Line: 414
-Video Position: 27064
+Scroll Position: 672
+Active Line: 674
+Video Position: 33799
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -30,8 +31,8 @@ Style: staff,方正中粗雅宋_GBK,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H000000
 Style: screen,方正兰亭中黑_GBK,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
 Style: OP-zh,方正中粗雅宋_GBK,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,5,0,1,2.5,0,8,0,0,15,1
 Style: OP-ja,Source Han Serif JP,74,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,5,0,1,2.5,0,2,0,0,10,1
-Style: ED-zh,方正中粗雅宋_GBK,64,&H00FFFFFF,&H00FFFFFF,&H00300AD5,&H00000000,0,0,0,0,100,100,5,0,1,2,0,8,0,0,15,1
-Style: ED-ja,Source Han Serif JP,74,&H00FFFFFF,&H00FFFFFF,&H00300AD5,&H00000000,-1,0,0,0,100,100,5,0,1,2,0,2,0,0,10,1
+Style: ED-zh-ep12,方正中粗雅宋_GBK,50,&H00FFFFFF,&H00FFFFFF,&H00300AD5,&H00000000,0,0,0,0,100,100,4,0,1,1.6,0,8,0,0,15,1
+Style: ED-ja-ep12,Source Han Serif JP,58,&H00FFFFFF,&H00FFFFFF,&H00300AD5,&H00000000,-1,0,0,0,100,100,4,0,1,1.6,0,8,0,0,70,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -525,196 +526,196 @@ Comment: 0,0:23:18.29,0:23:21.51,zh,,0,0,0,:beretag@dialog,就是我被赋予的
 Comment: 0,0:23:21.87,0:23:23.94,zh,,0,0,0,:beretag@dialog,我现在是这么想的|今は そう考えている
 Comment: 0,0:23:25.36,0:23:28.02,zh,,0,0,0,:beretag@dialog,我的反派千金生活|私の悪役令嬢ライフは
 Comment: 0,0:23:28.66,0:23:30.78,zh,,0,0,0,:beretag@dialog,才刚刚开始|始まったばかりですわ
-Dialogue: 0,0:22:20.41,0:22:23.91,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}叩けボンゴ 響けサンバ
-Dialogue: 1,0:22:20.41,0:22:23.91,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}叩けボンゴ 響けサンバ
-Dialogue: 2,0:22:20.41,0:22:23.91,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}叩けボンゴ 響けサンバ
-Dialogue: 3,0:22:20.41,0:22:23.91,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}叩けボンゴ 響けサンバ
-Dialogue: 4,0:22:20.41,0:22:23.91,ED-ja,,0,0,0,,叩けボンゴ 響けサンバ
-Dialogue: 0,0:22:20.41,0:22:23.91,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}敲响邦戈鼓 奏起桑巴乐
-Dialogue: 1,0:22:20.41,0:22:23.91,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}敲响邦戈鼓 奏起桑巴乐
-Dialogue: 2,0:22:20.41,0:22:23.91,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}敲响邦戈鼓 奏起桑巴乐
-Dialogue: 3,0:22:20.41,0:22:23.91,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}敲响邦戈鼓 奏起桑巴乐
-Dialogue: 4,0:22:20.41,0:22:23.91,ED-zh,,0,0,0,,敲响邦戈鼓 奏起桑巴乐
-Dialogue: 0,0:22:23.91,0:22:27.50,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}踊れ南のカルナバル
-Dialogue: 1,0:22:23.91,0:22:27.50,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}踊れ南のカルナバル
-Dialogue: 2,0:22:23.91,0:22:27.50,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}踊れ南のカルナバル
-Dialogue: 3,0:22:23.91,0:22:27.50,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}踊れ南のカルナバル
-Dialogue: 4,0:22:23.91,0:22:27.50,ED-ja,,0,0,0,,踊れ南のカルナバル
-Dialogue: 0,0:22:23.91,0:22:27.50,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}舞动的南国嘉年华
-Dialogue: 1,0:22:23.91,0:22:27.50,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}舞动的南国嘉年华
-Dialogue: 2,0:22:23.91,0:22:27.50,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}舞动的南国嘉年华
-Dialogue: 3,0:22:23.91,0:22:27.50,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}舞动的南国嘉年华
-Dialogue: 4,0:22:23.91,0:22:27.50,ED-zh,,0,0,0,,舞动的南国嘉年华
-Dialogue: 0,0:22:27.50,0:22:31.36,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}誰も彼も浮かれ騒ぎ
-Dialogue: 1,0:22:27.50,0:22:31.36,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}誰も彼も浮かれ騒ぎ
-Dialogue: 2,0:22:27.50,0:22:31.36,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}誰も彼も浮かれ騒ぎ
-Dialogue: 3,0:22:27.50,0:22:31.36,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}誰も彼も浮かれ騒ぎ
-Dialogue: 4,0:22:27.50,0:22:31.36,ED-ja,,0,0,0,,誰も彼も浮かれ騒ぎ
-Dialogue: 0,0:22:27.50,0:22:31.36,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}每个人都欢天喜地
-Dialogue: 1,0:22:27.50,0:22:31.36,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}每个人都欢天喜地
-Dialogue: 2,0:22:27.50,0:22:31.36,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}每个人都欢天喜地
-Dialogue: 3,0:22:27.50,0:22:31.36,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}每个人都欢天喜地
-Dialogue: 4,0:22:27.50,0:22:31.36,ED-zh,,0,0,0,,每个人都欢天喜地
-Dialogue: 0,0:22:31.36,0:22:35.89,ED-ja,,8,0,6,,{\fad(0,1500)\bord0\blur7\c&H8F34FF&}光る汗がはじけとぶ
-Dialogue: 1,0:22:31.36,0:22:35.89,ED-ja,,0,8,14,,{\fad(0,1500)\bord0\blur7\c&H5ABEF7&}光る汗がはじけとぶ
-Dialogue: 2,0:22:31.36,0:22:35.89,ED-ja,,8,0,6,,{\fad(0,1500)\bord0\blur7\c&H8F34FF&}光る汗がはじけとぶ
-Dialogue: 3,0:22:31.36,0:22:35.89,ED-ja,,0,8,14,,{\fad(0,1500)\bord0\blur7\c&H5ABEF7&}光る汗がはじけとぶ
-Dialogue: 4,0:22:31.36,0:22:35.89,ED-ja,,0,0,0,,{\fad(0,1500)}光る汗がはじけとぶ
-Dialogue: 0,0:22:31.36,0:22:35.89,ED-zh,,11,0,21,,{\fad(0,1500)\bord0\blur7\c&H8F34FF&}挥洒着闪耀的汗水
-Dialogue: 1,0:22:31.36,0:22:35.89,ED-zh,,0,11,9,,{\fad(0,1500)\bord0\blur7\c&H5ABEF7&}挥洒着闪耀的汗水
-Dialogue: 2,0:22:31.36,0:22:35.89,ED-zh,,11,0,21,,{\fad(0,1500)\bord0\blur7\c&H8F34FF&}挥洒着闪耀的汗水
-Dialogue: 3,0:22:31.36,0:22:35.89,ED-zh,,0,11,9,,{\fad(0,1500)\bord0\blur7\c&H5ABEF7&}挥洒着闪耀的汗水
-Dialogue: 4,0:22:31.36,0:22:35.89,ED-zh,,0,0,0,,{\fad(0,1500)}挥洒着闪耀的汗水
-Dialogue: 0,0:22:36.85,0:22:40.35,ED-ja,,8,0,6,,{\bord0\blur7\c&HF3F25A&}熱い風に体あずけ
-Dialogue: 1,0:22:36.85,0:22:40.35,ED-ja,,0,8,14,,{\bord0\blur7\c&H6FF6EC&}熱い風に体あずけ
-Dialogue: 2,0:22:36.85,0:22:40.35,ED-ja,,8,0,6,,{\bord0\blur7\c&HF3F25A&}熱い風に体あずけ
-Dialogue: 3,0:22:36.85,0:22:40.35,ED-ja,,0,8,14,,{\bord0\blur7\c&H6FF6EC&}熱い風に体あずけ
-Dialogue: 4,0:22:36.85,0:22:40.35,ED-ja,,0,0,0,,{\3c&HBC7E2E&}熱い風に体あずけ
-Dialogue: 0,0:22:36.85,0:22:40.35,ED-zh,,11,0,21,,{\bord0\blur7\c&HF3F25A&}只要将身体托付给热风
-Dialogue: 1,0:22:36.85,0:22:40.35,ED-zh,,0,11,9,,{\bord0\blur7\c&H6FF6EC&}只要将身体托付给热风
-Dialogue: 2,0:22:36.85,0:22:40.35,ED-zh,,11,0,21,,{\bord0\blur7\c&HF3F25A&}只要将身体托付给热风
-Dialogue: 3,0:22:36.85,0:22:40.35,ED-zh,,0,11,9,,{\bord0\blur7\c&H6FF6EC&}只要将身体托付给热风
-Dialogue: 4,0:22:36.85,0:22:40.35,ED-zh,,0,0,0,,{\3c&HBC7E2E&}只要将身体托付给热风
-Dialogue: 0,0:22:40.35,0:22:43.83,ED-ja,,8,0,6,,{\bord0\blur7\c&HF3F25A&}心ゆくまで踊れば
-Dialogue: 1,0:22:40.35,0:22:43.83,ED-ja,,0,8,14,,{\bord0\blur7\c&H6FF6EC&}心ゆくまで踊れば
-Dialogue: 2,0:22:40.35,0:22:43.83,ED-ja,,8,0,6,,{\bord0\blur7\c&HF3F25A&}心ゆくまで踊れば
-Dialogue: 3,0:22:40.35,0:22:43.83,ED-ja,,0,8,14,,{\bord0\blur7\c&H6FF6EC&}心ゆくまで踊れば
-Dialogue: 4,0:22:40.35,0:22:43.83,ED-ja,,0,0,0,,{\3c&HBC7E2E&}心ゆくまで踊れば
-Dialogue: 0,0:22:40.35,0:22:43.83,ED-zh,,11,0,21,,{\bord0\blur7\c&HF3F25A&}随心所欲尽情热舞
-Dialogue: 1,0:22:40.35,0:22:43.83,ED-zh,,0,11,9,,{\bord0\blur7\c&H6FF6EC&}随心所欲尽情热舞
-Dialogue: 2,0:22:40.35,0:22:43.83,ED-zh,,11,0,21,,{\bord0\blur7\c&HF3F25A&}随心所欲尽情热舞
-Dialogue: 3,0:22:40.35,0:22:43.83,ED-zh,,0,11,9,,{\bord0\blur7\c&H6FF6EC&}随心所欲尽情热舞
-Dialogue: 4,0:22:40.35,0:22:43.83,ED-zh,,0,0,0,,{\3c&HBC7E2E&}随心所欲尽情热舞
-Dialogue: 0,0:22:43.83,0:22:47.69,ED-ja,,8,0,6,,{\bord0\blur7\c&HF3F25A&}波も歌うよ 愛のサンバを
-Dialogue: 1,0:22:43.83,0:22:47.69,ED-ja,,0,8,14,,{\bord0\blur7\c&H6FF6EC&}波も歌うよ 愛のサンバを
-Dialogue: 2,0:22:43.83,0:22:47.69,ED-ja,,8,0,6,,{\bord0\blur7\c&HF3F25A&}波も歌うよ 愛のサンバを
-Dialogue: 3,0:22:43.83,0:22:47.69,ED-ja,,0,8,14,,{\bord0\blur7\c&H6FF6EC&}波も歌うよ 愛のサンバを
-Dialogue: 4,0:22:43.83,0:22:47.69,ED-ja,,0,0,0,,{\3c&HBC7E2E&}波も歌うよ 愛のサンバを
-Dialogue: 0,0:22:43.83,0:22:47.69,ED-zh,,11,0,21,,{\bord0\blur7\c&HF3F25A&}波涛便会奏响爱的桑巴
-Dialogue: 1,0:22:43.83,0:22:47.69,ED-zh,,0,11,9,,{\bord0\blur7\c&H6FF6EC&}波涛便会奏响爱的桑巴
-Dialogue: 2,0:22:43.83,0:22:47.69,ED-zh,,11,0,21,,{\bord0\blur7\c&HF3F25A&}波涛便会奏响爱的桑巴
-Dialogue: 3,0:22:43.83,0:22:47.69,ED-zh,,0,11,9,,{\bord0\blur7\c&H6FF6EC&}波涛便会奏响爱的桑巴
-Dialogue: 4,0:22:43.83,0:22:47.69,ED-zh,,0,0,0,,{\3c&HBC7E2E&}波涛便会奏响爱的桑巴
-Dialogue: 0,0:22:47.69,0:22:51.95,ED-ja,,8,0,6,,{\bord0\blur7\c&HF3F25A&}胸にあふれる このリズム
-Dialogue: 1,0:22:47.69,0:22:51.95,ED-ja,,0,8,14,,{\bord0\blur7\c&H6FF6EC&}胸にあふれる このリズム
-Dialogue: 2,0:22:47.69,0:22:51.95,ED-ja,,8,0,6,,{\bord0\blur7\c&HF3F25A&}胸にあふれる このリズム
-Dialogue: 3,0:22:47.69,0:22:51.95,ED-ja,,0,8,14,,{\bord0\blur7\c&H6FF6EC&}胸にあふれる このリズム
-Dialogue: 4,0:22:47.69,0:22:51.95,ED-ja,,0,0,0,,{\3c&HBC7E2E&}胸にあふれる このリズム
-Dialogue: 0,0:22:47.69,0:22:51.95,ED-zh,,11,0,21,,{\bord0\blur7\c&HF3F25A&}胸中洋溢着这激昂的节拍
-Dialogue: 1,0:22:47.69,0:22:51.95,ED-zh,,0,11,9,,{\bord0\blur7\c&H6FF6EC&}胸中洋溢着这激昂的节拍
-Dialogue: 2,0:22:47.69,0:22:51.95,ED-zh,,11,0,21,,{\bord0\blur7\c&HF3F25A&}胸中洋溢着这激昂的节拍
-Dialogue: 3,0:22:47.69,0:22:51.95,ED-zh,,0,11,9,,{\bord0\blur7\c&H6FF6EC&}胸中洋溢着这激昂的节拍
-Dialogue: 4,0:22:47.69,0:22:51.95,ED-zh,,0,0,0,,{\3c&HBC7E2E&}胸中洋溢着这激昂的节拍
-Dialogue: 0,0:22:53.20,0:22:57.41,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}Olé Olé
-Dialogue: 1,0:22:53.20,0:22:57.41,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}Olé Olé
-Dialogue: 2,0:22:53.20,0:22:57.41,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}Olé Olé
-Dialogue: 3,0:22:53.20,0:22:57.41,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}Olé Olé
-Dialogue: 4,0:22:53.20,0:22:57.41,ED-ja,,0,0,0,,Olé Olé
-Dialogue: 0,0:22:53.20,0:22:57.41,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}Olé Olé
-Dialogue: 1,0:22:53.20,0:22:57.41,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}Olé Olé
-Dialogue: 2,0:22:53.20,0:22:57.41,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}Olé Olé
-Dialogue: 3,0:22:53.20,0:22:57.41,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}Olé Olé
-Dialogue: 4,0:22:53.20,0:22:57.41,ED-zh,,0,0,0,,Olé Olé
-Dialogue: 0,0:22:58.34,0:23:00.58,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}マツケンサンバ
-Dialogue: 1,0:22:58.34,0:23:00.58,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}マツケンサンバ
-Dialogue: 2,0:22:58.34,0:23:00.58,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}マツケンサンバ
-Dialogue: 3,0:22:58.34,0:23:00.58,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}マツケンサンバ
-Dialogue: 4,0:22:58.34,0:23:00.58,ED-ja,,0,0,0,,マツケンサンバ
-Dialogue: 0,0:22:58.34,0:23:00.58,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}松健桑巴
-Dialogue: 1,0:22:58.34,0:23:00.58,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}松健桑巴
-Dialogue: 2,0:22:58.34,0:23:00.58,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}松健桑巴
-Dialogue: 3,0:22:58.34,0:23:00.58,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}松健桑巴
-Dialogue: 4,0:22:58.34,0:23:00.58,ED-zh,,0,0,0,,松健桑巴
-Dialogue: 0,0:23:00.58,0:23:04.71,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}Olé Olé
-Dialogue: 1,0:23:00.58,0:23:04.71,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}Olé Olé
-Dialogue: 2,0:23:00.58,0:23:04.71,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}Olé Olé
-Dialogue: 3,0:23:00.58,0:23:04.71,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}Olé Olé
-Dialogue: 4,0:23:00.58,0:23:04.71,ED-ja,,0,0,0,,Olé Olé
-Dialogue: 0,0:23:00.58,0:23:04.71,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}Olé Olé
-Dialogue: 1,0:23:00.58,0:23:04.71,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}Olé Olé
-Dialogue: 2,0:23:00.58,0:23:04.71,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}Olé Olé
-Dialogue: 3,0:23:00.58,0:23:04.71,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}Olé Olé
-Dialogue: 4,0:23:00.58,0:23:04.71,ED-zh,,0,0,0,,Olé Olé
-Dialogue: 0,0:23:05.58,0:23:09.46,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}マツケンサンバ
-Dialogue: 1,0:23:05.58,0:23:09.46,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}マツケンサンバ
-Dialogue: 2,0:23:05.58,0:23:09.46,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}マツケンサンバ
-Dialogue: 3,0:23:05.58,0:23:09.46,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}マツケンサンバ
-Dialogue: 4,0:23:05.58,0:23:09.46,ED-ja,,0,0,0,,マツケンサンバ
-Dialogue: 0,0:23:05.58,0:23:09.46,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}松健桑巴
-Dialogue: 1,0:23:05.58,0:23:09.46,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}松健桑巴
-Dialogue: 2,0:23:05.58,0:23:09.46,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}松健桑巴
-Dialogue: 3,0:23:05.58,0:23:09.46,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}松健桑巴
-Dialogue: 4,0:23:05.58,0:23:09.46,ED-zh,,0,0,0,,松健桑巴
-Dialogue: 0,0:23:09.46,0:23:11.76,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}恋せよ アミーゴ
-Dialogue: 1,0:23:09.46,0:23:11.76,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}恋せよ アミーゴ
-Dialogue: 2,0:23:09.46,0:23:11.76,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}恋せよ アミーゴ
-Dialogue: 3,0:23:09.46,0:23:11.76,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}恋せよ アミーゴ
-Dialogue: 4,0:23:09.46,0:23:11.76,ED-ja,,0,0,0,,恋せよ アミーゴ
-Dialogue: 0,0:23:09.46,0:23:11.76,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}热恋吧 先生
-Dialogue: 1,0:23:09.46,0:23:11.76,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}热恋吧 先生
-Dialogue: 2,0:23:09.46,0:23:11.76,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}热恋吧 先生
-Dialogue: 3,0:23:09.46,0:23:11.76,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}热恋吧 先生
-Dialogue: 4,0:23:09.46,0:23:11.76,ED-zh,,0,0,0,,热恋吧 先生
-Dialogue: 0,0:23:11.76,0:23:13.50,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}踊ろう セニョリータ
-Dialogue: 1,0:23:11.76,0:23:13.50,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}踊ろう セニョリータ
-Dialogue: 2,0:23:11.76,0:23:13.50,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}踊ろう セニョリータ
-Dialogue: 3,0:23:11.76,0:23:13.50,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}踊ろう セニョリータ
-Dialogue: 4,0:23:11.76,0:23:13.50,ED-ja,,0,0,0,,踊ろう セニョリータ
-Dialogue: 0,0:23:11.76,0:23:13.50,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}狂舞吧 小姐
-Dialogue: 1,0:23:11.76,0:23:13.50,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}狂舞吧 小姐
-Dialogue: 2,0:23:11.76,0:23:13.50,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}狂舞吧 小姐
-Dialogue: 3,0:23:11.76,0:23:13.50,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}狂舞吧 小姐
-Dialogue: 4,0:23:11.76,0:23:13.50,ED-zh,,0,0,0,,狂舞吧 小姐
-Dialogue: 0,0:23:13.50,0:23:15.76,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}眠りさえ忘れて
-Dialogue: 1,0:23:13.50,0:23:15.76,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}眠りさえ忘れて
-Dialogue: 2,0:23:13.50,0:23:15.76,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}眠りさえ忘れて
-Dialogue: 3,0:23:13.50,0:23:15.76,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}眠りさえ忘れて
-Dialogue: 4,0:23:13.50,0:23:15.76,ED-ja,,0,0,0,,眠りさえ忘れて
-Dialogue: 0,0:23:13.50,0:23:15.76,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}将困意抛到脑后
-Dialogue: 1,0:23:13.50,0:23:15.76,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}将困意抛到脑后
-Dialogue: 2,0:23:13.50,0:23:15.76,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}将困意抛到脑后
-Dialogue: 3,0:23:13.50,0:23:15.76,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}将困意抛到脑后
-Dialogue: 4,0:23:13.50,0:23:15.76,ED-zh,,0,0,0,,将困意抛到脑后
-Dialogue: 0,0:23:15.76,0:23:19.10,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}踊り明かそう
-Dialogue: 1,0:23:15.76,0:23:19.10,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}踊り明かそう
-Dialogue: 2,0:23:15.76,0:23:19.10,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}踊り明かそう
-Dialogue: 3,0:23:15.76,0:23:19.10,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}踊り明かそう
-Dialogue: 4,0:23:15.76,0:23:19.10,ED-ja,,0,0,0,,踊り明かそう
-Dialogue: 0,0:23:15.76,0:23:19.10,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}让我们舞动到天亮
-Dialogue: 1,0:23:15.76,0:23:19.10,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}让我们舞动到天亮
-Dialogue: 2,0:23:15.76,0:23:19.10,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}让我们舞动到天亮
-Dialogue: 3,0:23:15.76,0:23:19.10,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}让我们舞动到天亮
-Dialogue: 4,0:23:15.76,0:23:19.10,ED-zh,,0,0,0,,让我们舞动到天亮
-Dialogue: 0,0:23:19.10,0:23:22.58,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}サンバ ビバ サンバ
-Dialogue: 1,0:23:19.10,0:23:22.58,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}サンバ ビバ サンバ
-Dialogue: 2,0:23:19.10,0:23:22.58,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}サンバ ビバ サンバ
-Dialogue: 3,0:23:19.10,0:23:22.58,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}サンバ ビバ サンバ
-Dialogue: 4,0:23:19.10,0:23:22.58,ED-ja,,0,0,0,,サンバ ビバ サンバ
-Dialogue: 0,0:23:19.10,0:23:22.58,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}桑巴 万岁 桑巴
-Dialogue: 1,0:23:19.10,0:23:22.58,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}桑巴 万岁 桑巴
-Dialogue: 2,0:23:19.10,0:23:22.58,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}桑巴 万岁 桑巴
-Dialogue: 3,0:23:19.10,0:23:22.58,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}桑巴 万岁 桑巴
-Dialogue: 4,0:23:19.10,0:23:22.58,ED-zh,,0,0,0,,桑巴 万岁 桑巴
-Dialogue: 0,0:23:22.58,0:23:29.70,ED-ja,,8,0,6,,{\fad(0,2400)\bord0\blur7\c&H8F34FF&}マ·ツ·ケ·ン サンバ
-Dialogue: 1,0:23:22.58,0:23:29.70,ED-ja,,0,8,14,,{\fad(0,2400)\bord0\blur7\c&H5ABEF7&}マ·ツ·ケ·ン サンバ
-Dialogue: 2,0:23:22.58,0:23:29.70,ED-ja,,8,0,6,,{\fad(0,2400)\bord0\blur7\c&H8F34FF&}マ·ツ·ケ·ン サンバ
-Dialogue: 3,0:23:22.58,0:23:29.70,ED-ja,,0,8,14,,{\fad(0,2400)\bord0\blur7\c&H5ABEF7&}マ·ツ·ケ·ン サンバ
-Dialogue: 4,0:23:22.58,0:23:29.70,ED-ja,,0,0,0,,{\fad(0,2400)}マ·ツ·ケ·ン サンバ
-Dialogue: 0,0:23:22.58,0:23:29.70,ED-zh,,11,0,21,,{\fad(0,2400)\bord0\blur7\c&H8F34FF&}松 健 桑 巴
-Dialogue: 1,0:23:22.58,0:23:29.70,ED-zh,,0,11,9,,{\fad(0,2400)\bord0\blur7\c&H5ABEF7&}松 健 桑 巴
-Dialogue: 2,0:23:22.58,0:23:29.70,ED-zh,,11,0,21,,{\fad(0,2400)\bord0\blur7\c&H8F34FF&}松 健 桑 巴
-Dialogue: 3,0:23:22.58,0:23:29.70,ED-zh,,0,11,9,,{\fad(0,2400)\bord0\blur7\c&H5ABEF7&}松 健 桑 巴
-Dialogue: 4,0:23:22.58,0:23:29.70,ED-zh,,0,0,0,,{\fad(0,2400)}松 健 桑 巴
-Dialogue: 0,0:23:29.70,0:23:30.78,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}Olé
-Dialogue: 1,0:23:29.70,0:23:30.78,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}Olé
-Dialogue: 2,0:23:29.70,0:23:30.78,ED-ja,,8,0,6,,{\bord0\blur7\c&H8F34FF&}Olé
-Dialogue: 3,0:23:29.70,0:23:30.78,ED-ja,,0,8,14,,{\bord0\blur7\c&H5ABEF7&}Olé
-Dialogue: 4,0:23:29.70,0:23:30.78,ED-ja,,0,0,0,,Olé
-Dialogue: 0,0:23:29.70,0:23:30.78,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}Olé
-Dialogue: 1,0:23:29.70,0:23:30.78,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}Olé
-Dialogue: 2,0:23:29.70,0:23:30.78,ED-zh,,11,0,21,,{\bord0\blur7\c&H8F34FF&}Olé
-Dialogue: 3,0:23:29.70,0:23:30.78,ED-zh,,0,11,9,,{\bord0\blur7\c&H5ABEF7&}Olé
-Dialogue: 4,0:23:29.70,0:23:30.78,ED-zh,,0,0,0,,Olé
+Dialogue: 5,0:22:20.39,0:22:23.89,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}叩けボンゴ 響けサンバ
+Dialogue: 6,0:22:20.39,0:22:23.89,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}叩けボンゴ 響けサンバ
+Dialogue: 7,0:22:20.39,0:22:23.89,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}叩けボンゴ 響けサンバ
+Dialogue: 8,0:22:20.39,0:22:23.89,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}叩けボンゴ 響けサンバ
+Dialogue: 9,0:22:20.39,0:22:23.89,ED-ja-ep12,,0,0,0,,叩けボンゴ 響けサンバ
+Dialogue: 0,0:22:20.39,0:22:23.89,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}敲响邦戈鼓 奏起桑巴乐
+Dialogue: 1,0:22:20.39,0:22:23.89,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}敲响邦戈鼓 奏起桑巴乐
+Dialogue: 2,0:22:20.39,0:22:23.89,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}敲响邦戈鼓 奏起桑巴乐
+Dialogue: 3,0:22:20.39,0:22:23.89,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}敲响邦戈鼓 奏起桑巴乐
+Dialogue: 4,0:22:20.39,0:22:23.89,ED-zh-ep12,,0,0,0,,敲响邦戈鼓 奏起桑巴乐
+Dialogue: 5,0:22:23.89,0:22:27.48,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}踊れ南のカルナバル
+Dialogue: 6,0:22:23.89,0:22:27.48,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}踊れ南のカルナバル
+Dialogue: 7,0:22:23.89,0:22:27.48,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}踊れ南のカルナバル
+Dialogue: 8,0:22:23.89,0:22:27.48,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}踊れ南のカルナバル
+Dialogue: 9,0:22:23.89,0:22:27.48,ED-ja-ep12,,0,0,0,,踊れ南のカルナバル
+Dialogue: 0,0:22:23.89,0:22:27.48,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}舞动的南国嘉年华
+Dialogue: 1,0:22:23.89,0:22:27.48,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}舞动的南国嘉年华
+Dialogue: 2,0:22:23.89,0:22:27.48,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}舞动的南国嘉年华
+Dialogue: 3,0:22:23.89,0:22:27.48,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}舞动的南国嘉年华
+Dialogue: 4,0:22:23.89,0:22:27.48,ED-zh-ep12,,0,0,0,,舞动的南国嘉年华
+Dialogue: 5,0:22:27.48,0:22:31.34,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}誰も彼も浮かれ騒ぎ
+Dialogue: 6,0:22:27.48,0:22:31.34,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}誰も彼も浮かれ騒ぎ
+Dialogue: 7,0:22:27.48,0:22:31.34,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}誰も彼も浮かれ騒ぎ
+Dialogue: 8,0:22:27.48,0:22:31.34,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}誰も彼も浮かれ騒ぎ
+Dialogue: 9,0:22:27.48,0:22:31.34,ED-ja-ep12,,0,0,0,,誰も彼も浮かれ騒ぎ
+Dialogue: 0,0:22:27.48,0:22:31.34,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}每个人都欢天喜地
+Dialogue: 1,0:22:27.48,0:22:31.34,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}每个人都欢天喜地
+Dialogue: 2,0:22:27.48,0:22:31.34,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}每个人都欢天喜地
+Dialogue: 3,0:22:27.48,0:22:31.34,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}每个人都欢天喜地
+Dialogue: 4,0:22:27.48,0:22:31.34,ED-zh-ep12,,0,0,0,,每个人都欢天喜地
+Dialogue: 5,0:22:31.34,0:22:35.87,ED-ja-ep12,,6,0,72,,{\fad(0,1500)\bord0\blur5\c&H8F34FF&}光る汗がはじけとぶ
+Dialogue: 6,0:22:31.34,0:22:35.87,ED-ja-ep12,,0,6,68,,{\fad(0,1500)\bord0\blur5\c&H5ABEF7&}光る汗がはじけとぶ
+Dialogue: 7,0:22:31.34,0:22:35.87,ED-ja-ep12,,6,0,72,,{\fad(0,1500)\bord0\blur5\c&H8F34FF&}光る汗がはじけとぶ
+Dialogue: 8,0:22:31.34,0:22:35.87,ED-ja-ep12,,0,6,68,,{\fad(0,1500)\bord0\blur5\c&H5ABEF7&}光る汗がはじけとぶ
+Dialogue: 9,0:22:31.34,0:22:35.87,ED-ja-ep12,,0,0,0,,{\fad(0,1500)}光る汗がはじけとぶ
+Dialogue: 0,0:22:31.34,0:22:35.87,ED-zh-ep12,,9,0,19,,{\fad(0,1500)\bord0\blur5\c&H8F34FF&}挥洒着闪耀的汗水
+Dialogue: 1,0:22:31.34,0:22:35.87,ED-zh-ep12,,0,9,11,,{\fad(0,1500)\bord0\blur5\c&H5ABEF7&}挥洒着闪耀的汗水
+Dialogue: 2,0:22:31.34,0:22:35.87,ED-zh-ep12,,9,0,19,,{\fad(0,1500)\bord0\blur5\c&H8F34FF&}挥洒着闪耀的汗水
+Dialogue: 3,0:22:31.34,0:22:35.87,ED-zh-ep12,,0,9,11,,{\fad(0,1500)\bord0\blur5\c&H5ABEF7&}挥洒着闪耀的汗水
+Dialogue: 4,0:22:31.34,0:22:35.87,ED-zh-ep12,,0,0,0,,{\fad(0,1500)}挥洒着闪耀的汗水
+Dialogue: 5,0:22:36.83,0:22:40.33,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&HF3F25A&}熱い風に体あずけ
+Dialogue: 6,0:22:36.83,0:22:40.33,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H6FF6EC&}熱い風に体あずけ
+Dialogue: 7,0:22:36.83,0:22:40.33,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&HF3F25A&}熱い風に体あずけ
+Dialogue: 8,0:22:36.83,0:22:40.33,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H6FF6EC&}熱い風に体あずけ
+Dialogue: 9,0:22:36.83,0:22:40.33,ED-ja-ep12,,0,0,0,,{\3c&HBC7E2E&}熱い風に体あずけ
+Dialogue: 0,0:22:36.83,0:22:40.33,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&HF3F25A&}只要将身体托付给热风
+Dialogue: 1,0:22:36.83,0:22:40.33,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H6FF6EC&}只要将身体托付给热风
+Dialogue: 2,0:22:36.83,0:22:40.33,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&HF3F25A&}只要将身体托付给热风
+Dialogue: 3,0:22:36.83,0:22:40.33,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H6FF6EC&}只要将身体托付给热风
+Dialogue: 4,0:22:36.83,0:22:40.33,ED-zh-ep12,,0,0,0,,{\3c&HBC7E2E&}只要将身体托付给热风
+Dialogue: 5,0:22:40.33,0:22:43.81,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&HF3F25A&}心ゆくまで踊れば
+Dialogue: 6,0:22:40.33,0:22:43.81,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H6FF6EC&}心ゆくまで踊れば
+Dialogue: 7,0:22:40.33,0:22:43.81,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&HF3F25A&}心ゆくまで踊れば
+Dialogue: 8,0:22:40.33,0:22:43.81,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H6FF6EC&}心ゆくまで踊れば
+Dialogue: 9,0:22:40.33,0:22:43.81,ED-ja-ep12,,0,0,0,,{\3c&HBC7E2E&}心ゆくまで踊れば
+Dialogue: 0,0:22:40.33,0:22:43.81,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&HF3F25A&}随心所欲尽情热舞
+Dialogue: 1,0:22:40.33,0:22:43.81,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H6FF6EC&}随心所欲尽情热舞
+Dialogue: 2,0:22:40.33,0:22:43.81,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&HF3F25A&}随心所欲尽情热舞
+Dialogue: 3,0:22:40.33,0:22:43.81,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H6FF6EC&}随心所欲尽情热舞
+Dialogue: 4,0:22:40.33,0:22:43.81,ED-zh-ep12,,0,0,0,,{\3c&HBC7E2E&}随心所欲尽情热舞
+Dialogue: 5,0:22:43.81,0:22:47.67,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&HF3F25A&}波も歌うよ 愛のサンバを
+Dialogue: 6,0:22:43.81,0:22:47.67,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H6FF6EC&}波も歌うよ 愛のサンバを
+Dialogue: 7,0:22:43.81,0:22:47.67,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&HF3F25A&}波も歌うよ 愛のサンバを
+Dialogue: 8,0:22:43.81,0:22:47.67,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H6FF6EC&}波も歌うよ 愛のサンバを
+Dialogue: 9,0:22:43.81,0:22:47.67,ED-ja-ep12,,0,0,0,,{\3c&HBC7E2E&}波も歌うよ 愛のサンバを
+Dialogue: 0,0:22:43.81,0:22:47.67,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&HF3F25A&}波涛便会奏响爱的桑巴
+Dialogue: 1,0:22:43.81,0:22:47.67,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H6FF6EC&}波涛便会奏响爱的桑巴
+Dialogue: 2,0:22:43.81,0:22:47.67,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&HF3F25A&}波涛便会奏响爱的桑巴
+Dialogue: 3,0:22:43.81,0:22:47.67,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H6FF6EC&}波涛便会奏响爱的桑巴
+Dialogue: 4,0:22:43.81,0:22:47.67,ED-zh-ep12,,0,0,0,,{\3c&HBC7E2E&}波涛便会奏响爱的桑巴
+Dialogue: 5,0:22:47.67,0:22:51.93,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&HF3F25A&}胸にあふれる このリズム
+Dialogue: 6,0:22:47.67,0:22:51.93,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H6FF6EC&}胸にあふれる このリズム
+Dialogue: 7,0:22:47.67,0:22:51.93,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&HF3F25A&}胸にあふれる このリズム
+Dialogue: 8,0:22:47.67,0:22:51.93,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H6FF6EC&}胸にあふれる このリズム
+Dialogue: 9,0:22:47.67,0:22:51.93,ED-ja-ep12,,0,0,0,,{\3c&HBC7E2E&}胸にあふれる このリズム
+Dialogue: 0,0:22:47.67,0:22:51.93,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&HF3F25A&}胸中洋溢着这激昂的节拍
+Dialogue: 1,0:22:47.67,0:22:51.93,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H6FF6EC&}胸中洋溢着这激昂的节拍
+Dialogue: 2,0:22:47.67,0:22:51.93,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&HF3F25A&}胸中洋溢着这激昂的节拍
+Dialogue: 3,0:22:47.67,0:22:51.93,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H6FF6EC&}胸中洋溢着这激昂的节拍
+Dialogue: 4,0:22:47.67,0:22:51.93,ED-zh-ep12,,0,0,0,,{\3c&HBC7E2E&}胸中洋溢着这激昂的节拍
+Dialogue: 5,0:22:53.18,0:22:57.39,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}Olé Olé
+Dialogue: 6,0:22:53.18,0:22:57.39,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}Olé Olé
+Dialogue: 7,0:22:53.18,0:22:57.39,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}Olé Olé
+Dialogue: 8,0:22:53.18,0:22:57.39,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}Olé Olé
+Dialogue: 9,0:22:53.18,0:22:57.39,ED-ja-ep12,,0,0,0,,Olé Olé
+Dialogue: 0,0:22:53.18,0:22:57.39,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}Olé Olé
+Dialogue: 1,0:22:53.18,0:22:57.39,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}Olé Olé
+Dialogue: 2,0:22:53.18,0:22:57.39,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}Olé Olé
+Dialogue: 3,0:22:53.18,0:22:57.39,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}Olé Olé
+Dialogue: 4,0:22:53.18,0:22:57.39,ED-zh-ep12,,0,0,0,,Olé Olé
+Dialogue: 5,0:22:58.32,0:23:00.56,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}マツケンサンバ
+Dialogue: 6,0:22:58.32,0:23:00.56,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}マツケンサンバ
+Dialogue: 7,0:22:58.32,0:23:00.56,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}マツケンサンバ
+Dialogue: 8,0:22:58.32,0:23:00.56,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}マツケンサンバ
+Dialogue: 9,0:22:58.32,0:23:00.56,ED-ja-ep12,,0,0,0,,マツケンサンバ
+Dialogue: 0,0:22:58.32,0:23:00.56,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}松健桑巴
+Dialogue: 1,0:22:58.32,0:23:00.56,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}松健桑巴
+Dialogue: 2,0:22:58.32,0:23:00.56,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}松健桑巴
+Dialogue: 3,0:22:58.32,0:23:00.56,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}松健桑巴
+Dialogue: 4,0:22:58.32,0:23:00.56,ED-zh-ep12,,0,0,0,,松健桑巴
+Dialogue: 5,0:23:00.56,0:23:04.69,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}Olé Olé
+Dialogue: 6,0:23:00.56,0:23:04.69,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}Olé Olé
+Dialogue: 7,0:23:00.56,0:23:04.69,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}Olé Olé
+Dialogue: 8,0:23:00.56,0:23:04.69,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}Olé Olé
+Dialogue: 9,0:23:00.56,0:23:04.69,ED-ja-ep12,,0,0,0,,Olé Olé
+Dialogue: 0,0:23:00.56,0:23:04.69,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}Olé Olé
+Dialogue: 1,0:23:00.56,0:23:04.69,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}Olé Olé
+Dialogue: 2,0:23:00.56,0:23:04.69,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}Olé Olé
+Dialogue: 3,0:23:00.56,0:23:04.69,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}Olé Olé
+Dialogue: 4,0:23:00.56,0:23:04.69,ED-zh-ep12,,0,0,0,,Olé Olé
+Dialogue: 5,0:23:05.56,0:23:09.44,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}マツケンサンバ
+Dialogue: 6,0:23:05.56,0:23:09.44,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}マツケンサンバ
+Dialogue: 7,0:23:05.56,0:23:09.44,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}マツケンサンバ
+Dialogue: 8,0:23:05.56,0:23:09.44,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}マツケンサンバ
+Dialogue: 9,0:23:05.56,0:23:09.44,ED-ja-ep12,,0,0,0,,マツケンサンバ
+Dialogue: 0,0:23:05.56,0:23:09.44,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}松健桑巴
+Dialogue: 1,0:23:05.56,0:23:09.44,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}松健桑巴
+Dialogue: 2,0:23:05.56,0:23:09.44,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}松健桑巴
+Dialogue: 3,0:23:05.56,0:23:09.44,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}松健桑巴
+Dialogue: 4,0:23:05.56,0:23:09.44,ED-zh-ep12,,0,0,0,,松健桑巴
+Dialogue: 5,0:23:09.44,0:23:11.74,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}恋せよ アミーゴ
+Dialogue: 6,0:23:09.44,0:23:11.74,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}恋せよ アミーゴ
+Dialogue: 7,0:23:09.44,0:23:11.74,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}恋せよ アミーゴ
+Dialogue: 8,0:23:09.44,0:23:11.74,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}恋せよ アミーゴ
+Dialogue: 9,0:23:09.44,0:23:11.74,ED-ja-ep12,,0,0,0,,恋せよ アミーゴ
+Dialogue: 0,0:23:09.44,0:23:11.74,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}热恋吧 先生
+Dialogue: 1,0:23:09.44,0:23:11.74,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}热恋吧 先生
+Dialogue: 2,0:23:09.44,0:23:11.74,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}热恋吧 先生
+Dialogue: 3,0:23:09.44,0:23:11.74,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}热恋吧 先生
+Dialogue: 4,0:23:09.44,0:23:11.74,ED-zh-ep12,,0,0,0,,热恋吧 先生
+Dialogue: 5,0:23:11.74,0:23:13.48,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}踊ろう セニョリータ
+Dialogue: 6,0:23:11.74,0:23:13.48,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}踊ろう セニョリータ
+Dialogue: 7,0:23:11.74,0:23:13.48,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}踊ろう セニョリータ
+Dialogue: 8,0:23:11.74,0:23:13.48,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}踊ろう セニョリータ
+Dialogue: 9,0:23:11.74,0:23:13.48,ED-ja-ep12,,0,0,0,,踊ろう セニョリータ
+Dialogue: 0,0:23:11.74,0:23:13.48,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}狂舞吧 小姐
+Dialogue: 1,0:23:11.74,0:23:13.48,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}狂舞吧 小姐
+Dialogue: 2,0:23:11.74,0:23:13.48,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}狂舞吧 小姐
+Dialogue: 3,0:23:11.74,0:23:13.48,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}狂舞吧 小姐
+Dialogue: 4,0:23:11.74,0:23:13.48,ED-zh-ep12,,0,0,0,,狂舞吧 小姐
+Dialogue: 5,0:23:13.48,0:23:15.74,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}眠りさえ忘れて
+Dialogue: 6,0:23:13.48,0:23:15.74,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}眠りさえ忘れて
+Dialogue: 7,0:23:13.48,0:23:15.74,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}眠りさえ忘れて
+Dialogue: 8,0:23:13.48,0:23:15.74,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}眠りさえ忘れて
+Dialogue: 9,0:23:13.48,0:23:15.74,ED-ja-ep12,,0,0,0,,眠りさえ忘れて
+Dialogue: 0,0:23:13.48,0:23:15.74,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}将困意抛到脑后
+Dialogue: 1,0:23:13.48,0:23:15.74,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}将困意抛到脑后
+Dialogue: 2,0:23:13.48,0:23:15.74,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}将困意抛到脑后
+Dialogue: 3,0:23:13.48,0:23:15.74,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}将困意抛到脑后
+Dialogue: 4,0:23:13.48,0:23:15.74,ED-zh-ep12,,0,0,0,,将困意抛到脑后
+Dialogue: 5,0:23:15.74,0:23:19.08,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}踊り明かそう
+Dialogue: 6,0:23:15.74,0:23:19.08,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}踊り明かそう
+Dialogue: 7,0:23:15.74,0:23:19.08,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}踊り明かそう
+Dialogue: 8,0:23:15.74,0:23:19.08,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}踊り明かそう
+Dialogue: 9,0:23:15.74,0:23:19.08,ED-ja-ep12,,0,0,0,,踊り明かそう
+Dialogue: 0,0:23:15.74,0:23:19.08,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}让我们舞动到天亮
+Dialogue: 1,0:23:15.74,0:23:19.08,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}让我们舞动到天亮
+Dialogue: 2,0:23:15.74,0:23:19.08,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}让我们舞动到天亮
+Dialogue: 3,0:23:15.74,0:23:19.08,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}让我们舞动到天亮
+Dialogue: 4,0:23:15.74,0:23:19.08,ED-zh-ep12,,0,0,0,,让我们舞动到天亮
+Dialogue: 5,0:23:19.08,0:23:22.56,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}サンバ ビバ サンバ
+Dialogue: 6,0:23:19.08,0:23:22.56,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}サンバ ビバ サンバ
+Dialogue: 7,0:23:19.08,0:23:22.56,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}サンバ ビバ サンバ
+Dialogue: 8,0:23:19.08,0:23:22.56,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}サンバ ビバ サンバ
+Dialogue: 9,0:23:19.08,0:23:22.56,ED-ja-ep12,,0,0,0,,サンバ ビバ サンバ
+Dialogue: 0,0:23:19.08,0:23:22.56,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}桑巴 万岁 桑巴
+Dialogue: 1,0:23:19.08,0:23:22.56,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}桑巴 万岁 桑巴
+Dialogue: 2,0:23:19.08,0:23:22.56,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}桑巴 万岁 桑巴
+Dialogue: 3,0:23:19.08,0:23:22.56,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}桑巴 万岁 桑巴
+Dialogue: 4,0:23:19.08,0:23:22.56,ED-zh-ep12,,0,0,0,,桑巴 万岁 桑巴
+Dialogue: 5,0:23:22.56,0:23:29.68,ED-ja-ep12,,6,0,72,,{\fad(0,2400)\bord0\blur5\c&H8F34FF&}マ·ツ·ケ·ン サンバ
+Dialogue: 6,0:23:22.56,0:23:29.68,ED-ja-ep12,,0,6,68,,{\fad(0,2400)\bord0\blur5\c&H5ABEF7&}マ·ツ·ケ·ン サンバ
+Dialogue: 7,0:23:22.56,0:23:29.68,ED-ja-ep12,,6,0,72,,{\fad(0,2400)\bord0\blur5\c&H8F34FF&}マ·ツ·ケ·ン サンバ
+Dialogue: 8,0:23:22.56,0:23:29.68,ED-ja-ep12,,0,6,68,,{\fad(0,2400)\bord0\blur5\c&H5ABEF7&}マ·ツ·ケ·ン サンバ
+Dialogue: 9,0:23:22.56,0:23:29.68,ED-ja-ep12,,0,0,0,,{\fad(0,2400)}マ·ツ·ケ·ン サンバ
+Dialogue: 0,0:23:22.56,0:23:29.68,ED-zh-ep12,,9,0,19,,{\fad(0,2400)\bord0\blur5\c&H8F34FF&}松 健 桑 巴
+Dialogue: 1,0:23:22.56,0:23:29.68,ED-zh-ep12,,0,9,11,,{\fad(0,2400)\bord0\blur5\c&H5ABEF7&}松 健 桑 巴
+Dialogue: 2,0:23:22.56,0:23:29.68,ED-zh-ep12,,9,0,19,,{\fad(0,2400)\bord0\blur5\c&H8F34FF&}松 健 桑 巴
+Dialogue: 3,0:23:22.56,0:23:29.68,ED-zh-ep12,,0,9,11,,{\fad(0,2400)\bord0\blur5\c&H5ABEF7&}松 健 桑 巴
+Dialogue: 4,0:23:22.56,0:23:29.68,ED-zh-ep12,,0,0,0,,{\fad(0,2400)}松 健 桑 巴
+Dialogue: 5,0:23:29.68,0:23:30.76,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}Olé
+Dialogue: 6,0:23:29.68,0:23:30.76,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}Olé
+Dialogue: 7,0:23:29.68,0:23:30.76,ED-ja-ep12,,6,0,72,,{\bord0\blur5\c&H8F34FF&}Olé
+Dialogue: 8,0:23:29.68,0:23:30.76,ED-ja-ep12,,0,6,68,,{\bord0\blur5\c&H5ABEF7&}Olé
+Dialogue: 9,0:23:29.68,0:23:30.76,ED-ja-ep12,,0,0,0,,Olé
+Dialogue: 0,0:23:29.68,0:23:30.76,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}Olé
+Dialogue: 1,0:23:29.68,0:23:30.76,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}Olé
+Dialogue: 2,0:23:29.68,0:23:30.76,ED-zh-ep12,,9,0,19,,{\bord0\blur5\c&H8F34FF&}Olé
+Dialogue: 3,0:23:29.68,0:23:30.76,ED-zh-ep12,,0,9,11,,{\bord0\blur5\c&H5ABEF7&}Olé
+Dialogue: 4,0:23:29.68,0:23:30.76,ED-zh-ep12,,0,0,0,,Olé
 Dialogue: 0,0:01:31.16,0:01:34.87,screen,标题,890,0,150,beretag!gdTitle,{\3c&HF13739&}{\pos(1405.00,930.00)\clip(1022.88,856.00,1026.88,941.00)}{\fad(522,0)\fn方正FW马蒂斯体 简\bord6\blur5}中年大叔，在学院祭大放异彩
 Dialogue: 0,0:01:31.16,0:01:34.87,screen,标题,890,0,150,beretag!gdTitle,{\3c&HF0373C&}{\pos(1405.00,930.00)\clip(1026.88,856.00,1030.88,941.00)}{\fad(522,0)\fn方正FW马蒂斯体 简\bord6\blur5}中年大叔，在学院祭大放异彩
 Dialogue: 0,0:01:31.16,0:01:34.87,screen,标题,890,0,150,beretag!gdTitle,{\3c&HEF383F&}{\pos(1405.00,930.00)\clip(1030.88,856.00,1034.88,941.00)}{\fad(522,0)\fn方正FW马蒂斯体 简\bord6\blur5}中年大叔，在学院祭大放异彩
