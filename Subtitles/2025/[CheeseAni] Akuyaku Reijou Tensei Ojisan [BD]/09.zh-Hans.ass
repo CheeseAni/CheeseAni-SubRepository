@@ -17,9 +17,9 @@ Video File: 09.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.750000
-Scroll Position: 9
-Active Line: 20
-Video Position: 34531
+Scroll Position: 204
+Active Line: 236
+Video Position: 14489
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -256,8 +256,8 @@ Comment: 0,0:09:09.63,0:09:12.78,zh,,0,0,0,:beretag@dialog,「中午有两只脚
 Comment: 0,0:09:13.31,0:09:15.85,zh,,0,0,0,:beretag@dialog,「在石头上展现其物的样貌」|「その姿を石の上に示せ」
 Comment: 0,0:09:15.85,0:09:18.38,zh,,0,0,0,:beretag@dialog,好古典的谜题|古典的な なぞ掛けだな
 Comment: 0,0:09:18.38,0:09:20.07,zh,,0,0,0,:beretag@dialog,答案是「人类」|答えは「人間」
-Comment: 0,0:09:20.07,0:09:22.85,zh,,0,0,0,:beretag@dialog,但在「石头上展现是」                什么意思|だけど「石の上に示せ」とは
-Comment: 0,0:09:22.85,0:09:26.08,zh,,0,0,0,:beretag@dialog,脚的数量会根据早中晚产生变化|朝・昼・夜で足の数が変わる
+Comment: 0,0:09:20.07,0:09:22.88,zh,,0,0,0,:beretag@dialog,但在「石头上展现」是什么意思|だけど「石の上に示せ」とは
+Comment: 0,0:09:22.88,0:09:26.08,zh,,0,0,0,:beretag@dialog,脚的数量会根据早中晚产生变化|朝・昼・夜で足の数が変わる
 Comment: 0,0:09:26.08,0:09:28.02,zh,,0,0,0,:beretag@dialog,会不会是某种怪物|モンスターの一種でしょうか
 Comment: 0,0:09:28.02,0:09:30.52,zh,,0,0,0,:beretag@dialog,文化差异|文化の違い
 Comment: 0,0:09:30.52,0:09:33.51,zh,,0,0,0,:beretag@dialog,不 既然不知道那也没办法|い いや 知らないものは しょうがない
@@ -3953,10 +3953,10 @@ Dialogue: 0,0:09:15.85,0:09:18.38,zh,,0,0,0,beretag!dialog,好古典的谜题
 Dialogue: 1,0:09:15.85,0:09:18.38,ja,,0,0,0,beretag!dialog,古典的な なぞ掛けだな
 Dialogue: 0,0:09:18.38,0:09:20.07,zh,,0,0,0,beretag!dialog,答案是「人类」
 Dialogue: 1,0:09:18.38,0:09:20.07,ja,,0,0,0,beretag!dialog,答えは「人間」
-Dialogue: 0,0:09:20.07,0:09:22.85,zh,,0,0,0,beretag!dialog,但在「石头上展现是」                什么意思
-Dialogue: 1,0:09:20.07,0:09:22.85,ja,,0,0,0,beretag!dialog,だけど「石の上に示せ」とは
-Dialogue: 0,0:09:22.85,0:09:26.08,zh,,0,0,0,beretag!dialog,脚的数量会根据早中晚产生变化
-Dialogue: 1,0:09:22.85,0:09:26.08,ja,,0,0,0,beretag!dialog,朝・昼・夜で足の数が変わる
+Dialogue: 0,0:09:20.07,0:09:22.88,zh,,0,0,0,beretag!dialog,但在「石头上展现」是什么意思
+Dialogue: 1,0:09:20.07,0:09:22.88,ja,,0,0,0,beretag!dialog,だけど「石の上に示せ」とは
+Dialogue: 0,0:09:22.88,0:09:26.08,zh,,0,0,0,beretag!dialog,脚的数量会根据早中晚产生变化
+Dialogue: 1,0:09:22.88,0:09:26.08,ja,,0,0,0,beretag!dialog,朝・昼・夜で足の数が変わる
 Dialogue: 0,0:09:26.08,0:09:28.02,zh,,0,0,0,beretag!dialog,会不会是某种怪物
 Dialogue: 1,0:09:26.08,0:09:28.02,ja,,0,0,0,beretag!dialog,モンスターの一種でしょうか
 Dialogue: 0,0:09:28.02,0:09:30.52,zh,,0,0,0,beretag!dialog,文化差异
