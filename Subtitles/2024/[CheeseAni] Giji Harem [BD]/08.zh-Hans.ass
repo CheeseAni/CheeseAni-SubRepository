@@ -16,8 +16,9 @@ Video File: 08.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.750000
-Active Line: 4
-Video Position: 3284
+Scroll Position: 564
+Active Line: 569
+Video Position: 25844
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -36,40 +37,40 @@ Comment: 0,0:00:00.00,0:00:00.00,staff,,0,0,0,template#pre,!$checkVer("2.8.0") $
 Comment: 0,0:02:13.99,0:02:16.99,staff,,0,0,0,template@staff#uninsert;onlyfind,!$staff=$this!
 Comment: 0,0:02:13.99,0:02:16.99,staff,,0,0,0,template#recache;append,!$tilt=300 $gap=240 $step=12 $exp_stime=1000 $exp_etime=800 local floor,line,x=math.floor,$deepCopy($staff),{} for i=-$gap,2000,$gap/2 do table.insert(x,i) end local f,f_end,pos,exp=$ms2f(line.start_time),$ms2f(line.start_time+$exp_stime),0,0 while f<=f_end do local new=$deepCopy(line) new.start_time=$f2ms(f) f=f+1 new.end_time=$f2ms(f) local L=floor(x[1]+pos-$tilt-exp).." 1080 "..floor(x[1]+pos-$tilt+exp).." 1080 "..floor(x[1]+pos+exp).." 0" for i=2,#x do L=L.." "..floor(x[i]+pos-exp).." 0 "..floor(x[i]+pos-$tilt-exp).." 1080 "..floor(x[i]+pos-$tilt+exp).." 1080 "..floor(x[i]+pos+exp).." 0" end new.text=[[{\clip(m ]]..x[1]+pos-exp.." 0 l "..L..[[)}]]..new.text $addLine(new) pos=pos+$step exp=exp+$gap*10/$exp_stime end local new=$deepCopy(line) new.start_time=$f2ms(f) local f,f_end,pos,exp=$ms2f(line.end_time-$exp_etime)-1,$ms2f(line.end_time),0,0 new.end_time=$f2ms(f) $addLine(new) while f<f_end do local new=$deepCopy(line) new.start_time=$f2ms(f) f=f+1 new.end_time=$f2ms(f) local L=floor(x[1]+pos-$tilt-exp).." 1080 "..floor(x[1]+pos-$tilt+exp).." 1080 "..floor(x[1]+pos+exp).." 0" for i=2,#x do L=L.." "..floor(x[i]+pos-exp).." 0 "..floor(x[i]+pos-$tilt-exp).." 1080 "..floor(x[i]+pos-$tilt+exp).." 1080 "..floor(x[i]+pos+exp).." 0" end new.text=[[{\iclip(m ]]..x[1]+pos-exp.." 0 l "..L..[[)}]]..new.text $addLine(new) pos=pos+$step exp=exp+$gap*10/$exp_etime end!
 Comment: 0,0:02:13.99,0:02:16.99,staff,staff,0,0,0,:beretag@staff,本字幕由 {\c&H26D0FF&\3c&HFFFFF2&\bord3}Cheese{\c&HBCB9BA&}Ani{\c\3c\bord} 制作\N{\fs24\bord0.8}转载请遵守本组字幕使用许可  主页: github.com/CheeseAni\N{\fs27\fsp0\bord1}原字幕: 官译(Bili)  后期: ziyii、op200\N{\fs40\c&H0000FF&\alphaFF}\{\alphaAA}如果你能看到这行红色文字，说明你使用的字幕filter不是新版libass，这可能会导致某些位置出现渲染问题
-Dialogue: 0,0:02:14.03,0:02:18.03,screen,title,0,140,165,,{\a3\fad(525,517)\c&H0B0D08&}大人
-Dialogue: 0,0:03:39.46,0:03:45.47,screen,,0,0,0,,{\an8\fn方正兰亭圆_GBK_中\fs50\be1\frz-17.5\fax-0.5\c&HDBE3EC&\fscx100\fscy85\move(601.333,520,-353.334,520,9,5973)}英日辞典
-Dialogue: 0,0:03:39.46,0:03:45.47,screen,,0,0,0,,{\an8\fn方正隶变_GBK\fs50\b1\frz-1.5\be1\fax-0.46\c&H515356&\fscx100\fscy80\move(1598,222,643,222,9,5973)}数学
-Dialogue: 0,0:03:39.46,0:03:45.47,screen,,0,0,0,,{\an8\fn方正卡通_GBK\fs50\fsp-8\frz-7\fax-0.2\c&H645F5D&\be1\fscx100\fscy80\move(2606.429,153.143,1651.429,153.143,9,5973)}日本史
-Dialogue: 0,0:03:39.46,0:03:45.47,screen,,0,0,0,,{\an8\fn方正卡通_GBK\fs50\fsp-8\frz-8\be1\fax-0.2\c&H625E5C&\fscx100\fscy85\move(2492.333,593.333,1537.333,593.333,9,5973)}北滨瑛二
-Dialogue: 0,0:03:56.40,0:03:56.77,screen,,0,0,0,,{\an8\fn方正卡通_GBK\fs80\fsp-8\be1\frz-13\fax-0.05\c&H5A5857&\fscx100\fscy100\pos(755.2,9.6)}日本史
-Dialogue: 0,0:03:56.40,0:03:56.77,screen,,0,0,0,,{\an8\fn方正卡通_GBK\fs70\fsp-8\be1\frz-18\fax-0.05\c&H615D5B&\fscx100\fscy100\pos(555.2,859.2)}北滨瑛二
-Dialogue: 0,0:04:01.90,0:04:03.15,screen,,0,0,0,,{\an8\fn@方正卡通_GBK\fs60\frz-107\c&H5C5F68&\fscx100\fscy80\pos(988.533,400.667)}舞台爆炸
-Dialogue: 0,0:04:01.90,0:04:03.15,screen,,0,0,0,,{\an8\fn方正卡通_GBK\fs60\frz-17\b0\c&H5C5F68&\fscx106\fscy111\pos(925.2,500.8)}!!
-Dialogue: 0,0:05:42.88,0:05:44.00,screen,,0,0,0,,{\an8\fn方正卡通_GBK\fs40\bord3\frz44\c&H906458&\3c&HDEE9F2&\pos(1177.6,546.8)}纸黏土
-Dialogue: 0,0:06:53.82,0:06:58.33,screen,,0,0,0,,{\an8\fn方正卡通_GBK\fs60\bord1.3\frz40\c&H7937CF&\3c&H351C24&\pos(1473.6,683.2)}折纸
-Dialogue: 0,0:13:57.62,0:14:01.63,screen,,0,0,0,,{\an8\fn方正兰亭圆_GBK_中\fs70\frz20\fax0.1\c&HA2A8A8&\pos(777.6,238.4)}通话中
-Dialogue: 0,0:13:57.62,0:14:01.63,screen,,0,0,0,,{\an8\fn方正兰亭圆_GBK_中\fs60\frz20\fax0.1\c&HBCBFC5&\pos(1075.2,836.8)}北滨学长
-Dialogue: 0,0:14:42.54,0:14:43.04,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs55\frz12.5\c&H4A4E59&\fscx100\fscy100\3c&HE6E8F3&\pos(833.6,684.8)}七
-Dialogue: 0,0:14:42.54,0:14:43.04,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs48\frz12.5\c&H484C52&\fscx100\fscy100\3c&HE6E8F3&\pos(718.667,851.466)}你今天会提早到吗
-Dialogue: 0,0:14:43.04,0:14:45.29,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs26\frz12.5\c&H6A635B&\fscx100\fscy100\3c&HE6E8F3&\pos(763.2,183.6)}已 读
-Dialogue: 0,0:14:43.04,0:14:45.29,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs40\frz12.5\c&H5E6167&\fscx100\fscy100\3c&HE6E8F3&\pos(894.4,86.4)}那么，晚安
-Dialogue: 0,0:14:43.04,0:14:45.29,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs40\frz12.5\c&H595C63&\fscx100\fscy100\3c&HE6E8F3&\pos(500.4,343.2)}好的。学长晚安。
-Dialogue: 0,0:14:43.04,0:14:45.29,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs40\frz12.5\c&H564F49&\fscx100\fscy100\3c&HE6E8F3&\pos(904,444.8)}今天
-Dialogue: 0,0:14:43.04,0:14:45.29,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs40\frz12.5\c&H53565D&\fscx100\fscy100\3c&HE6E8F3&\pos(576,686)}你今天会提早到吗？
-Dialogue: 0,0:14:54.30,0:14:55.80,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs45\frz12.5\c&H53565D&\fscx100\fscy100\3c&HE6E8F3&\pos(363.2,210.8)}你今天会提早到吗？
-Dialogue: 0,0:14:54.30,0:14:54.80,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs45\frz12.5\c&H53565D&\fscx100\fscy100\3c&HE6E8F3&\pos(849.6,708.8)}没 我刚起床
-Dialogue: 0,0:14:54.80,0:14:55.80,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs45\frz12.5\c&H53565D&\fscx100\fscy100\3c&HE6E8F3&\pos(1073.6,363.2)}没 我刚起床
-Dialogue: 0,0:16:54.05,0:16:57.76,screen,,0,0,0,,{\an8\fn方正卡通_GBK\fad(200,0)\fs55\frz-2\c&HC4CED4&\pos(1220.8,372.8)}猫咖啡
-Dialogue: 0,0:16:54.05,0:16:57.76,screen,,0,0,0,,{\an8\fn方正卡通_GBK\fad(200,0)\fs55\frz-2\c&HC4CED4&\pos(1238.4,571.2)}圆圆
-Dialogue: 0,0:20:15.58,0:20:19.09,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs45\bord3\blur2\frz8.1\fax0.1\c&H53565D&\fscx100\fscy100\3c&HE6E8F3&\pos(537.6,142)}我马上去找你 在正门等我吧
-Dialogue: 0,0:20:15.58,0:20:19.09,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs45\bord3\blur2\frz8.5\fax0.1\c&H53565D&\fscx100\fscy100\3c&HE6E8F3&\pos(1059.2,398.4)}知道了！
-Dialogue: 0,0:20:15.58,0:20:19.09,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs26\frz10.5\fax0.05\c&H7F6B68&\fscx100\fscy100\3c&HE6E8F3&\pos(955.2,498.286)}已 读
-Dialogue: 1,0:23:05.00,0:23:07.50,screen,,0,0,0,,{\fn方正兰亭圆_GBK_中\c&H87DEF1&\b1\bord5\4c&HEDD3D6&\fsp15\pos(960,920)\xshad5\yshad5\3c&H518BD0&}无{\xshad3\3c&H5D7BCE&}事{\xshad-2\3c&H518BD0&}生{\xshad-5\3c&H5D7BCE&}非
-Dialogue: 0,0:23:05.00,0:23:07.50,screen,,0,0,0,,{\fn方正兰亭圆_GBK_中\c&H87DEF1&\b1\bord6.5\4c&HEDD3D6&\fsp15\pos(960,920)\3c&HF1EDFC&}无事生非
-Dialogue: 0,0:00:05.57,0:00:06.97,jp,,0,0,0,,{\pos(480,1068)}なんだか
-Dialogue: 0,0:00:05.57,0:00:06.97,jp,,0,0,0,,{\pos(1360,1068)}なんか
-Dialogue: 1,0:00:05.57,0:00:06.97,zh,,0,0,0,,{\pos(480,1026)}感觉就跟…
-Dialogue: 1,0:00:05.57,0:00:06.97,zh,,0,0,0,,{\pos(1360,1026)}感觉就跟…
+Comment: 0,0:02:14.03,0:02:18.03,screen,title,0,140,165,,{\a3\fad(525,517)\c&H0B0D08&}大人
+Comment: 0,0:03:39.46,0:03:45.47,screen,,0,0,0,,{\an8\fn方正兰亭圆_GBK_中\fs50\be1\frz-17.5\fax-0.5\c&HDBE3EC&\fscx100\fscy85\move(601.333,520,-353.334,520,9,5973)}英日辞典
+Comment: 0,0:03:39.46,0:03:45.47,screen,,0,0,0,,{\an8\fn方正隶变_GBK\fs50\b1\frz-1.5\be1\fax-0.46\c&H515356&\fscx100\fscy80\move(1598,222,643,222,9,5973)}数学
+Comment: 0,0:03:39.46,0:03:45.47,screen,,0,0,0,,{\an8\fn方正卡通_GBK\fs50\fsp-8\frz-7\fax-0.2\c&H645F5D&\be1\fscx100\fscy80\move(2606.429,153.143,1651.429,153.143,9,5973)}日本史
+Comment: 0,0:03:39.46,0:03:45.47,screen,,0,0,0,,{\an8\fn方正卡通_GBK\fs50\fsp-8\frz-8\be1\fax-0.2\c&H625E5C&\fscx100\fscy85\move(2492.333,593.333,1537.333,593.333,9,5973)}北滨瑛二
+Comment: 0,0:03:56.40,0:03:56.77,screen,,0,0,0,,{\an8\fn方正卡通_GBK\fs80\fsp-8\be1\frz-13\fax-0.05\c&H5A5857&\fscx100\fscy100\pos(755.2,9.6)}日本史
+Comment: 0,0:03:56.40,0:03:56.77,screen,,0,0,0,,{\an8\fn方正卡通_GBK\fs70\fsp-8\be1\frz-18\fax-0.05\c&H615D5B&\fscx100\fscy100\pos(555.2,859.2)}北滨瑛二
+Dialogue: 0,0:04:01.89,0:04:03.14,screen,,0,0,0,,{\an8\fn@方正卡通_GBK\fs60\frz-107\c&H5C5F68&\fscx100\fscy80\pos(1049.1,252.1)}舞台爆炸
+Dialogue: 0,0:04:01.89,0:04:03.14,screen,,0,0,0,,{\an8\fn方正卡通_GBK\fs60\frz-17\b0\c&H5C5F68&\fscx106\fscy111\pos(990.34,336.23)}!!
+Comment: 0,0:05:42.88,0:05:44.00,screen,,0,0,0,,{\an8\fn方正卡通_GBK\fs40\bord3\frz44\c&H906458&\3c&HDEE9F2&\pos(1177.6,546.8)}纸黏土
+Dialogue: 0,0:06:53.81,0:06:58.31,screen,,0,0,0,,{\an8\fn方正卡通_GBK\fs60\bord1.3\frz40\c&H7937CF&\3c&H351C24&\pos(1473.6,683.2)}折纸
+Dialogue: 0,0:13:57.61,0:14:01.61,screen,,0,0,0,,{\an8\fn思源黑体 CN\fs70\frz20\fax0.1\c&HA2A8A8&\pos(777.6,238.4)}通话中
+Dialogue: 0,0:13:57.61,0:14:01.61,screen,,0,0,0,,{\an8\fn思源黑体 CN\fs60\frz20\fax0.1\c&HBCBFC5&\pos(1075.2,836.8)}北滨学长
+Dialogue: 0,0:14:42.53,0:14:43.03,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs40\frz12.5\c&H4A4E59&\3c&HE6E8F3&\pos(679.58,676.86)}七
+Dialogue: 0,0:14:42.53,0:14:43.03,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs40\frz12.5\c&H484C52&\3c&HE6E8F3&\pos(718.667,851.466)}你今天会提早到吗
+Dialogue: 0,0:14:43.03,0:14:45.28,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs26\frz12.5\c&H6A635B&\3c&HE6E8F3&\pos(763.2,183.6)}已 读
+Dialogue: 0,0:14:43.03,0:14:45.28,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs40\frz12.5\c&H5E6167&\3c&HE6E8F3&\pos(894.4,86.4)}那么，晚安
+Dialogue: 0,0:14:43.03,0:14:45.28,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs40\frz12.5\c&H595C63&\3c&HE6E8F3&\pos(500.4,343.2)}好的。学长晚安。
+Dialogue: 0,0:14:43.03,0:14:45.28,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs40\frz12.5\c&H564F49&\3c&HE6E8F3&\pos(904,444.8)}今天
+Dialogue: 0,0:14:43.03,0:14:45.28,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs40\frz12.5\c&H53565D&\3c&HE6E8F3&\pos(576,686)}你今天会提早到吗？
+Dialogue: 0,0:14:54.29,0:14:55.79,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs45\frz12.5\c&H53565D&\3c&HE6E8F3&\pos(363.2,210.8)}你今天会提早到吗？
+Dialogue: 0,0:14:54.29,0:14:54.79,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs45\frz12.5\c&H53565D&\3c&HE6E8F3&\pos(849.6,708.8)}没 我刚起床
+Dialogue: 0,0:14:54.79,0:14:55.75,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs45\frz12.5\c&H53565D&\3c&HE6E8F3&\pos(1073.6,363.2)}没 我刚起床
+Dialogue: 0,0:16:54.03,0:16:57.75,screen,,0,0,0,,{\an8\fn方正卡通_GBK\fad(200,0)\fs55\frz-2\c&HC4CED4&\pos(1220.8,372.8)}猫咖啡
+Dialogue: 0,0:16:54.03,0:16:57.75,screen,,0,0,0,,{\an8\fn方正卡通_GBK\fad(200,0)\fs55\frz-2\c&HC4CED4&\pos(1238.4,571.2)}圆圆
+Dialogue: 0,0:20:15.57,0:20:19.07,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs45\bord3\blur2\frz8.1\fax0.1\c&H53565D&\3c&HE8EBF2&\pos(537.6,142)}我马上去找你 在正门等我吧
+Dialogue: 0,0:20:15.57,0:20:19.07,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs45\bord3\blur2\frz8.5\fax0.1\c&H53565D&\3c&HE8EBF2&\pos(1059.2,398.4)}知道了！
+Dialogue: 0,0:20:15.57,0:20:19.07,screen,,0,0,0,,{\an7\fn方正兰亭圆_GBK_中\fs26\frz10.5\fax0.05\c&H7F6B68&\3c&HE6E8F3&\pos(955.2,498.286)}已 读
+Dialogue: 1,0:23:04.99,0:23:07.49,screen,,0,0,0,,{\fn方正兰亭圆_GBK_中\c&H87DEF1&\b1\bord5\4c&HEDD3D6&\fsp15\pos(960,920)\xshad5\yshad5\3c&H518BD0&}无{\xshad3\3c&H5D7BCE&}事{\xshad-2\3c&H518BD0&}生{\xshad-5\3c&H5D7BCE&}非
+Dialogue: 0,0:23:04.99,0:23:07.49,screen,,0,0,0,,{\fn方正兰亭圆_GBK_中\c&H87DEF1&\b1\bord6.5\4c&HEDD3D6&\fsp15\pos(960,920)\3c&HF1EDFC&}无事生非
+Dialogue: 0,0:00:05.57,0:00:06.97,jp,,0,960,0,,なんだか
+Dialogue: 1,0:00:05.57,0:00:06.97,zh,,0,960,0,,感觉就跟…
+Dialogue: 0,0:00:05.57,0:00:06.97,jp,,960,0,0,,なんか
+Dialogue: 1,0:00:05.57,0:00:06.97,zh,,960,0,0,,感觉就跟…
 Dialogue: 0,0:00:16.67,0:00:19.83,jp,,0,0,0,,こういうのって  俺も恥ずかしいんだけどさ
 Dialogue: 1,0:00:16.67,0:00:19.83,zh,,0,0,0,,这种事 其实我也挺难为情的
 Dialogue: 0,0:00:20.32,0:00:24.30,jp,,0,0,0,,でも今は  凜の話  ちゃんと聞きたい
@@ -598,10 +599,10 @@ Dialogue: 0,0:17:47.17,0:17:49.05,jp,,0,0,0,,みゃー
 Dialogue: 1,0:17:47.17,0:17:49.05,zh,,0,0,0,,喵
 Dialogue: 0,0:17:51.00,0:17:52.93,jp,,0,0,0,,みゃー
 Dialogue: 1,0:17:51.00,0:17:52.93,zh,,0,0,0,,喵
-Dialogue: 0,0:17:54.06,0:17:57.11,jp,,0,0,0,,{\pos(1360,1068)}みゃ  みゃ  みゃ
-Dialogue: 1,0:17:54.06,0:17:57.11,zh,,0,0,0,,{\pos(1360,1026)}喵 喵 喵
-Dialogue: 0,0:17:54.67,0:17:57.93,jp,,0,0,0,,{\pos(560,1068)}クールちゃんだよな？何してんの
-Dialogue: 1,0:17:54.67,0:17:57.93,zh,,0,0,0,,{\pos(560,1026)}你是高冷凛吧？你在干什么呢
+Dialogue: 0,0:17:54.06,0:17:57.11,jp,,960,0,0,,みゃ  みゃ  みゃ
+Dialogue: 1,0:17:54.06,0:17:57.11,zh,,960,0,0,,喵 喵 喵
+Dialogue: 0,0:17:54.67,0:17:57.93,jp,,0,960,0,,クールちゃんだよな？何してんの
+Dialogue: 1,0:17:54.67,0:17:57.93,zh,,0,960,0,,你是高冷凛吧？你在干什么呢
 Dialogue: 0,0:17:59.49,0:18:01.43,jp,,0,0,0,,もう仲良くなったの？
 Dialogue: 1,0:17:59.49,0:18:01.43,zh,,0,0,0,,这就跟它成朋友了？
 Dialogue: 0,0:18:01.95,0:18:04.85,jp,,0,0,0,,この子  返事してくれるんですよ

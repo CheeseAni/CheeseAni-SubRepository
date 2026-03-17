@@ -15,9 +15,10 @@ Audio File: 11.mkv
 Video File: 11.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.625000
-Active Line: 17
-Video Position: 5958
+Video Zoom Percent: 0.750000
+Scroll Position: 510
+Active Line: 528
+Video Position: 24689
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -557,10 +558,10 @@ Dialogue: 0,0:16:59.97,0:17:02.78,jp,,0,0,0,,夜空の魔法
 Dialogue: 1,0:16:59.97,0:17:02.78,zh,,0,0,0,,夜空的魔法
 Dialogue: 0,0:17:02.78,0:17:07.73,jp,,0,0,0,,エメラルド  君と見つめ合うと
 Dialogue: 1,0:17:02.78,0:17:07.73,zh,,0,0,0,,绿宝石 与你四目相对
-Dialogue: 0,0:17:08.58,0:17:12.34,jp,,0,0,0,,{\pos(1160,1068)}サファイア  この思い  変わらないわ
-Dialogue: 1,0:17:08.58,0:17:12.34,zh,,0,0,0,,{\pos(1160,1026)}蓝宝石 这份心意永不改变
-Dialogue: 0,0:17:09.34,0:17:11.76,jp,,0,0,0,,{\pos(500,1068)}お嬢様  着きましたよ
-Dialogue: 1,0:17:09.34,0:17:11.76,zh,,0,0,0,,{\pos(500,1026)}大小姐 到了
+Dialogue: 0,0:17:08.58,0:17:12.34,jp,,0,0,0,,サファイア  この思い  変わらないわ
+Dialogue: 1,0:17:08.58,0:17:12.34,zh,,0,0,0,,蓝宝石 这份心意永不改变
+Dialogue: 0,0:17:09.34,0:17:11.76,jp,,0,1260,0,,お嬢様  着きましたよ
+Dialogue: 1,0:17:09.34,0:17:11.76,zh,,0,1260,0,,大小姐 到了
 Dialogue: 0,0:17:14.31,0:17:16.85,jp,,0,0,0,,最後まで聴いていっていい？
 Dialogue: 1,0:17:14.31,0:17:16.85,zh,,0,0,0,,我可以听完再走吗
 Dialogue: 0,0:17:16.85,0:17:18.21,jp,,0,0,0,,いいよ
