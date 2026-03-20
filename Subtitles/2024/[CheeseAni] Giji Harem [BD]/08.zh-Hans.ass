@@ -10,16 +10,6 @@ PlayResY: 1080
 LayoutResX: 1920
 LayoutResY: 1080
 
-[Aegisub Project Garbage]
-Audio File: 08.mkv
-Video File: 08.mkv
-Video AR Mode: 4
-Video AR Value: 1.777778
-Video Zoom Percent: 0.750000
-Scroll Position: 564
-Active Line: 569
-Video Position: 25844
-
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: staff,方正兰亭圆_GBK_中,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,2,0,1,1.2,0,8,0,0,3,1

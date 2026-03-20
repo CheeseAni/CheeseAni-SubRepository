@@ -10,16 +10,6 @@ PlayResY: 1080
 LayoutResX: 1920
 LayoutResY: 1080
 
-[Aegisub Project Garbage]
-Last Style Storage: GijiHarem
-Audio File: 03.mkv
-Video File: 03.mkv
-Video AR Mode: 4
-Video AR Value: 1.777778
-Video Zoom Percent: 0.625000
-Active Line: 4
-Video Position: 2263
-
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: staff,方正兰亭圆_GBK_中,60,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,2,0,1,1.2,0,8,0,0,3,1
@@ -46,7 +36,8 @@ Comment: 0,0:08:27.86,0:08:32.87,screen,,0,0,0,template#,!$keytext=[[Adobe After
 Comment: 0,0:08:27.86,0:08:32.87,screen,,0,0,0,template@key1#keyframe;append,{\frz.*\org[^%)]*%)}{}
 Comment: 0,0:08:27.86,0:08:32.87,screen,,0,0,0,:beretag@key1,{\an5\fn方正卡通_GBK\fs56\c&H4A455B&\bord0.8\3c&H2B2938&\pos(1159.26,845.71)}光盘高中{\fs240}\N\N{\fs52}戏剧社　
 Dialogue: 0,0:13:14.94,0:13:17.90,screen,,0,0,0,,{\c&H635C62&\b1\pos(1312,265)\frz11.12\fax0.2}4年级1班
-Dialogue: 0,0:18:20.16,0:18:21.91,screen,,0,0,0,,{\fn方正兰亭圆_GBK_中\fs60\an8\fr10\c&H39323B&\pos(731.6,493.8)}小恶魔凛\N\N\N\N\N\N\N\N\N\N\h\h\h\h\h\h\h\h{\c&H494243&}傲娇凛
+Dialogue: 0,0:18:20.16,0:18:21.91,screen,,0,0,0,,{\fn方正兰亭圆_GBK_中\fs60\an8\c&H3A313C&\frz16.96\pos(688,509)}小恶魔凛
+Dialogue: 0,0:18:20.16,0:18:21.91,screen,,0,0,0,,{\fn方正兰亭圆_GBK_中\fs60\an8\c&H484141&\frz11.38\pos(979,803)}傲娇凛
 Dialogue: 0,0:18:25.17,0:18:31.55,screen,,0,0,0,,{\fn方正兰亭圆_GBK_中\c&H736C79&\fs50\pos(1157.6,715.4)\fscy95\fsp3}我倒是希望学长的鞋柜里\N永远都是空的哦～
 Dialogue: 0,0:18:43.81,0:18:51.19,screen,,0,0,0,,{\a1\fn方正兰亭圆_GBK_中\fs45\c&H7F7C81&\pos(990,800)\fscy95\fsp3}我是看你很想收到情书\N的样子…仅此而已哦{\c&HDACD9F&}！{\c&H7F7C81&}\N仅此而已{\c&HB88DEF&}！{\c&H7F7C81&}\N不要想多啊{\c&HB88DEF&}！
 Dialogue: 1,0:23:22.92,0:23:24.92,screen,,0,0,0,,{\fn方正兰亭圆_GBK_中\c&H87DEF1&\b1\bord5\4c&HEDD3D6&\fsp15\pos(960,920)\xshad5\yshad5\3c&H518BD0&}无{\xshad3\3c&H5D7BCE&}事{\xshad-2\3c&H518BD0&}生{\xshad-5\3c&H5D7BCE&}非
