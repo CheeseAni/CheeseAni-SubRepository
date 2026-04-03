@@ -7,4 +7,5 @@
 
 /Subtitles/**/*.*
 !*.ass
+!*.srt
 !README.md
