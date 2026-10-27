@@ -2,6 +2,7 @@
   "recommendations": [
     "oxc.oxc-vscode",
     "davidanson.vscode-markdownlint",
-    "yzhang.markdown-all-in-one"
+    "yzhang.markdown-all-in-one",
+    "jota0222.multi-formatter"
   ]
 }
